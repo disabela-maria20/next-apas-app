@@ -1,0 +1,13 @@
+@import './theme/mixinx';
+@import './theme/variables';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $font-family;
+}
+
+a {
+  @include anchorStyles;
+}
