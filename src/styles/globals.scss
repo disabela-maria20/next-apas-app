@@ -1,13 +1,4 @@
-@import './theme/mixinx';
-@import './theme/variables';
+@import './abstracts/index';
+@import './base/index';
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: $font-family;
-}
 
-a {
-  @include anchorStyles;
-}
