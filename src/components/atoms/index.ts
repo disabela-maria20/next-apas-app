@@ -1,1 +1,6 @@
-export { default as Cta } from './cta'
+export { default as Cta } from './CTA'
+export { default as Nav } from './Nav'
+export { default as Logo } from './Logo'
+export { default as Loading } from './Loading'
+export { default as Burger } from './Burger'
+export { default as Counter } from './Counter'

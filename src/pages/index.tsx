@@ -1,12 +1,8 @@
-import { Cta } from '@/components/atoms'
-import { Stage } from '@/components/molecules'
+import { NextPage } from 'next'
 
-export default function Home() {
-  return (
-    <div>
-      <a href="#">tese</a>
-      <Cta />
-      <Stage />
-    </div>
-  )
+import { Home } from '@/components/molecules'
+
+const HomePage: NextPage = () => {
+  return <Home />
 }
+export default HomePage

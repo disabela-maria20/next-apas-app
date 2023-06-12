@@ -29,3 +29,30 @@
     @error "Invalid breakpoint: #{$breakpoint}.";
   }
 }
+
+@mixin container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  
+  @include media("sm") {
+    max-width: calc(map-get(variable.$grid-breakpoints, sm) - 20px);
+  }
+  
+  @include media("md") {
+    max-width: calc(map-get(variable.$grid-breakpoints, md) - 20px);
+  }
+  
+  @include media("lg") {
+    max-width: calc(map-get(variable.$grid-breakpoints, lg) - 20px);
+  }
+  
+  @include media("xl") {
+    max-width: calc(map-get(variable.$grid-breakpoints, xl) - 20px);
+  }
+  
+  @include media("xxl") {
+    max-width: calc(map-get(variable.$grid-breakpoints, xxl) - 20px);
+  }
+
+}
