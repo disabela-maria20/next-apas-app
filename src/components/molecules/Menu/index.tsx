@@ -5,7 +5,7 @@ import Style from './Menu.module.scss'
 import { Burger, Counter, Logo, Nav } from '@/components/atoms'
 
 const Menu = (): JSX.Element => {
-  const [open, setOpen] = useState<boolean>(false)
+  const [open, setOpen] = useState<boolean>(true)
 
   return (
     <>

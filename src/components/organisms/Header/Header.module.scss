@@ -59,7 +59,10 @@
       right: 0;
       height: initial;
       width: inherit;
+      display: none;
+   
       @include media(md) {
+        display: block;
         max-width: 489px;
         top: 12%;
       }
