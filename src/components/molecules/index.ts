@@ -1,2 +1,2 @@
 // export { default as Stage } from './Stage'
-export { default as Home } from './Menu'
+export { default as Menu } from './Menu'

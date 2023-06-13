@@ -1,6 +1,6 @@
 import { NextPage } from 'next'
 
-import { Home } from '@/components/molecules'
+import { Home } from '@/components/templates'
 
 const HomePage: NextPage = () => {
   return <Home />

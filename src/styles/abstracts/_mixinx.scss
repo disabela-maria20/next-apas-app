@@ -54,5 +54,28 @@
   @include media("xxl") {
     max-width: calc(map-get(variable.$grid-breakpoints, xxl) - 20px);
   }
+}
 
+@mixin CTABorder($direction){
+  font-family: field-gothic-compact, "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 2.8rem;
+  color: variable.$primary-lingh-color;
+  text-transform: uppercase;
+  background-color: variable.$secondary-colors;  
+  transition: background 400ms ease-in ;
+  &:hover{
+    background-color: variable.$secondary-colors-dark;
+  }
+  @include media(md){
+    font-size: 3.8rem
+  }
+  @if $direction == "right-botton" {
+    @content;
+    padding: 8px 30px 4px;
+    border-radius: 20.81px 20.81px 20.81px 0px;
+  }
+  @if $direction == "left-top" {
+    @content;
+  }
 }
