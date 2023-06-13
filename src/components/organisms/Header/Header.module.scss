@@ -1,59 +1,81 @@
 .header {
   background-color: $quaternary-colos;
-  background-image: url("../../../../public/images/bg-gradient-blue.webp") , 
-     url("../../../../public/images/header-photo.webp");
-  background-position: top left, top right;
-  background-repeat: no-repeat, no-repeat;
-  background-size: cover, contain;
+  background-image: url("../../../../public/images/bg-gradient-blue.webp");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: contain;
 
-  .headerBlock {  
+  .headerBlock {
     max-width: 360px;
-
     img {
       margin-top: 124px;
       margin-bottom: 70px;
 
-      @include media(sm){
+      @include media(sm) {
         margin-top: 80px;
         margin-bottom: 50px;
       }
     }
     h1 {
-      font-family: field-gothic-compact, "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      font-family: field-gothic-compact, "Franklin Gothic Medium",
+        "Arial Narrow", Arial, sans-serif;
       font-weight: 700;
       font-size: 5.5rem;
       line-height: 4.3rem;
-      color: $tertiary-colors; 
+      color: $tertiary-colors;
 
-      @include media(md){
+      @include media(md) {
         font-size: 6.6rem;
         line-height: 5.3rem;
       }
       span:not(.subTitle) {
         font-size: 3.5rem;
-        display: block
+        display: block;
       }
-      .subTitle{
-        font-weight: 400;        
+      .subTitle {
+        font-weight: 400;
         color: $primary-lingh-color;
         font-size: 3.5rem;
         line-height: 3.5rem !important;
       }
     }
-    .date{
+    .date {
       display: inline-block;
       margin-top: 30px;
-      
-      @include CTABorder('left-top');
-      @include media(md){
+
+      @include CTABorder("left-top");
+      @include media(md) {
         font-size: 3.1rem;
         margin-bottom: 17rem;
       }
 
-      @include media(lg){
+      @include media(lg) {
         margin-bottom: 27rem;
       }
+    }
+    .Ilus {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: initial;
+      width: inherit;
+      @include media(md) {
+        max-width: 489px;
+        top: 12%;
+      }
 
+      @include media(lg) {
+        max-width: 736px;
+        top: 12%;
+      }
+      @include media(xl) {
+        max-width: 850px;
+        top: 9%;
+      }
+      @include media(xxl) {
+        max-width: initial;
+        top: 0%;
+      }
     }
   }
 }
