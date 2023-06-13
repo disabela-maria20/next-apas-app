@@ -9,7 +9,7 @@ const Stage = () => {
   const arrStage = useRef<HTMLDivElement>(null)
   const circle = useRef<SVGSVGElement>(null)
 
-  const [componente, setComponente] = useState<any>('Texto 1')
+  const [componente, setComponente] = useState<unknown>('Texto 1')
 
   useEffect(() => {
     const circleSvg = circle.current?.querySelector('circle')
