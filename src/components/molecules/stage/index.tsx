@@ -4,6 +4,7 @@ import Styled from './Stage.module.scss'
 
 const COLOR: string[] = ['#36b436', '#912020', '#465b8a', '#8d026f']
 const TEXT: string[] = ['Texto 1', 'Texto 2', 'Texto 3', 'Texto 4']
+
 const Stage = () => {
   const arrStage = useRef<HTMLDivElement>(null)
   const circle = useRef<SVGSVGElement>(null)

@@ -1,8 +1,9 @@
 import React from 'react'
 
 import Styled from './CTA.module.scss'
-const Cta = () => {
-  return <div className={Styled.link}>Cta</div>
+
+const CTA = () => {
+  return <div className={Styled.link}>CTA</div>
 }
 
-export default Cta
+export default CTA

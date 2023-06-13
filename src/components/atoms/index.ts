@@ -1,4 +1,4 @@
-export { default as Cta } from './CTA'
+export { default as CTA } from './CTA'
 export { default as Nav } from './Nav'
 export { default as Logo } from './Logo'
 export { default as Loading } from './Loading'
