@@ -1,6 +1,6 @@
 .bgColor{
   background-color: $primary-colors;
-  padding: 20px 0;
+  padding: 10px 0;
   .container{
     @include container()
   }
@@ -11,6 +11,7 @@
     align-items: center;
     flex-direction: column;
     gap: 10px;
+
     @include media(sm){
       flex-direction: row;
       gap: 0;
@@ -22,6 +23,8 @@
       text-transform: uppercase;
       color: $quaternary-colos;
       letter-spacing: 2px;
+      position: relative;
+      top: 3px;
      
       @include media(md){
         font-size: 3.5rem;
@@ -36,6 +39,8 @@
       @include CTABorder('right-botton');
 
       img{
+        position: relative;
+        bottom: 3px;
         height: initial;
         margin-right: 15px;
       }
