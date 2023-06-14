@@ -1,6 +1,7 @@
 import Style from './About.module.scss'
 
 import { Logo } from '@/components/atoms'
+import { Sponsor } from '@/components/molecules'
 
 const About = () => {
   const CARD = [
@@ -120,6 +121,9 @@ const About = () => {
               </section>
             ))}
           </div>
+        </div>
+        <div className={Style.container}>
+          <Sponsor />
         </div>
       </article>
     </article>

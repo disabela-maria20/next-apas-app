@@ -81,3 +81,18 @@
     border-radius: 0px 45px 45px 45px
   }
 }
+
+@mixin Title {
+  font-family: field-gothic, "Lucida Sans",  Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+
+  @include media(sm){
+    font-size: 4.5rem;
+  }
+
+  @include media(md){
+    font-size: 5.5rem;
+  }
+}
