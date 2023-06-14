@@ -4,7 +4,10 @@ import Menu from '@/components/molecules/Menu'
 
 const Header = () => {
   return (
-    <header className={Style.header}>
+    <header
+      className={Style.header}
+      style={{ backgroundImage: 'url("./images/bg-gradient-blue.webp")' }}
+    >
       <Menu />
       <div className={Style.container}>
         <div className={Style.headerBlock}>
