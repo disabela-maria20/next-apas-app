@@ -41,7 +41,7 @@
     .date {
       display: inline-block;
       margin-top: 30px;
-
+      margin-bottom:10rem;
       @include CTABorder("left-top");
       @include media(md) {
         font-size: 3.1rem;
