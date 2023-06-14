@@ -57,11 +57,11 @@
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 4.5rem;
+    // padding-bottom: 4.5rem;
 
-    @include media(md) {
-      padding-bottom: 9rem;
-    }
+    // @include media(md) {
+    //   padding-bottom: 9rem;
+    // }
 
     h2 {
       font-family: exo-soft, "Lucida Sans", Geneva, Verdana, sans-serif;

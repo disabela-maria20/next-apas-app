@@ -122,9 +122,7 @@ const About = () => {
             ))}
           </div>
         </div>
-        <div className={Style.container}>
-          <Sponsor />
-        </div>
+        <Sponsor />
       </article>
     </article>
   )
