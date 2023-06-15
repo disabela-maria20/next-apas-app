@@ -1,0 +1,118 @@
+.container {
+  @include container();
+}
+
+.marks {
+  padding-top: 9rem;
+
+  @include media(sm) {
+    padding-top: 12rem;
+  }
+
+  h2 {
+    @include Title;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: field-gothic-compact, "Franklin Gothic Medium", "Arial Narrow",
+      Arial, sans-serif;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 4rem;
+    color: $secondary-colors-dark;
+    margin: 5rem 0;
+    position: relative;
+
+    @include media(sm) {
+      font-size: 3.5rem;
+    }
+    @include media(md) {
+      font-size: 4rem;
+    }
+
+    &:before {
+      content: "";
+      height: 4px;
+      width: 40%;
+      position: absolute;
+      top: 10px;
+      left: 0;
+      background-image: linear-gradient(
+        90deg,
+        $secondary-colors-dark,
+        transparent
+      );
+
+      @include media(sm) {
+        top: 20px;
+      }
+    }
+    &::after {
+      content: "";
+      height: 4px;
+      width: 40%;
+      position: absolute;
+      top: 10px;
+      right: 0;
+      background-image: linear-gradient(
+        90deg,
+        transparent,
+        $secondary-colors-dark
+      );
+
+      @include media(sm) {
+        top: 20px;
+      }
+    }
+  }
+
+  img:not(figure img):not(.range) {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    @include media(sm) {
+      margin-bottom: 9rem;
+    }
+  }
+  .admMarks {
+    background-color: #d9d9d9;
+  }
+  .gridMark {
+    display: grid;
+    gap: 3rem;
+    padding: 6rem 0;
+
+    @include media(sm) {
+      grid-template-columns: 1fr 1fr;
+      gap: 0rem;
+      max-width: 650px;
+      margin: 0 auto;
+    }
+    figure {
+      img {
+        margin: 0 auto;
+        display: block;
+        object-fit: contain;
+      }
+      legend {
+        display: block;
+        text-align: center !important;
+        font-family: exo-soft, "Lucida Sans", Geneva, Verdana, sans-serif;
+        text-align: left;
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+        font-weight: 400;
+        margin-bottom: 2rem;
+
+        @include media(md) {
+          font-size: 1.8rem;
+          line-height: 2.8rem;
+        }
+      }
+    }
+  }
+
+  
+}

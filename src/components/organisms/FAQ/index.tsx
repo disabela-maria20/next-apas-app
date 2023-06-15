@@ -29,7 +29,12 @@ const FAQ = () => {
               </label>
               <label htmlFor="msg">
                 <span>Mensagem</span>
-                <textarea name="msg" id="msg" rows={4}></textarea>
+                <textarea
+                  name="msg"
+                  id="msg"
+                  rows={4}
+                  placeholder="Mensagem"
+                ></textarea>
               </label>
               <button type="submit">Enviar</button>
             </form>

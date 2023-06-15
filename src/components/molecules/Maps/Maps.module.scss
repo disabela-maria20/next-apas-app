@@ -1,0 +1,52 @@
+.container {
+  @include container();
+}
+
+.maps {
+  background-color: $quaternary-colos;
+  padding: 4.5rem;
+  text-align: center;
+  @include media(sm){
+    padding: 9rem;
+  }
+
+  h2{
+    @include Title;
+    color: $tertiary-colors;
+  }
+  h3 {
+    font-family: field-gothic-compact, "Franklin Gothic Medium",
+      "Arial Narrow", Arial, sans-serif;
+    font-size: 2.8rem;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: $primary-lingh-color;
+    @include media(md) {
+      font-size: 3.5rem;
+    }
+  }
+  p {
+    font-family: exo-soft, "Lucida Sans", Geneva, Verdana, sans-serif;
+    color: $primary-lingh-color;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    font-weight: 200;
+
+    @include media(sm) {
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+      margin-bottom: 2rem;
+    }
+    
+  }
+}
+.iframe{
+  width: 100%;
+}
+.range {
+  width: 100%;
+  height: 80px;
+  mix-blend-mode: color-burn;
+}

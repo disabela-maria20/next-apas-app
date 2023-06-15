@@ -1,7 +1,10 @@
+import { Maps } from '@/components/molecules'
 import {
   About,
   FAQ,
+  Footer,
   Header,
+  Marks,
   Previous,
   Speeches,
   Stages
@@ -17,6 +20,9 @@ const Home = () => {
         <Stages />
         <Previous />
         <FAQ />
+        <Marks />
+        <Maps />
+        <Footer />
       </main>
     </>
   )
