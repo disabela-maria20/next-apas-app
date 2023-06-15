@@ -1,4 +1,4 @@
-import { About, Header, Speeches } from '@/components/organisms'
+import { About, Header, Speeches, Stages } from '@/components/organisms'
 
 const Home = () => {
   return (
@@ -7,6 +7,8 @@ const Home = () => {
       <main>
         <About />
         <Speeches />
+        <Stages />
+        <div className="">fgf</div>
       </main>
     </>
   )
