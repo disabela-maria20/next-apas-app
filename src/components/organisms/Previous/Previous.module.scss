@@ -1,0 +1,123 @@
+.container {
+  @include container();
+}
+.previous {
+  background-color: $quaternary-colos;
+  color: $primary-lingh-color;
+  font-family: field-gothic, "Lucida Sans", Geneva, Verdana, sans-serif;
+
+  padding: 9rem 0;
+
+  @include media(sm) {
+    padding: 12rem 0;
+  }
+
+  h2 {
+    @include Title;
+    text-align: center;
+
+    &.title {
+      color: $primary-colors;
+      margin-bottom: 4.5rem;
+    }
+    &.data {
+      display: block;
+      span {
+        display: block;
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .dataFlex {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 7rem;
+  }
+  h3 {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 4rem;
+    @include media(sm) {
+      font-size: 3.5rem;
+    }
+    @include media(md) {
+      font-size: 4rem;
+    }
+  }
+}
+
+.BlockImage {
+  img {
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 120px;
+    border-bottom: 15px solid $primary-colors;
+  }
+  h3{
+    color: $primary-colors;
+    margin-top: 20px;
+    font-size: 3rem;
+  }
+}
+
+.theme{
+  h2{
+    padding-top: 4.5rem;
+    margin-bottom: 2.5rem;
+
+  }
+  .themeCenter{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    p {
+      font-family: exo-soft, "Lucida Sans", Geneva, Verdana, sans-serif;
+      color: $primary-lingh-color;
+      font-size: 1.9rem;
+      font-weight: 300;
+      text-align: center;
+      line-height: 1.2;
+    
+      @include media(sm) {
+        font-size: 1.9rem;
+      }
+
+      @include media(md){
+        font-size: 2.3rem;
+      }
+
+      @include media(md){
+        font-size: 2.9rem;
+      }
+      &:nth-child(1){
+        margin-left: 2.5rem;
+      }
+
+      &:nth-child(2){
+        margin-right: 2.5rem;
+      }
+      strong{
+        font-weight: 900;
+        margin-left: 2.5rem;
+
+        @include media(sm) {
+          font-size: 1.6rem;
+        }
+  
+        @include media(md){
+          font-size: 2rem;
+          margin-left: 4.5rem;
+        }
+  
+        @include media(md){
+          font-size: 2.4rem;
+        }
+      }
+    }
+  }
+}

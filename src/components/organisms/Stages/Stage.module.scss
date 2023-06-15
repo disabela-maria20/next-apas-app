@@ -13,9 +13,7 @@
     @include media(md) {
       padding-top: 9rem;
     }
-    @include media(md) {
-      padding-top: 15rem;
-    }
+    
   }
   .stageGrid {
     display: grid;
@@ -30,9 +28,7 @@
       @include media(md) {
         padding-bottom: 9rem;
       }
-      @include media(md) {
-        padding-bottom: 15rem;
-      }
+     
     }
     h2 {
       text-align: center;
@@ -50,8 +46,14 @@
     display: grid;
     grid-template-columns: 0.4fr 1fr;
     grid-template-rows: auto;
-    gap: 1px;
+    gap: 30px;
     margin-bottom: 20px;
+    margin-top: 10px;
+
+    @include media(sm) {
+      gap: 0;
+    }
+
     .time {
       font-family: field-gothic, "Lucida Sans", Geneva, Verdana, sans-serif;
       font-weight: 700;

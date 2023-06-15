@@ -1,4 +1,11 @@
-import { About, Header, Speeches, Stages } from '@/components/organisms'
+import {
+  About,
+  FAQ,
+  Header,
+  Previous,
+  Speeches,
+  Stages
+} from '@/components/organisms'
 
 const Home = () => {
   return (
@@ -8,7 +15,8 @@ const Home = () => {
         <About />
         <Speeches />
         <Stages />
-        <div className="">fgf</div>
+        <Previous />
+        <FAQ />
       </main>
     </>
   )
