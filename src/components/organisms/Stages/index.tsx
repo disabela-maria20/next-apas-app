@@ -1,20 +1,33 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useEffect, useRef, useState } from 'react'
 
 import Styled from './Stage.module.scss'
 
+import Speeches from './DataEvent.json'
+
 const COLOR: string[] = ['#5f249f', '#676eff', '#007186', '#00b5d7']
-const TEXT: string[] = ['Texto 1', 'Texto 2', 'Texto 3', 'Texto 4']
+
+type PropsPales = {
+  id: number
+  name: string
+  duration: string
+  description: string
+}
 
 const Stages = () => {
   const arrStage = useRef<HTMLDivElement>(null)
   const circlediv = useRef<HTMLDivElement>(null)
   const triangleSvg = useRef<NodeListOf<SVGPolygonElement> | null>(null)
+  const block = useRef<HTMLDivElement>(null)
   const lastHoveredIndex = useRef<number | null>(null)
 
-  const [componente, setComponente] = useState<unknown>('Texto 1')
+  const [componente, setComponente] = useState<PropsPales[]>()
 
   useEffect(() => {
-    triangleSvg.current = arrStage.current?.querySelectorAll('polygon') as any
+    setComponente(Speeches[0])
+    triangleSvg.current = arrStage.current?.querySelectorAll(
+      'polygon'
+    ) as NodeListOf<SVGPolygonElement>
 
     const activateHover = (index: number): void => {
       if (lastHoveredIndex.current !== null) {
@@ -26,7 +39,8 @@ const Stages = () => {
         'style',
         `background-color: ${COLOR[index]}`
       )
-      setComponente(TEXT[index])
+      block.current?.setAttribute('style', `color:${COLOR[index]}`)
+      setComponente(Speeches[index])
       lastHoveredIndex.current = index
     }
 
@@ -57,7 +71,7 @@ const Stages = () => {
         item.removeEventListener('mouseout', handleMouseOut)
       })
     }
-  }, [])
+  }, [componente])
 
   return (
     <article className={Styled.stage}>
@@ -109,7 +123,25 @@ const Stages = () => {
               </div>
             </div>
           </div>
-          <div>{componente as null}</div>
+          <div ref={block} style={{ color: '#5f249f' }}>
+            {componente?.map((data: PropsPales) => (
+              <section key={data.id}>
+                <div className={Styled.gridTime}>
+                  <div className={Styled.time}>
+                    <strong>18h00</strong>
+                    <p>
+                      duração <strong>{data.duration}</strong>{' '}
+                    </p>
+                  </div>
+                  <div className={Styled.Info}>
+                    <h3>{data.name}</h3>
+                    <p>{data.description}</p>
+                  </div>
+                </div>
+                <span></span>
+              </section>
+            ))}
+          </div>
         </section>
       </div>
     </article>

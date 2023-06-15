@@ -1,5 +1,178 @@
-{
-  "type": [
-    
+[
+  [
+    {
+      "id": 0,
+      "name": "CUSTOMER EXPERIENCE",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 1,
+      "name": "NOME DA PALESTRA",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 2,
+      "name": "NOME DA PALESTRA",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 3,
+      "name": "NOME DA PALESTRA",
+      "duration": "",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 4,
+      "name": "NOME DA PALESTRA",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 5,
+      "name": "NOME DA PALESTRA",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 6,
+      "name": "NOME DA PALESTRA",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    }
+  ],
+  [
+    {
+      "id": 0,
+      "name": "ARQUITETURA E SUSTENTAÇÃO",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 1,
+      "name": "INOVAÇÕES TECNOLÓGICAS",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 2,
+      "name": "NOME DA PALESTRA",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 3,
+      "name": "NOME DA PALESTRA",
+      "duration": "",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 4,
+      "name": "NOME DA PALESTRA",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 5,
+      "name": "NOME DA PALESTRA",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 6,
+      "name": "NOME DA PALESTRA",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    }
+  ],
+  [
+    {
+      "id": 0,
+      "name": "NOME DA PALESTRA",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 1,
+      "name": "NOME DA PALESTRA",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 2,
+      "name": "NOME DA PALESTRA",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 3,
+      "name": "NOME DA PALESTRA",
+      "duration": "",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 4,
+      "name": "NOME DA PALESTRA",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 5,
+      "name": "NOME DA PALESTRA",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 6,
+      "name": "NOME DA PALESTRA",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    }
+  ],
+  [
+    {
+      "id": 0,
+      "name": "fit",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 1,
+      "name": "NOME DA PALESTRA",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 2,
+      "name": "NOME DA PALESTRA",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 3,
+      "name": "NOME DA PALESTRA",
+      "duration": "",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 4,
+      "name": "NOME DA PALESTRA",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 5,
+      "name": "NOME DA PALESTRA",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    },
+    {
+      "id": 6,
+      "name": "NOME DA PALESTRA",
+      "duration": "1h30",
+      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+    }
   ]
-}
+]
