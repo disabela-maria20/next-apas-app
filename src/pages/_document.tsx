@@ -9,6 +9,7 @@ export default function Document() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="https://use.typekit.net/ymk5nta.css" />
         <meta name="theme-color" content="#1d1f48" />
+        <title>Apas | Home</title>
       </Head>
       <body>
         <Main />

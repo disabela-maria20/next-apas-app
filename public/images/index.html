@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .triangle {
+      width: 0;
+      height: 0;
+      position: absolute;
+    }
+
+    .top {
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      border-bottom: 100px solid red;
+      transform: translateY(-100px);
+    }
+
+    .right {
+      border-top: 100px solid transparent;
+      border-bottom: 100px solid transparent;
+      border-left: 100px solid green;
+      transform: translateX(100px);
+    }
+
+    .bottom {
+      border-left: 100px solid transparent;
+      border-right: 100px solid transparent;
+      border-top: 100px solid blue;
+      transform: translateY(100px);
+    }
+
+    .left {
+      border-top: 100px solid transparent;
+      border-bottom: 100px solid transparent;
+      border-right: 100px solid yellow;
+      transform: translateX(-100px);
+    }
+
+    .square {
+      width: 200px;
+      height: 200px;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <div class="square">
+    <div class="triangle top"></div>
+    <div class="triangle right"></div>
+    <div class="triangle bottom"></div>
+    <div class="triangle left"></div>
+  </div>
+</body>
+</html>

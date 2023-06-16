@@ -27,6 +27,7 @@ const Maps = () => {
         style={{ border: 0 }}
         loading="lazy"
         className={Style.iframe}
+        title="Localização geografica"
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
     </>

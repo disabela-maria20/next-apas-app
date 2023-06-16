@@ -33,26 +33,26 @@
 @mixin container {
   width: 100%;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 10px;
   
   @include media("sm") {
-    max-width: calc(map-get(variable.$grid-breakpoints, sm) - 20px);
+    max-width: calc(map-get(variable.$grid-breakpoints, sm) - 10px);
   }
   
   @include media("md") {
-    max-width: calc(map-get(variable.$grid-breakpoints, md) - 20px);
+    max-width: calc(map-get(variable.$grid-breakpoints, md) - 10px);
   }
   
   @include media("lg") {
-    max-width: calc(map-get(variable.$grid-breakpoints, lg) - 20px);
+    max-width: calc(map-get(variable.$grid-breakpoints, lg) - 10px);
   }
   
   @include media("xl") {
-    max-width: calc(map-get(variable.$grid-breakpoints, xl) - 20px);
+    max-width: calc(map-get(variable.$grid-breakpoints, xl) - 10px);
   }
   
   @include media("xxl") {
-    max-width: calc(map-get(variable.$grid-breakpoints, xxl) - 20px);
+    max-width: calc(map-get(variable.$grid-breakpoints, xxl) - 10px);
   }
 }
 

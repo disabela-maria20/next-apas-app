@@ -4,28 +4,33 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+
+  @include media(xs){
+    background-image: none;
+  }
+
   .headerBlock {
     max-width: 360px;
     img {
-      margin-top: 124px;
-      margin-bottom: 70px;
+      margin-top: 6rem;
+      object-fit: contain;
 
       @include media(sm) {
         margin-top: 80px;
-        margin-bottom: 50px;
+        // margin-bottom: 50px;
       }
     }
     h1 {
       font-family: field-gothic-compact, "Franklin Gothic Medium",
         "Arial Narrow", Arial, sans-serif;
       font-weight: 700;
-      font-size: 5.5rem;
-      line-height: 4.3rem;
+      font-size: 6rem;
+      line-height: 5.2rem;
       color: $tertiary-colors;
-
+      margin: 4.5rem 0;
       @include media(md) {
         font-size: 6.6rem;
-        line-height: 5.3rem;
+        line-height: 5.7rem;
       }
       span:not(.subTitle) {
         font-size: 3.5rem;
@@ -40,7 +45,6 @@
     }
     .date {
       display: inline-block;
-      margin-top: 30px;
       margin-bottom:10rem;
       @include CTABorder("left-top");
       @include media(md) {
@@ -67,15 +71,15 @@
 
       @include media(lg) {
         display: block;
-        max-width: 736px;
-        top: 12%;
+        max-width: 675px;
+        top: 20%;
       }
       @include media(xl) {
         max-width: 850px;
         top: 9%;
       }
       @include media(xxl) {
-        max-width: initial;
+        max-width: 1080px;
         top: 0%;
       }
     }

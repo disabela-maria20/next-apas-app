@@ -1,9 +1,10 @@
+/* eslint-disable import-helpers/order-imports */
+// eslint-disable-next-line import-helpers/order-imports
 import AliceCarousel from 'react-alice-carousel'
 
 import Style from './Previous.module.scss'
 
 import 'react-alice-carousel/lib/alice-carousel.css'
-// eslint-disable-next-line import-helpers/order-imports
 import { useEffect, useState } from 'react'
 
 const Previous = () => {

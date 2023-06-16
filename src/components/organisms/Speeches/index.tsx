@@ -1,7 +1,7 @@
-import 'keen-slider/keen-slider.min.css'
-import Style from './Speeches.module.scss'
+import 'react-alice-carousel/lib/alice-carousel.css'
+import AliceCarousel from 'react-alice-carousel'
 
-import { useKeenSlider } from 'keen-slider/react' // import from 'keen-slider/react.es' for to get an ES module
+import Style from './Speeches.module.scss'
 
 const Speeches = () => {
   const URLIMAGES = [
@@ -25,31 +25,11 @@ const Speeches = () => {
     }
   ]
 
-  const [sliderRef] = useKeenSlider(
-    {
-      breakpoints: {
-        '(min-width: 0)': {
-          slides: {
-            spacing: 15,
-            perView: 1
-          }
-        },
-        '(min-width: 576px)': {
-          slides: {
-            spacing: 15,
-            perView: 2
-          }
-        },
-        '(min-width: 992px)': {
-          slides: {
-            spacing: 15,
-            perView: 3
-          }
-        }
-      }
-    },
-    []
-  )
+  const responsive = {
+    0: { items: 1 },
+    568: { items: 2 },
+    992: { items: 3 }
+  }
   return (
     <>
       <section className={Style.theme}>
@@ -71,7 +51,18 @@ const Speeches = () => {
           <h2>palestrantes</h2>
 
           <article className={Style.speakerSlide}>
-            <div className="keen-slider" ref={sliderRef}>
+            <AliceCarousel
+              activeIndex={0}
+              infinite={true}
+              autoPlayInterval={2030}
+              autoPlay={true}
+              disableButtonsControls={true}
+              disableDotsControls={true}
+              mouseTracking
+              paddingLeft={20}
+              paddingRight={20}
+              responsive={responsive}
+            >
               {URLIMAGES.map((data) => (
                 <div key={data.id} className="keen-slider__slide">
                   <img
@@ -84,7 +75,7 @@ const Speeches = () => {
                   <p>{data.company}</p>
                 </div>
               ))}
-            </div>
+            </AliceCarousel>
           </article>
         </div>
       </section>
