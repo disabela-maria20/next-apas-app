@@ -86,7 +86,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    justify-content: center;
     @include media(lg){
       flex-direction: row;
       justify-content: space-between;
@@ -98,10 +98,12 @@
       font-size: 2.8rem;
       font-weight: 700;
       text-transform: uppercase;
-     
+      text-align: center;
       color: $primary-colors;
+      margin-bottom: 2rem;
       @include media(md) {
         font-size: 3.5rem;
+        text-align: left;
       }
     }
     p, a {
@@ -110,9 +112,12 @@
       font-size: 1.5rem;
       line-height: 2.4rem;
       font-weight: 200;
+      text-align: center;
+   
   
       @include media(sm) {
         font-size: 1.8rem;
+        text-align: left;
       }
       
     }

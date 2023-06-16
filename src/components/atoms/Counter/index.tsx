@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 import Style from './Counter.module.scss'
 
@@ -75,16 +75,22 @@ const Counter: React.FC = (): JSX.Element => {
               <strong>
                 {timeLeft.days} {timeLeft.days === 1 ? 'dia' : 'dias'}
               </strong>
-              <strong>
-                {timeLeft.hours < 10 ? '0' + timeLeft.hours : timeLeft.hours}:
-                {timeLeft.minutes < 10
-                  ? '0' + timeLeft.minutes
-                  : timeLeft.minutes}
-                :
-                {timeLeft.seconds < 10
-                  ? '0' + timeLeft.seconds
-                  : timeLeft.seconds}
-              </strong>
+              <div className={Style.timeContainer}>
+                <span className={Style.timeDiv}>
+                  {timeLeft.hours < 10 ? '0' + timeLeft.hours : timeLeft.hours}h
+                </span>
+                <span className={Style.timeDiv}>
+                  {timeLeft.minutes < 10
+                    ? '0' + timeLeft.minutes
+                    : timeLeft.minutes}
+                  :
+                </span>
+                <span className={Style.timeDiv}>
+                  {timeLeft.seconds < 10
+                    ? '0' + timeLeft.seconds
+                    : timeLeft.seconds}
+                </span>
+              </div>
             </h2>
             <a href="" className={Style.link}>
               <img

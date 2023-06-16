@@ -9,23 +9,23 @@ const Speeches = () => {
       id: 0,
       name: 'Nome Um Sobrenome',
       company: 'Empresa',
-      url: './images/speaker/speaker-1.png'
+      url: 'speaker-1.png'
     },
     {
       id: 1,
       name: 'Nome Dois Sobrenome',
       company: 'Empresa',
-      url: './images/speaker/speaker-2.png'
+      url: 'speaker-2.png'
     },
     {
       id: 2,
       name: 'Nome Três Sobrenome',
       company: 'Empresa',
-      url: './images/speaker/speaker-3.png'
+      url: 'speaker-3.png'
     }
   ]
 
-  const responsive = {
+  const responsives = {
     0: { items: 1 },
     568: { items: 2 },
     992: { items: 3 }
@@ -53,20 +53,17 @@ const Speeches = () => {
           <article className={Style.speakerSlide}>
             <AliceCarousel
               activeIndex={0}
-              infinite={true}
               autoPlayInterval={2030}
               autoPlay={true}
               disableButtonsControls={true}
               disableDotsControls={true}
               mouseTracking
-              paddingLeft={20}
-              paddingRight={20}
-              responsive={responsive}
+              responsive={responsives}
             >
               {URLIMAGES.map((data) => (
-                <div key={data.id} className="keen-slider__slide">
+                <div key={data.id}>
                   <img
-                    src={data.url}
+                    src={`./images/speaker/${data.url}`}
                     alt="Palestrante"
                     width={317}
                     height={346}

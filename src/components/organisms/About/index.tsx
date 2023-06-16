@@ -1,6 +1,6 @@
 import Style from './About.module.scss'
 
-import { Logo } from '@/components/atoms'
+import { Logo, Video } from '@/components/atoms'
 import { Sponsor } from '@/components/molecules'
 
 const About = () => {
@@ -61,7 +61,9 @@ const About = () => {
     <article className={Style.about}>
       <div className={Style.container}>
         <section className={Style.aboutGrid}>
-          <div className={Style.aboutVideo}></div>
+          <div className={Style.aboutVideo}>
+            <Video />
+          </div>
           <div className={Style.aboutBlock}>
             <h2>
               sobre o

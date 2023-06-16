@@ -5,30 +5,13 @@ import AliceCarousel from 'react-alice-carousel'
 import Style from './Previous.module.scss'
 
 import 'react-alice-carousel/lib/alice-carousel.css'
-import { useEffect, useState } from 'react'
+import PAS from './Previous.json'
+import {
+  LazyLoadComponent,
+  LazyLoadImage
+} from 'react-lazy-load-image-component'
 
 const Previous = () => {
-  const [image, setImage] = useState<any>()
-
-  const Item = () => {
-    const multiplicador = 30
-    const imagens = []
-    for (let i = 0; i < multiplicador; i++) {
-      imagens.push(
-        <div className={Style.BlockImage}>
-          <img src="/images/foto.png" />
-          <h3>
-            walter <br /> longo
-          </h3>
-        </div>
-      )
-    }
-    return setImage(imagens)
-  }
-  useEffect(() => {
-    Item()
-  }, [])
-
   const responsive = {
     0: { items: 1 },
     568: { items: 2 },
@@ -63,8 +46,7 @@ const Previous = () => {
       <h3>Palestrantes participantes</h3>
       <AliceCarousel
         activeIndex={0}
-        infinite={true}
-        items={image}
+        // infinite={true}
         autoPlayInterval={2030}
         autoPlay={true}
         disableButtonsControls={true}
@@ -73,7 +55,18 @@ const Previous = () => {
         paddingLeft={20}
         paddingRight={20}
         responsive={responsive}
-      />
+      >
+        {PAS.map((data) => (
+          <div className={Style.BlockImage} key={data.id}>
+            <LazyLoadImage
+              effect="opacity"
+              src={`/images/speaker2022/${data.image}`}
+              alt={data.nome}
+            />
+            <h3>{data.nome}</h3>
+          </div>
+        ))}
+      </AliceCarousel>
       <section className={Style.theme}>
         <h2>principais temas</h2>
         <div className={Style.themeCenter}>

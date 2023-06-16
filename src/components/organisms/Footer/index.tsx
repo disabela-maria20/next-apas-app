@@ -73,7 +73,8 @@ const index = () => {
           <section className={Style.contact}>
             <h3>Precisa de ajuda?</h3>
             <p>Entre em contato com</p>
-            <a href="mailto:exemplo@exemplo.com.br">exemplo@exemplo.com.br</a>
+            <a href="tel:+">(11) 3647-5000</a> <br />
+            <a href="mailto:exemplo@exemplo.com.br">central.apas@apas.com.br</a>
           </section>
         </div>
       </div>

@@ -1,6 +1,9 @@
 .bgColor{
   background-color: $primary-colors;
   padding: 10px 0;
+  z-index: 1;
+  position: relative;
+
   .container{
     @include container()
   }
@@ -43,6 +46,16 @@
         bottom: 3px;
         height: initial;
         margin-right: 15px;
+      }
+    }
+    .timeContainer{
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 1.8rem;
+      font-weight: 700;
+      @include media(md){
+        margin-left: 1rem;
+        display: inline-block;
       }
     }
   }

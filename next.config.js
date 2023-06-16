@@ -9,7 +9,6 @@ const nextConfig = {
     prependData: `
       @import 'abstracts/_index.scss';
     `
-
   },
   
 }
