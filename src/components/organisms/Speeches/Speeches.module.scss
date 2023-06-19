@@ -47,11 +47,11 @@
 }
 
 .speaker {
-  padding-bottom: 4.5rem ;
+  padding-bottom: 4.5rem;
   background-repeat: no-repeat;
   background-size: cover;
-  
-  @include media(md){
+
+  @include media(md) {
     padding-bottom: 9rem;
   }
   h2 {
@@ -66,46 +66,52 @@
     }
   }
   .speakerSlide {
-    
-    h3 {
-      color: $primary-lingh-color;
-      font-family: field-gothic, "Lucida Sans", Geneva, Verdana, sans-serif;
-      font-weight: 700;
-      font-size: 3rem;
-      text-transform: uppercase;
-      text-align: center;
-      width: 200px;
-      margin: 0 auto;
-      position: relative;
-      bottom: 20px;
+    div {
+      // display: flex;
+      // justify-content: center;
+      // align-items: center;
+      // flex-direction: column;
 
-      @include media(sm) {
-        font-size: 3.5rem;
-        bottom: 75px;
-      }
-      @include media(sm) {
-        font-size: 3.5rem;
-        bottom: 45px;
-      }
-    }
-    p {
-      font-family: exo-soft, "Lucida Sans", Geneva, Verdana, sans-serif;
-      color: $primary-lingh-color;
-      font-size: 1.5rem;
-      font-weight: 300;
-      text-align: center;
-      position: relative;
-      bottom: 10px;
+      h3 {
+        color: $primary-lingh-color;
+        font-family: field-gothic, "Lucida Sans", Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        font-size: 3rem;
+        text-transform: uppercase;
+        text-align: center;
+        width: 200px;
+        margin: 0 auto;
+        position: relative;
+        bottom: 20px;
 
-      @include media(sm) {
-        font-size: 1.8;
-        bottom: 35px;
+        @include media(sm) {
+          font-size: 3.5rem;
+          bottom: 75px;
+        }
+        @include media(sm) {
+          font-size: 3.5rem;
+          bottom: 45px;
+        }
       }
-    }
-    img {
-      display: block;
-      margin: 0 auto;
-      object-fit: contain;
+      p {
+        font-family: exo-soft, "Lucida Sans", Geneva, Verdana, sans-serif;
+        color: $primary-lingh-color;
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-align: center;
+        position: relative;
+        bottom: 10px;
+
+        @include media(sm) {
+          font-size: 1.8rem;
+          bottom: 35px;
+        }
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        object-fit: contain;
+      }
     }
   }
 }

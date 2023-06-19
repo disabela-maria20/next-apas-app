@@ -1,22 +1,30 @@
 .container {
   @include container();
 }
+.bgMaps {
+  background-color: $quaternary-colos;
+  .range {
+    width: 100%;
+    height: 80px;
+  }
+}
 
 .maps {
   background-color: $quaternary-colos;
   padding: 4.5rem;
   text-align: center;
-  @include media(sm){
+
+  @include media(sm) {
     padding: 9rem;
   }
 
-  h2{
+  h2 {
     @include Title;
     color: $tertiary-colors;
   }
   h3 {
-    font-family: field-gothic-compact, "Franklin Gothic Medium",
-      "Arial Narrow", Arial, sans-serif;
+    font-family: field-gothic-compact, "Franklin Gothic Medium", "Arial Narrow",
+      Arial, sans-serif;
     font-size: 2.8rem;
     font-weight: 400;
     text-align: center;
@@ -39,14 +47,8 @@
       line-height: 2.8rem;
       margin-bottom: 2rem;
     }
-    
   }
 }
-.iframe{
+.iframe {
   width: 100%;
-}
-.range {
-  width: 100%;
-  height: 80px;
-  mix-blend-mode: color-burn;
 }

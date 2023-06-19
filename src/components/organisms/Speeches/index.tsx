@@ -1,7 +1,10 @@
-import 'react-alice-carousel/lib/alice-carousel.css'
-import AliceCarousel from 'react-alice-carousel'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 import Style from './Speeches.module.scss'
+import 'swiper/css'
+
+import { Autoplay } from 'swiper'
+import { Swiper, SwiperSlide } from 'swiper/react'
 
 const Speeches = () => {
   const URLIMAGES = [
@@ -30,6 +33,7 @@ const Speeches = () => {
     568: { items: 2 },
     992: { items: 3 }
   }
+
   return (
     <>
       <section className={Style.theme}>
@@ -51,28 +55,43 @@ const Speeches = () => {
           <h2>palestrantes</h2>
 
           <article className={Style.speakerSlide}>
-            <AliceCarousel
-              activeIndex={0}
-              autoPlayInterval={2030}
-              autoPlay={true}
-              disableButtonsControls={true}
-              disableDotsControls={true}
-              mouseTracking
-              responsive={responsives}
+            <Swiper
+              loop={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false
+              }}
+              slidesPerView={1}
+              spaceBetween={10}
+              pagination={{
+                clickable: true
+              }}
+              breakpoints={{
+                640: {
+                  slidesPerView: 2,
+                  spaceBetween: 20
+                },
+                768: {
+                  slidesPerView: 3,
+                  spaceBetween: 40
+                }
+              }}
+              modules={[Autoplay]}
             >
               {URLIMAGES.map((data) => (
-                <div key={data.id}>
-                  <img
-                    src={`./images/speaker/${data.url}`}
-                    alt="Palestrante"
-                    width={317}
-                    height={346}
-                  />
-                  <h3>{data.name}</h3>
-                  <p>{data.company}</p>
-                </div>
+                <SwiperSlide key={data.id}>
+                  <section>
+                    <LazyLoadImage
+                      effect="blur"
+                      src={`./images/speaker/${data.url}`}
+                    />
+
+                    <h3>{data.name}</h3>
+                    <p>{data.company}</p>
+                  </section>
+                </SwiperSlide>
               ))}
-            </AliceCarousel>
+            </Swiper>
           </article>
         </div>
       </section>

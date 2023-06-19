@@ -1,27 +1,15 @@
-/* eslint-disable import-helpers/order-imports */
-// eslint-disable-next-line import-helpers/order-imports
-import AliceCarousel from 'react-alice-carousel'
-
 import Style from './Previous.module.scss'
+import 'swiper/css'
 
-import 'react-alice-carousel/lib/alice-carousel.css'
 import PAS from './Previous.json'
-import {
-  LazyLoadComponent,
-  LazyLoadImage
-} from 'react-lazy-load-image-component'
+
+import { Autoplay } from 'swiper'
+import { Swiper, SwiperSlide } from 'swiper/react'
+
+// eslint-disable-next-line import-helpers/order-imports
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const Previous = () => {
-  const responsive = {
-    0: { items: 1 },
-    568: { items: 2 },
-    992: { items: 3 },
-    1200: { items: 4 },
-    1700: { items: 5 },
-    1900: { items: 6 },
-    2000: { items: 7 }
-  }
-
   return (
     <article className={Style.previous}>
       <div className={Style.container}>
@@ -43,30 +31,53 @@ const Previous = () => {
           </div>
         </section>
       </div>
-      <h3>Palestrantes participantes</h3>
-      <AliceCarousel
-        activeIndex={0}
-        // infinite={true}
-        autoPlayInterval={2030}
-        autoPlay={true}
-        disableButtonsControls={true}
-        disableDotsControls={true}
-        mouseTracking
-        paddingLeft={20}
-        paddingRight={20}
-        responsive={responsive}
+      <h3>Palestrantes</h3>
+      <Swiper
+        loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false
+        }}
+        slidesPerView={1}
+        spaceBetween={10}
+        pagination={{
+          clickable: true
+        }}
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 40
+          },
+
+          1200: {
+            slidesPerView: 6,
+            spaceBetween: 50
+          },
+          1400: {
+            slidesPerView: 7,
+            spaceBetween: 50
+          }
+        }}
+        modules={[Autoplay]}
       >
         {PAS.map((data) => (
-          <div className={Style.BlockImage} key={data.id}>
-            <LazyLoadImage
-              effect="opacity"
-              src={`/images/speaker2022/${data.image}`}
-              alt={data.nome}
-            />
-            <h3>{data.nome}</h3>
-          </div>
+          <SwiperSlide key={data.id}>
+            <section className={Style.BlockImage}>
+              <LazyLoadImage
+                effect="black-and-white"
+                src={`/images/speaker2022/${data.image}`}
+                alt={data.nome}
+              />
+              <h3>{data.nome}</h3>
+            </section>
+          </SwiperSlide>
         ))}
-      </AliceCarousel>
+      </Swiper>
+
       <section className={Style.theme}>
         <h2>principais temas</h2>
         <div className={Style.themeCenter}>

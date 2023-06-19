@@ -33,7 +33,7 @@
 @mixin container {
   width: 100%;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 30px;
   
   @include media("sm") {
     max-width: calc(map-get(variable.$grid-breakpoints, sm) - 10px);

@@ -107,106 +107,119 @@
   height: 310px;
   width: 320px;
   overflow: hidden;
-  // border: 1px solid red;
+
   margin: 0 auto;
+  transition: all 1s;
 
-  .containerBox {
-    transform: rotate(-74.2deg) translate(-191px, -16px);
-
-    .blockStage {
-      transition: all 1s;
-
-      p {
-        position: absolute;
-        inset: 0;
-        display: inline;
-        z-index: 9;
-        font-family: field-gothic, "Lucida Sans", Geneva, Verdana, sans-serif;
-        font-size: 1.5rem;
-        padding: 5px 10px;
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: 700;
-        border-radius: 20px;
-        color: $primary-lingh-color;
-
-        @include media(md) {
-          font-size: 1.8rem;
-        }
-      }
-      .top svg,
-      .botton svg,
-      .right svg,
-      .left svg {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform-origin: 20% 22%;
-        z-index: -1;
-      }
-
-      span.right {
-        svg {
-          transform: rotate(45deg);
-
-          polygon {
-            fill: #007186;
-          }
-        }
-        p {
-          transform: rotate(74deg) translate(66px, 58px);
-        }
-      }
-      span.top {
-        svg {
-          transform: rotate(135deg);
-          transition: opacity 0.2 ease-out;
-          polygon {
-            fill: #5f249f;
-          }
-        }
-        p {
-          transform: rotate(-16deg) translate(33px, -63px);
-        }
-      }
-
-      span.botton {
-        svg {
-          transform: rotate(-135deg);
-
-          polygon {
-            fill: #676eff;
-          }
-        }
-        p {
-          transform: rotate(74.2deg) translate(64px, -137px);
-        }
-      }
-
-      span.left {
-        svg {
-          transform: rotate(-45deg);
-
-          polygon {
-            fill: #00b5d7;
-          }
-        }
-        p {
-          transform: rotate(164deg) translate(-30px, -188px);
-        }
-      }
-
-      .circle {
-        width: 100px;
-        height: 100px;
-        background-color: #5f249f;
-        border-radius: 50px;
-        border: 5px solid $secondary-lingh-color;
-        position: absolute;
-        bottom: -110px;
-        left: 163px;
-        z-index: 99;
-      }
+  .top,
+  .botton,
+  .right,
+  .left {
+    position: absolute;
+    border-radius: 3px ;
+    width: 310px;
+    height: 310px;
+    // border: 5px solid #fff;
+    z-index: 99;
+    &:not(:hover){
+      opacity: .3;
     }
   }
+
+  .right {
+    transform: rotate(45deg);
+    background-color: #007186;
+    left: 72%;
+    top: -1px;
+    &::before{
+      content: "Inovações Tecnológicas";
+      font-family: field-gothic, "Lucida Sans", Geneva, Verdana, sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transform: rotate(225deg) translate(55px, 20px);
+      font-size: 1.8rem;
+      text-align: center;
+      color: $primary-lingh-color;
+      width: 200px;
+    }
+  }
+  .top {
+    transform: rotate(135deg);
+    top: 71%;
+    right: 2%;
+    background-color: #5f249f;
+    &::before{
+      content: "Customer Experience";
+      font-family: field-gothic, "Lucida Sans", Geneva, Verdana, sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transform: rotate(225deg) translate(55px, 20px);
+      font-size: 1.8rem;
+      text-align: center;
+      color: $primary-lingh-color;
+      width: 200px;
+    }
+  }
+
+  .botton {
+    transform: rotate(-135deg);
+    background-color: #00b5d7;
+    bottom: 71%;
+    left: 1%;
+    //background-color: #676eff;
+    &::before{
+      content: "Fit Digital";
+      font-family: field-gothic, "Lucida Sans", Geneva, Verdana, sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transform: rotate(135deg) translate(-139px, 179px);
+      font-size: 1.8rem;
+      text-align: center;
+      color: $primary-lingh-color;
+      width: 200px;
+    }
+ 
+  }
+  .left {
+    transform: rotate(-45deg);
+    background-color: #676eff;
+    right: 73%;
+    &::before{
+      content: "Arquitetura e Sustentação";
+      font-family: field-gothic, "Lucida Sans", Geneva, Verdana, sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      position: absolute;
+      bottom:  0;
+      right: 0;
+      transform: rotate(135deg) translate(-57px, 12px);
+      font-size: 1.8rem;
+      text-align: center;
+      color: $primary-lingh-color;
+      width: 200px;
+    }
+  }
+
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    background-color: #5f249f;
+    border-radius: 50px;
+    border: 5px solid $secondary-lingh-color;
+    position: absolute;
+    bottom: 35%;
+    left: 35%;
+    z-index: 99;
+  }
+
 }
