@@ -1,3 +1,5 @@
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 import Style from './Footer.module.scss'
 
 const index = () => {
@@ -5,39 +7,43 @@ const index = () => {
     {
       id: 0,
       name: 'Home',
-      link: ''
+      link: '#home'
     },
     {
       id: 1,
       name: 'Sobre',
-      link: ''
+      link: '#about'
     },
     {
       id: 2,
       name: 'Credenciamento',
-      link: ''
+      link: '#accreditation'
     },
     {
       id: 4,
       name: 'Palestras',
-      link: ''
+      link: '#speeches'
     },
     {
       id: 5,
       name: 'Palestrantes',
-      link: ''
+      link: '#speakers'
     },
     {
       id: 6,
       name: 'Contato',
-      link: ''
+      link: '#contact'
     }
   ]
 
   const REDES = [
-    { id: 0, name: 'linkedin', link: '' },
-    { id: 1, name: 'instagram', link: '' },
-    { id: 2, name: 'facebook', link: '' }
+    {
+      id: 0,
+      name: 'linkedin',
+      link: 'https://www.linkedin.com/company/apas-next'
+    },
+    { id: 1, name: 'instagram', link: 'https://www.instagram.com/apasnext/' },
+    { id: 2, name: 'facebook', link: 'https://www.facebook.com/ApasNext' }
   ]
   return (
     <footer className={Style.footer}>
@@ -48,7 +54,7 @@ const index = () => {
               <ul>
                 {REDES.map((redes) => (
                   <li key={redes.id}>
-                    <a href="">
+                    <a href={redes.link}>
                       <img
                         src={`./images/${redes.name}.webp`}
                         alt={`rede social ${redes.name}`}
@@ -64,7 +70,7 @@ const index = () => {
               <ul>
                 {LINK.map((link) => (
                   <li key={link.id}>
-                    <a href="">{link.name}</a>
+                    <AnchorLink href={link.link}>{link.name}</AnchorLink>
                   </li>
                 ))}
               </ul>
@@ -73,8 +79,24 @@ const index = () => {
           <section className={Style.contact}>
             <h3>Precisa de ajuda?</h3>
             <p>Entre em contato com</p>
-            <a href="tel:+">(11) 3647-5000</a>
-            <a href="mailto:exemplo@exemplo.com.br">central.apas@apas.com.br</a>
+            <a
+              href="tel:+(11) 3647-5000"
+              target="JET"
+              title="Telefone"
+              aria-label="Telefone da APAS"
+              rel="noreferrer"
+            >
+              (11) 3647-5000
+            </a>
+            <a
+              href="mailto:exemplo@exemplo.com.br"
+              target="JET"
+              title="E-mail"
+              aria-label="Telefone da APAS"
+              rel="noreferrer"
+            >
+              central.apas@apas.com.br
+            </a>
           </section>
         </div>
       </div>

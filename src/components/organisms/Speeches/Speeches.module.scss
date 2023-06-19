@@ -17,10 +17,15 @@
     }
   }
   ul {
-    max-width: 550px;
+   
     margin: 0 auto;
     list-style-type: none;
     padding-bottom: 4.5rem;
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: start;
+    justify-content: center;
+    align-content: space-between;
     @include media(md) {
       padding-bottom: 9rem;
     }
@@ -28,16 +33,20 @@
       background-color: $secondary-colors;
       font-family: field-gothic, "Lucida Sans", Geneva, Verdana, sans-serif;
       font-size: 1.5rem;
-      padding: 5px 10px;
+      padding: 5px 20px;
       text-align: center;
       border-radius: 20px;
       color: $primary-lingh-color;
+      display: inline;
 
       @include media(md) {
         font-size: 1.8rem;
       }
       @include media(lg) {
         font-size: 2.2rem;
+      }
+      @include media(lg) {
+        font-size: 2.6rem;
       }
       &:not(li:last-child) {
         margin-bottom: 5px;
@@ -66,11 +75,11 @@
     }
   }
   .speakerSlide {
-    div {
-      // display: flex;
-      // justify-content: center;
-      // align-items: center;
-      // flex-direction: column;
+    section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
 
       h3 {
         color: $primary-lingh-color;

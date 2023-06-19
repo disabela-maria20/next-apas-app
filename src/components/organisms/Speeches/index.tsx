@@ -36,7 +36,7 @@ const Speeches = () => {
 
   return (
     <>
-      <section className={Style.theme}>
+      <section className={Style.theme} id="speakers">
         <div className={Style.container}>
           <h2>principais temas</h2>
           <ul>

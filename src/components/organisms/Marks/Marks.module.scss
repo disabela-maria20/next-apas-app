@@ -12,6 +12,7 @@
   h2 {
     @include Title;
     text-align: center;
+    color: $quaternary-colos;
   }
 
   h3 {
@@ -31,7 +32,9 @@
     @include media(md) {
       font-size: 4rem;
     }
-
+    @include media(xxl){
+      font-size: 6;
+    }
     &:before {
       content: "";
       height: 4px;

@@ -49,16 +49,19 @@ const Previous = () => {
             spaceBetween: 20
           },
           768: {
-            slidesPerView: 4,
+            slidesPerView: 3,
             spaceBetween: 40
           },
-
-          1200: {
-            slidesPerView: 6,
+          990: {
+            slidesPerView: 4,
             spaceBetween: 50
           },
-          1400: {
-            slidesPerView: 7,
+          1200: {
+            slidesPerView: 5,
+            spaceBetween: 50
+          },
+          1920: {
+            slidesPerView: 6,
             spaceBetween: 50
           }
         }}
@@ -68,8 +71,10 @@ const Previous = () => {
           <SwiperSlide key={data.id}>
             <section className={Style.BlockImage}>
               <LazyLoadImage
-                effect="black-and-white"
+                effect="blur"
                 src={`/images/speaker2022/${data.image}`}
+                visibleByDefault={true}
+                threshold={100}
                 alt={data.nome}
               />
               <h3>{data.nome}</h3>

@@ -33,7 +33,7 @@
 @mixin container {
   width: 100%;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 25px;
   
   @include media("sm") {
     max-width: calc(map-get(variable.$grid-breakpoints, sm) - 10px);
@@ -85,14 +85,14 @@
 @mixin Title {
   font-family: field-gothic, "Lucida Sans",  Geneva, Verdana, sans-serif;
   font-weight: 700;
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-transform: uppercase;
 
   @include media(sm){
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
 
   @include media(md){
-    font-size: 5rem;
+    font-size: 4rem;
   }
 }

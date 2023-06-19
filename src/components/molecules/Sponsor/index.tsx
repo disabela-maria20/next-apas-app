@@ -27,6 +27,7 @@ const Sponsor = (): JSX.Element => {
     <section
       className={Style.sponsor}
       style={{ backgroundImage: 'url("./images/silhouette.webp")' }}
+      id="accreditation"
     >
       <div className={Style.container}>
         <div className={Style.sponsorBlock}>

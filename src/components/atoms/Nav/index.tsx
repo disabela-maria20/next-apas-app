@@ -1,4 +1,5 @@
-import React from 'react'
+'use client'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import Style from './Nav.module.scss'
 
@@ -11,52 +12,56 @@ const Nav: React.FC<NavProps> = ({ open }) => {
     {
       id: 0,
       name: 'Home',
-      link: ''
+      link: '#home'
     },
     {
       id: 1,
       name: 'Sobre',
-      link: ''
+      link: '#about'
     },
     {
       id: 2,
       name: 'Credenciamento',
-      link: ''
+      link: '#accreditation'
     },
     {
       id: 4,
       name: 'Palestras',
-      link: ''
+      link: '#speeches'
     },
     {
       id: 5,
       name: 'Palestrantes',
-      link: ''
+      link: '#speakers'
     },
     {
       id: 6,
       name: 'Contato',
-      link: ''
+      link: '#contact'
     }
   ]
 
   const REDES = [
-    { id: 0, name: 'linkedin', link: '' },
-    { id: 1, name: 'instagram', link: '' },
-    { id: 2, name: 'facebook', link: '' }
+    {
+      id: 0,
+      name: 'linkedin',
+      link: 'https://www.linkedin.com/company/apas-next'
+    },
+    { id: 1, name: 'instagram', link: 'https://www.instagram.com/apasnext/' },
+    { id: 2, name: 'facebook', link: 'https://www.facebook.com/ApasNext' }
   ]
   return (
     <nav className={Style.navBar}>
       <ul className={`${open ? Style.open : Style.close}`}>
-        {LINK.map((link) => (
+        {LINK?.map((link) => (
           <li key={link.id}>
-            <a href="">{link.name}</a>
+            <AnchorLink href={link.link}>{link.name}</AnchorLink>
           </li>
         ))}
         <ul className={Style.redes}>
-          {REDES.map((redes) => (
+          {REDES?.map((redes) => (
             <li key={redes.id}>
-              <a href="">
+              <a href={redes.link}>
                 <img
                   src={`./images/${redes.name}.webp`}
                   alt={`rede social ${redes.name}`}

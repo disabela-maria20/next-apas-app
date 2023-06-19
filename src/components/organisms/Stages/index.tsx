@@ -49,7 +49,7 @@ const Stages = () => {
   }, [])
 
   return (
-    <article className={Styled.stage}>
+    <article className={Styled.stage} id="speeches">
       <div className={Styled.container}>
         <h2>Palestras</h2>
         <section className={Styled.stageGrid}>

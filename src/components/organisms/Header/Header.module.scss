@@ -10,7 +10,7 @@
   }
 
   .headerBlock {
-    max-width: 360px;
+    max-width: 320px;
     img {
       margin-top: 6rem;
       object-fit: contain;
@@ -23,16 +23,17 @@
     h1 {
       font-family: field-gothic-compact, "Franklin Gothic Medium",
         "Arial Narrow", Arial, sans-serif;
-      font-weight: 700;
-      font-size: 6rem;
-      line-height: 5.2rem;
+      font-weight: 800;
+      font-size: 5.5rem;
+      line-height: 5.4rem;
       color: $tertiary-colors;
       margin: 4.5rem 0;
       @include media(md) {
-        font-size: 6.6rem;
+        font-size: 5.8rem;
         line-height: 5.7rem;
       }
       span:not(.subTitle) {
+        font-weight: 700;
         font-size: 3.5rem;
         display: block;
       }

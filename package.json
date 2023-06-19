@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^3.1.1",
+    "@types/react-anchor-link-smooth-scroll": "^1.0.2",
     "@types/react-lazy-load-image-component": "^1.5.3",
     "next": "13.4.4",
     "react": "18.2.0",
     "react-alice-carousel": "^2.7.1",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.44.3",
     "react-lazy-load-image-component": "^1.6.0",

@@ -58,7 +58,7 @@ const About = () => {
   ]
 
   return (
-    <article className={Style.about}>
+    <article className={Style.about} id="about">
       <div className={Style.container}>
         <section className={Style.aboutGrid}>
           <div className={Style.aboutVideo}>

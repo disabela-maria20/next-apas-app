@@ -16,14 +16,16 @@
   }
   .stageGrid {
     display: grid;
+    gap: 50px;
+    padding-bottom: 9rem;
+    
     @include media(md) {
       grid-template-columns: 0.5fr 1fr;
       max-width: 1000px;
       justify-content: center;
       align-items: center;
       margin: 0 auto;
-      gap: 50px;
-
+    
       @include media(md) {
         padding-bottom: 9rem;
       }
@@ -67,7 +69,7 @@
         text-align: center;
       }
       p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-transform: uppercase;
         text-align: center;
         font-weight: 300;
@@ -85,16 +87,16 @@
         text-transform: uppercase;
 
         @include media(md) {
-          font-size: 2.2rem;
+          font-size: 2.0rem;
         }
       }
       p {
         color: $quaternary-indigo-colos;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: 300;
 
         @include media(sm) {
-          font-size: 1.8;
+          font-size: 1.5rem;
         }
       }
     }

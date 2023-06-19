@@ -21,6 +21,10 @@
   h2 {
     @include Title;
     color: $tertiary-colors;
+
+    @include media(lg){
+      font-size: 6rem;
+    }
   }
   h3 {
     font-family: field-gothic-compact, "Franklin Gothic Medium", "Arial Narrow",

@@ -5,6 +5,7 @@ const FAQ = () => {
     <article
       style={{ backgroundImage: 'url("./images/bg-fac.webp")' }}
       className={Style.fac}
+      id="contact"
     >
       <div className={Style.container}>
         <section className={Style.gridFac}>

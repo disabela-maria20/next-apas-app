@@ -19,17 +19,17 @@
     h2 {
       font-family: field-gothic, "Lucida Sans", Geneva, Verdana, sans-serif;
       color: $primary-lingh-color;
-      font-size: 3.5rem;
+      font-size: 3rem;
       font-weight: 900;
       text-transform: uppercase;
       margin-bottom: 15px;
 
       @include media(md) {
-        font-size: 3.8rem;
+        font-size: 3.5rem;
       }
 
       @include media(lg) {
-        font-size: 4.5rem;
+        font-size: 4rem;
       }
 
       img {
@@ -48,9 +48,12 @@
     p {
       font-family: "exo-soft";
       color: $primary-lingh-color;
-      font-size: 1.8rem;
-      line-height: 2.8rem;
+      font-size: 1.5rem;
+      line-height: 1.61;
       font-weight: 200;
+      @include media(md){
+        font-size: 1.8rem;
+      }
     }
   }
   .aboutCard {
@@ -67,7 +70,8 @@
     h2 {
       font-family: exo-soft, "Lucida Sans", Geneva, Verdana, sans-serif;
       color: $primary-lingh-color;
-      font-size: 2.4rem;
+      font-size: 2.2rem;
+      line-height: 1.2;
       font-weight: 300;
       text-align: center;
       margin: 0 auto;
@@ -95,7 +99,8 @@
 
       @include media(xl) {
         max-width: 900px;
-        margin: auto;
+        margin: 9rem auto 9rem auto;
+        
       }
 
       section {
@@ -118,14 +123,15 @@
         h3 {
           font-family: field-gothic-compact, "Franklin Gothic Medium",
             "Arial Narrow", Arial, sans-serif;
-          font-size: 2.8rem;
+          font-size: 2.6rem;
+          line-height: 1.2;
           font-weight: 900;
           text-align: center;
           text-transform: uppercase;
           margin-bottom: 15px;
 
           @include media(md) {
-            font-size: 3.5rem;
+            font-size: 3.1rem;
             max-width: 750px;
           }
         }
