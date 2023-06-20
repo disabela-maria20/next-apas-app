@@ -28,13 +28,10 @@ const Stages = () => {
     triangle.current = blockDiv.current?.querySelectorAll(
       'div'
     ) as NodeListOf<HTMLDivElement>
-    const handleMouseOver = (index: number) => {
-      circlediv.current?.setAttribute(
-        'style',
-        `background-color:${COLOR[index]}`
-      )
-      blockTable.current?.setAttribute('style', `color:${COLOR[index]}`)
-      setComponente(Speeches[index])
+    const handleMouseOver = (i: number) => {
+      circlediv.current?.setAttribute('style', `background-color:${COLOR[i]}`)
+      blockTable.current?.setAttribute('style', `color:${COLOR[i]}`)
+      setComponente(Speeches[i])
     }
 
     triangle.current?.forEach((item: HTMLDivElement, index: number) => {
@@ -62,7 +59,7 @@ const Stages = () => {
               <div className={Styled.botton}></div>
               <div className={Styled.right}></div>
               <div className={Styled.left}></div>
-              <div className={Styled.circle} ref={circlediv}></div>
+              <span className={Styled.circle} ref={circlediv}></span>
             </div>
           </div>
           <div ref={blockTable} style={{ color: '#5f249f' }}>

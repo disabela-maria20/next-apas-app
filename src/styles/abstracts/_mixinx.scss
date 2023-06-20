@@ -67,7 +67,7 @@
   &:hover{
     background-color: variable.$secondary-colors-dark;
   }
-  @include media(md){
+  @include media(xxl){
     font-size: 3.8rem
   }
   @if $direction == "right-botton" {
@@ -92,7 +92,7 @@
     font-size: 3.5rem;
   }
 
-  @include media(md){
+  @include media(xxl){
     font-size: 4rem;
   }
 }

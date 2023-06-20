@@ -1,16 +1,20 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
+import { useState } from 'react'
 import { useForm } from 'react-hook-form'
+import PropagateLoader from 'react-spinners/PropagateLoader'
 
 import Style from './Sponsor.module.scss'
 
 import { SponsorFormSchema } from './Sponsor.schema'
 
 import { zodResolver as ResolverZod } from '@hookform/resolvers/zod'
+import Swal from 'sweetalert2'
 import { z } from 'zod'
 
 export type SponsorForm = z.infer<typeof SponsorFormSchema>
 
-const Sponsor = (): JSX.Element => {
+const Sponsor = () => {
+  const [loaging, setLoaging] = useState<boolean>(false)
   const {
     register,
     handleSubmit,
@@ -19,8 +23,39 @@ const Sponsor = (): JSX.Element => {
     resolver: ResolverZod(SponsorFormSchema)
   })
 
-  const onSubmit = (data: SponsorForm) => {
-    console.log(data)
+  const onSubmit = async (data: SponsorForm) => {
+    setLoaging(true)
+    try {
+      const res = await fetch('/backend/email.php', {
+        method: 'POST',
+        body: JSON.stringify({
+          nome: data.name,
+          email: data.email,
+          telefone: data.tel,
+          cargo: data.office,
+          empresa: data.company
+        })
+      })
+      if (res.ok) {
+        Swal.fire({
+          title: 'Contato enviada com sucesso!',
+          text: 'Em breve entraremos em contato',
+          icon: 'success',
+          confirmButtonText: 'Fechar'
+        })
+      } else {
+        Swal.fire({
+          title: 'Opss',
+          text: 'Ocorreu um erro tente novamente mais tarde ',
+          icon: 'error',
+          confirmButtonText: 'Fechar'
+        })
+      }
+    } catch (error) {
+      console.error(error)
+    } finally {
+      setLoaging(false)
+    }
   }
 
   return (
@@ -33,6 +68,7 @@ const Sponsor = (): JSX.Element => {
         <div className={Style.sponsorBlock}>
           <h2>Seja um patrocinador!</h2>
           <form className={Style.sponsorForm} onSubmit={handleSubmit(onSubmit)}>
+            <input type="hidden" name="form" value="cadastro" />
             <label htmlFor="nome">
               <span>Nome</span>
               <input
@@ -105,7 +141,15 @@ const Sponsor = (): JSX.Element => {
                 <small className="text-error">{errors.cnpj.message}</small>
               )}
             </label>
-            <button type="submit">Enviar</button>
+            <button type="submit" disabled={loaging}>
+              {loaging ? (
+                <span>
+                  <PropagateLoader color="#000" size={8} />
+                </span>
+              ) : (
+                'Enviar'
+              )}
+            </button>
           </form>
         </div>
       </div>

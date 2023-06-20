@@ -51,13 +51,15 @@ const Nav: React.FC<NavProps> = ({ open }) => {
     { id: 2, name: 'facebook', link: 'https://www.facebook.com/ApasNext' }
   ]
   return (
-    <nav className={Style.navBar}>
-      <ul className={`${open ? Style.open : Style.close}`}>
-        {LINK?.map((link) => (
-          <li key={link.id}>
-            <AnchorLink href={link.link}>{link.name}</AnchorLink>
-          </li>
-        ))}
+    <nav className={`${Style.navBar} `}>
+      <div className={`${!open ? Style.open : Style.close}`}>
+        <ul>
+          {LINK?.map((link) => (
+            <li key={link.id}>
+              <AnchorLink href={link.link}>{link.name}</AnchorLink>
+            </li>
+          ))}
+        </ul>
         <ul className={Style.redes}>
           {REDES?.map((redes) => (
             <li key={redes.id}>
@@ -72,7 +74,7 @@ const Nav: React.FC<NavProps> = ({ open }) => {
             </li>
           ))}
         </ul>
-      </ul>
+      </div>
     </nav>
   )
 }

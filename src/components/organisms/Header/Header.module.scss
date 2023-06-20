@@ -50,12 +50,9 @@
       @include CTABorder("left-top");
       @include media(md) {
         font-size: 3.1rem;
-        margin-bottom: 17rem;
+        margin-bottom: 12rem;
       }
 
-      @include media(lg) {
-        margin-bottom: 27rem;
-      }
     }
     .Ilus {
       position: absolute;
@@ -77,7 +74,6 @@
       }
       @include media(xl) {
         max-width: 850px;
-        top: 9%;
       }
       @include media(xxl) {
         max-width: 965px;

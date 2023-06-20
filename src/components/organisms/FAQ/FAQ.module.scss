@@ -51,6 +51,7 @@
     }
 
     label {
+      font-family: exo-soft, "Lucida Sans", Geneva, Verdana, sans-serif;
       span {
         display: none;
       }
@@ -86,6 +87,12 @@
       textarea{
         height: 240px !important;
         padding: 2rem;
+      }
+      small {
+        display: block;
+        font-size: 1.5rem;
+        margin: 1.2rem 0;
+        color: $danger;
       }
     }
 

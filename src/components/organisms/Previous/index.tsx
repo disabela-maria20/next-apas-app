@@ -18,7 +18,7 @@ const Previous = () => {
           <div className={Style.dataFlex}>
             <h2 className={Style.data}>
               xxx
-              <span>pesoas</span>
+              <span>Pessoas</span>
             </h2>
             <h2 className={Style.data}>
               xx
@@ -54,10 +54,6 @@ const Previous = () => {
           },
           990: {
             slidesPerView: 4,
-            spaceBetween: 50
-          },
-          1200: {
-            slidesPerView: 5,
             spaceBetween: 50
           },
           1920: {
