@@ -6,8 +6,7 @@ const Maps = () => {
       <img
         src="./images/pattern.webp"
         alt="Faixa"
-        width={1920}
-        height={100}
+        sizes="1920px 100px"
         className={Style.range}
       />
       <section className={Style.maps}>

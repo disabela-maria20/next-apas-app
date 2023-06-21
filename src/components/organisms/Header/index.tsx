@@ -9,6 +9,7 @@ const Header = () => {
       <header
         className={Style.header}
         style={{ backgroundImage: 'url("./images/bg-gradient-blue.webp")' }}
+        id="#home"
       >
         <img
           src="./images/header-illustration.webp"

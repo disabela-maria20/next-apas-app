@@ -69,6 +69,7 @@ const Previous = () => {
               <LazyLoadImage
                 effect="blur"
                 src={`/images/speaker2022/${data.image}`}
+                sizes="230px"
                 visibleByDefault={true}
                 threshold={100}
                 alt={data.nome}
