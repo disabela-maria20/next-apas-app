@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import Style from './Counter.module.scss'
 
@@ -116,7 +117,7 @@ const Counter: React.FC = (): JSX.Element => {
                 </span>
               </div>
             </h2>
-            <a href="" className={Style.link}>
+            <AnchorLink href="#accreditation" className={Style.link}>
               <img
                 src="./images/arrow.png"
                 alt="seta para esquerda"
@@ -124,7 +125,7 @@ const Counter: React.FC = (): JSX.Element => {
                 height={24}
               />
               inscreva-se
-            </a>
+            </AnchorLink>
           </div>
         </div>
       </article>
