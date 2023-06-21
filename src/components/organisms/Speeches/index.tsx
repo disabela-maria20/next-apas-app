@@ -25,13 +25,20 @@ const Speeches = () => {
       name: 'Nome Três Sobrenome',
       company: 'Empresa',
       url: 'speaker-3.png'
+    },
+    {
+      id: 0,
+      name: 'Nome Um Sobrenome',
+      company: 'Empresa',
+      url: 'speaker-1.png'
     }
   ]
 
   const responsives = {
     0: { items: 1 },
     568: { items: 2 },
-    992: { items: 3 }
+    992: { items: 4 },
+    1200: { items: 4 }
   }
 
   return (
@@ -73,6 +80,10 @@ const Speeches = () => {
                 },
                 768: {
                   slidesPerView: 3,
+                  spaceBetween: 40
+                },
+                1200: {
+                  slidesPerView: 4,
                   spaceBetween: 40
                 }
               }}
