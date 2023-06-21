@@ -1,8 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 
 import Style from './Counter.module.scss'
 
 const Counter: React.FC = (): JSX.Element => {
+  const scroll = useRef<HTMLDivElement | null>(null)
+  const [isScrolling, setIsScrolling] = useState<boolean>(false)
+
   const [timeLeft, setTimeLeft] = useState<{
     days: number
     hours: number
@@ -60,6 +63,24 @@ const Counter: React.FC = (): JSX.Element => {
     return () => clearInterval(timer)
   }, [])
 
+  const handleScroll = useCallback(() => {
+    const scrollTop: number = window.scrollY
+    const clientHeight: number = scroll.current?.clientHeight ?? 0
+
+    if (scrollTop > clientHeight) {
+      setIsScrolling(true)
+    } else {
+      setIsScrolling(false)
+    }
+  }, [])
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll)
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [handleScroll])
+
   if (
     timeLeft.days > 0 ||
     timeLeft.hours > 0 ||
@@ -67,7 +88,10 @@ const Counter: React.FC = (): JSX.Element => {
     timeLeft.seconds > 0
   ) {
     return (
-      <article className={Style.bgColor}>
+      <article
+        className={`${Style.bgColor} ${isScrolling ? Style.active : ''}`}
+        ref={scroll}
+      >
         <div className={Style.container}>
           <div className={Style.flexCouter}>
             <h2>

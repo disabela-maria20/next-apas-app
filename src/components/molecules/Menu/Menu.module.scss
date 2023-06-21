@@ -7,7 +7,7 @@
 }
 
 .flexDeskTop{
-  height: 100px;
+  height: 90px;
   @include media('lg'){
     display: flex;
     justify-content: space-between;

@@ -3,81 +3,171 @@
   background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  padding-bottom: 9rem;
+  
+  @include media(lg){
+    height: 100vh;
+  }
+  
+  @include media(lg) {
+    height: inherit;
+    padding-bottom: 1rem;
+  }
 
+  @include media(xxl){
+    padding-bottom: 0rem;
+  }
+  .headerImg {
+    width: 100%;
+    height: initial;
+    display: none;
+    @include media(lg) {
+      display: block;
+    }
+    @include media(xxl) {
+      height: initial;
+      margin: 0 auto;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
 
-  @include media(xs){
+  @include media(xs) {
     background-image: none;
+  }
+  .headerPosition {
+    @include media(lg) {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
   }
 
   .headerBlock {
-    max-width: 320px;
-    img {
-      margin-top: 6rem;
-      object-fit: contain;
-
-      @include media(sm) {
-        margin-top: 80px;
-        // margin-bottom: 50px;
-      }
+    max-width: 350px;
+    @include media(lg) {
+      max-width: 326px;
     }
-    h1 {
-      font-family: field-gothic-compact, "Franklin Gothic Medium",
-        "Arial Narrow", Arial, sans-serif;
-      font-weight: 800;
-      font-size: 5.5rem;
-      line-height: 5.4rem;
-      color: $tertiary-colors;
-      margin: 4.5rem 0;
-      @include media(md) {
-        font-size: 5.8rem;
-        line-height: 5.7rem;
-      }
-      span:not(.subTitle) {
-        font-weight: 700;
-        font-size: 3.5rem;
-        display: block;
-      }
-      .subTitle {
-        font-weight: 400;
-        color: $primary-lingh-color;
-        font-size: 3.5rem;
-        line-height: 3.5rem !important;
-      }
+    @include media(xl) {
+      max-width: 340px;
     }
-    .date {
-      display: inline-block;
-      margin-bottom:10rem;
-      @include CTABorder("left-top");
-      @include media(md) {
-        font-size: 3.1rem;
-        margin-bottom: 12rem;
-      }
-
+    @include media(xxl) {
+      max-width: 320px;
     }
-    .Ilus {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: initial;
-      width: inherit;
-      display: none;
-   
-      @include media(md) {
-        max-width: 489px;
-        top: 12%;
-      }
+    .headerFlex {
+      
+      img {
+        margin-top: 6rem;
+        object-fit: contain;
 
-      @include media(lg) {
-        display: block;
-        max-width: 675px;
-        top: 20%;
+        @include media(sm) {
+          margin-top: 80px;
+          // margin-bottom: 50px;
+        }
+        @include media(md) {
+          margin-top: 30px;
+          width: 210px;
+        }
+        @include media(lg) {
+          margin-top: 0px;
+          width: 210px;
+        }
+        @include media(xxl) {
+          margin-top: 12rem;
+          width: initial;
+        }
       }
-      @include media(xl) {
-        max-width: 850px;
+      h1 {
+        font-family: field-gothic, "Franklin Gothic Medium",
+          "Arial Narrow", Arial, sans-serif;
+        font-weight: 800;
+        font-size: 5.5rem;
+        line-height: 5.4rem;
+        color: $tertiary-colors;
+        margin: 4.5rem 0;
+
+        @include media(md) {
+          font-size: 5.8rem;
+          line-height: 5.7rem;
+        }
+        @include media(lg) {
+          font-size: 4.2vw;
+          line-height: 3.8vw;
+          margin: 0;
+        }
+        @include media(xxl) {
+          margin: 2vw 0;
+          font-size: 5.5rem;
+          line-height: 0.9;
+        }
+        span:not(.subTitle) {
+          font-family: field-gothic-compact, "Franklin Gothic Medium",
+          "Arial Narrow", Arial, sans-serif;
+          font-weight: 700;
+          font-size: 3.5rem;
+          display: block;
+
+          @include media(lg) {
+            font-size: 3vw;
+          }
+          @include media(xxl) {
+            font-size: 4rem;
+          }
+        }
+
+        .subTitle {
+          font-family: field-gothic-compact, "Franklin Gothic Medium",
+          "Arial Narrow", Arial, sans-serif;
+          font-weight: 400;
+          color: $primary-lingh-color;
+          font-size: 3.5rem;
+          line-height: 3.5rem !important;
+          margin-bottom: 2.5rem;
+          @include media(xl) {
+            font-size: 2.5vw;
+          }
+          @include media(xxl) {
+            font-size: 4rem;
+            line-height: .9 !important;
+          }
+        }
       }
-      @include media(xxl) {
-        max-width: 965px;
-        top: 15%;
+      .date {
+        display: inline-block;
+        margin-bottom: 10rem;
+        @include CTABorder("left-top");
+        @include media(md) {
+          font-size: 3.1rem;
+          margin-bottom: 12rem;
+        }
+      }
+      .Ilus {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: initial;
+        width: inherit;
+        display: none;
+
+        @include media(md) {
+          max-width: 489px;
+          top: 12%;
+        }
+
+        @include media(lg) {
+          display: block;
+          max-width: 675px;
+          top: 20%;
+        }
+        @include media(xl) {
+          max-width: 850px;
+        }
+        @include media(xxl) {
+          max-width: 965px;
+          top: 15%;
+        }
       }
     }
   }
