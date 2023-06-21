@@ -17,7 +17,6 @@
     }
   }
   ul {
-   
     margin: 0 auto;
     list-style-type: none;
     padding-bottom: 4.5rem;
@@ -120,6 +119,11 @@
         display: block;
         margin: 0 auto;
         object-fit: contain;
+        width: 250px;
+
+        @include media(xxl) {
+          width: 300px;
+        }
       }
     }
   }

@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
+import React, { useCallback, useEffect, useRef, useState } from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import Style from './Counter.module.scss'
@@ -20,7 +20,7 @@ const Counter: React.FC = (): JSX.Element => {
   })
 
   useEffect(() => {
-    const finalDate: string = '2023-08-15'
+    const finalDate: string = '2023-08-15T01:00:00'
     const finalDateTime: number = new Date(finalDate).getTime()
 
     const updateCountdown = () => {
@@ -30,9 +30,9 @@ const Counter: React.FC = (): JSX.Element => {
         currentTime.getFullYear(),
         currentTime.getMonth(),
         currentTime.getDate(),
-        23,
-        59,
-        59
+        0,
+        0,
+        0
       )
       const midnightDateTime: number = midnight.getTime()
 
@@ -59,7 +59,7 @@ const Counter: React.FC = (): JSX.Element => {
     }
 
     const timer = setInterval(updateCountdown, 1000)
-    updateCountdown() // Atualizar imediatamente ao montar o componente
+    updateCountdown()
 
     return () => clearInterval(timer)
   }, [])
