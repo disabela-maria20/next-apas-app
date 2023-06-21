@@ -6,7 +6,11 @@
   background-color: $quaternary-colos;
   color: $primary-lingh-color;
   padding: 4.5rem 0 6rem 0;
+  margin-bottom: 12rem;
 
+  @include media(md){
+    margin-bottom: 0;
+  }
   .navBar {
     display: block;
 

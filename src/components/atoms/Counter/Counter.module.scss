@@ -6,9 +6,14 @@
   transition: background 400ms ease-in-out;
   &.active{
     position: fixed;
-    top: 0;
+    bottom: 0;
     width: 100%;
     z-index: 9;
+
+    @include media(md){
+      top: 0;
+      bottom: initial;
+    }
   }
   .container {
     @include container();
