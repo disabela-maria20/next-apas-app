@@ -90,13 +90,7 @@
     "empresa": "Vércer",
     "image": "Felipe.jpeg"
   },
-  {
-    "id": 14,
-    "nome": "Fernando Gambôa",
-    "cargo": "Sócio Líder para o Setor de Consumo & Varejo",
-    "empresa": "KPMG Brasil e América do Sul",
-    "image": "FG_19_B.png"
-  },
+
   {
     "id": 15,
     "nome": "Gabriel Fernandes",
@@ -125,13 +119,7 @@
     "empresa": "TOTVS",
     "image": "joao.jpeg"
   },
-  {
-    "id": 19,
-    "nome": "Joaquim Garcia",
-    "cargo": "VP de TI & Transformação",
-    "empresa": "Empreendimentos Pague Menos",
-    "image": "FotoJDGN.jpg"
-  },
+
   {
     "id": 20,
     "nome": "Jorge Inafuco",
