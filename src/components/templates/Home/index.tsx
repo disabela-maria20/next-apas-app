@@ -1,3 +1,5 @@
+import Styled from './Home.module.scss'
+
 import { Maps } from '@/components/molecules'
 import {
   About,
@@ -13,6 +15,7 @@ import {
 const Home = () => {
   return (
     <>
+      <img src="./images/craquelado.webp" alt="" className={Styled.watermark} />
       <Header />
       <main>
         <About />
