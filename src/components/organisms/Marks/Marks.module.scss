@@ -4,6 +4,7 @@
 
 .marks {
   padding-top: 9rem;
+  background-color: $primary-lingh-color;
 
   @include media(sm) {
     padding-top: 12rem;
