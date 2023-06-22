@@ -88,14 +88,24 @@
 
   }
   .themeCenter{
-    p {
+   .themeFlex{
+    @include media(xl){
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      align-items: center;
+      justify-content: center;
+      gap: 7rem;
+    }
+    ul li { 
+      list-style-type: none;
       font-family: exo-soft, "Lucida Sans", Geneva, Verdana, sans-serif;
       color: $primary-lingh-color;
       font-size: 1.9rem;
       font-weight: 300;
       text-align: center;
       line-height: 1.2;
-
+      margin-bottom: 1rem;
+      
       @include media(sm) {
         font-size: 1.8rem;
       }
@@ -104,23 +114,10 @@
         font-size: 2.2rem;
       }
 
-      strong{
-        font-weight: 900;
-
-        display: inline;
-        @include media(sm) {
-          font-size: 1.6rem;
-        }
-  
-        @include media(md){
-          font-size: 2rem;
-        }
-  
-        @include media(md){
-          font-size: 2.4rem;
-        }
-      }
+     
     }
+   }
+    
   }
 }
 

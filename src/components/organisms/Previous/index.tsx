@@ -87,25 +87,30 @@ const Previous = () => {
         <h2>principais temas</h2>
         <div className={Style.themeCenter}>
           <div className={Style.container}>
-            <p>
-              Virtualização, Conexão e Convergência Digital. &nbsp;
-              <strong>
-                Tecnologia: da retaguarda ao consumidor final. &nbsp;
-              </strong>
-              Além do Físico: o varejo mais Digital e mais Humano. &nbsp;
-              <strong>
-                Praticando o Impensável: as transformações do varejo. &nbsp;
-              </strong>
-              Como construir uma jornada de compras memorável. &nbsp;
-              <strong>
-                Desafios e Riscos na sustentação do negócio. &nbsp;
-              </strong>
-              O futuro na prática de hoje.&nbsp;
-              <strong>
-                A loja 4.0 conectada com o consumidor digital. &nbsp;
-              </strong>
-              Experiências inovadoras no chão de loja e no mundo virtual.
-            </p>
+            <div className={Style.themeFlex}>
+              <ul>
+                <li>Virtualização, Conexão e Convergência Digital. &nbsp;</li>
+                <li> Tecnologia: da retaguarda ao consumidor final. &nbsp;</li>
+                <li>
+                  Além do Físico: o varejo mais Digital e mais Humano. &nbsp;
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  Praticando o Impensável: as transformações do varejo. &nbsp;
+                </li>
+                <li>Como construir uma jornada de compras memorável. &nbsp;</li>
+                <li> Desafios e Riscos na sustentação do negócio. &nbsp;</li>
+              </ul>
+
+              <ul>
+                <li> O futuro na prática de hoje.&nbsp;</li>
+                <li> A loja 4.0 conectada com o consumidor digital. &nbsp;</li>
+                <li>
+                  Experiências inovadoras no chão de loja e no mundo virtual.
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
