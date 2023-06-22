@@ -1,0 +1,18 @@
+.range{
+  background-color: $secondary-colors;
+  color: $primary-lingh-color;
+  padding: 1.5rem ;
+  text-align: center;
+  font-family: field-gothic, "Franklin Gothic Medium",
+  "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+
+  @include media(md){
+    font-size: 1.8rem;
+  }
+  @include media(xxl){
+    font-size: 2.2rem;
+  }
+}

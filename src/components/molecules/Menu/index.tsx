@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 import Style from './Menu.module.scss'
 
-import { Burger, Counter, Logo, Nav } from '@/components/atoms'
+import { Burger, Counter, Logo, Nav, Range } from '@/components/atoms'
 
 const Menu = (): JSX.Element => {
   const [open, setOpen] = useState<boolean>(true)
@@ -21,6 +21,7 @@ const Menu = (): JSX.Element => {
         </div>
       </div>
       <Counter />
+      <Range />
     </>
   )
 }

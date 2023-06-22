@@ -15,7 +15,6 @@ import {
 const Home = () => {
   return (
     <>
-      <img src="./images/craquelado.webp" alt="" className={Styled.watermark} />
       <Header />
       <main>
         <About />
@@ -23,7 +22,7 @@ const Home = () => {
         <Stages />
         <Previous />
         <FAQ />
-        <Marks />
+        {/* <Marks /> */}
         <Maps />
         <Footer />
       </main>

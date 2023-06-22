@@ -70,16 +70,12 @@ const About = () => {
               <Logo />
             </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
-              vero? Tempora voluptas hic iste incidunt molestias harum eos
-              laborum quibusdam quasi, quisquam debitis adipisci voluptates
-              nulla, necessitatibus ratione. Amet, veritatis.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
-              vero illum consequatur natus nulla, dignissimos corrupti ex ut
-              dolorem deserunt, repellendus voluptates corporis voluptate
-              soluta! Officia et ratione cumque nihil?
+              O NSG surge em 2023 com um novo posicionamento, que, através da
+              sua nova identidade visual, chega cheio de dinamismo, jovialidade,
+              inovação, tecnologia e conexão. Com conteúdos exclusivos, o evento
+              proporciona troca de conhecimento, boas práticas, relacionamento,
+              integração e exposição de soluções direcionadas ao setor.
+              Prepare-se para a 6° edição do NSG!
             </p>
           </div>
         </section>

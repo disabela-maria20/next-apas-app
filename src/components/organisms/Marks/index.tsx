@@ -16,19 +16,19 @@ const Marks = () => {
         <h3>Big Data</h3>
       </div>
       <div className={Style.container}>
-        <img src="./images/div-5.png" alt="amostra" />
+        <img src="./images/div-5.png" alt="amostra" role="presentation" />
       </div>
       <div className={Style.marksTitle}>
         <h3>Giga</h3>
       </div>
       <div className={Style.container}>
-        <img src="./images/div-5.png" alt="amostra" />
+        <img src="./images/div-5.png" alt="amostra" role="presentation" />
       </div>
       <div className={Style.marksTitle}>
         <h3>mega</h3>
       </div>
       <div className={Style.container}>
-        <img src="./images/div-5.png" alt="amostra" />
+        <img src="./images/div-5.png" alt="amostra" role="presentation" />
       </div>
       <div className={Style.admMarks}>
         <div className={Style.container}>

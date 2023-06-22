@@ -18,9 +18,9 @@ export const contactFormSchema = z.object({
     .string()
     .email('Formato de e-mail invalido')
     .toLowerCase()
-    .nonempty('Infome o e-mail'),
+    .nonempty('Informe o e-mail'),
   message: z
     .string()
     .min(3, { message: 'A qualidade de caracteres minimas é 5' })
-    .nonempty('Infome a mensagem obrigatório')
+    .nonempty('Informe a mensagem obrigatório')
 })

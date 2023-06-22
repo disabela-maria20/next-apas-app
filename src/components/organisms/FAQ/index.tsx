@@ -64,11 +64,24 @@ const FAQ = () => {
       <div className={Style.container}>
         <section className={Style.gridFac}>
           <div>
-            <p>Lorem Ipsum dolor suit?</p>
-            <p>Lorem Ipsum dolor suit?</p>
-            <p>Lorem Ipsum dolor suit?</p>
-            <p>Lorem Ipsum dolor suit?</p>
-            <p>Lorem Ipsum dolor suit?</p>
+            <p>Um novo evento em um novo local.</p>
+            <p> O NSG ocorrerá no dia 15 de agosto de 2023.</p>
+            <address>
+              o NSG será no São Paulo Expo (pavilhão 4) <br />
+              Rodovia dos Imigrantes, km 1,5 - CEP: 04329-900 -São Paulo SP
+            </address>
+            <p>
+              Para quem vai de carro, estamos há 10 minutos do Rodoanel Mário
+              Covas.
+            </p>
+            <p>
+              Fora do perímetro de restrição municipal de veículos (rodízio).
+            </p>
+            <p>
+              Para quem vai de transporte público, estamos há 850 m do metrô
+              Jabaquara.
+            </p>
+            <p>Estamos há 10 minutos do Aeroporto de Congonhas.</p>
             <h2>FAQ</h2>
           </div>
           <div>

@@ -1,9 +1,10 @@
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
-import Style from './Speeches.module.scss'
 import 'swiper/css'
+import 'swiper/css/navigation'
+import Style from './Speeches.module.scss'
 
-import { Autoplay } from 'swiper'
+import { Autoplay, Navigation } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 const Speeches = () => {
@@ -27,19 +28,12 @@ const Speeches = () => {
       url: 'speaker-3.png'
     },
     {
-      id: 0,
+      id: 3,
       name: 'Nome Um Sobrenome',
       company: 'Empresa',
       url: 'speaker-1.png'
     }
   ]
-
-  const responsives = {
-    0: { items: 1 },
-    568: { items: 2 },
-    992: { items: 4 },
-    1200: { items: 4 }
-  }
 
   return (
     <>
@@ -83,11 +77,12 @@ const Speeches = () => {
                   spaceBetween: 40
                 },
                 1200: {
-                  slidesPerView: 4,
+                  slidesPerView: 3,
                   spaceBetween: 40
                 }
               }}
-              modules={[Autoplay]}
+              navigation={true}
+              modules={[Autoplay, Navigation]}
             >
               {URLIMAGES.map((data) => (
                 <SwiperSlide key={data.id}>
@@ -95,6 +90,9 @@ const Speeches = () => {
                     <LazyLoadImage
                       effect="blur"
                       src={`./images/speaker/${data.url}`}
+                      sizes="230px "
+                      visibleByDefault={true}
+                      threshold={100}
                     />
 
                     <h3>{data.name}</h3>

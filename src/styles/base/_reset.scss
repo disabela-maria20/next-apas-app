@@ -361,3 +361,7 @@ template {
 [hidden] {
   display: none;
 }
+
+.swiper-button-next::after, .swiper-button-prev::after{
+  color: #fff !important;
+}

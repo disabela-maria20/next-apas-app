@@ -55,6 +55,7 @@
       font-size: 4rem;
     }
   }
+  
 }
 
 .BlockImage {
@@ -87,9 +88,6 @@
 
   }
   .themeCenter{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     p {
       font-family: exo-soft, "Lucida Sans", Geneva, Verdana, sans-serif;
       color: $primary-lingh-color;
@@ -97,7 +95,7 @@
       font-weight: 300;
       text-align: center;
       line-height: 1.2;
-    
+
       @include media(sm) {
         font-size: 1.8rem;
       }
@@ -106,27 +104,16 @@
         font-size: 2.2rem;
       }
 
-      @include media(md){
-        font-size: 2.8rem;
-      }
-      &:nth-child(1){
-        margin-left: 2.5rem;
-      }
-
-      &:nth-child(2){
-        margin-right: 2.5rem;
-      }
       strong{
         font-weight: 900;
-        margin-left: 2.5rem;
 
+        display: inline;
         @include media(sm) {
           font-size: 1.6rem;
         }
   
         @include media(md){
           font-size: 2rem;
-          margin-left: 4.5rem;
         }
   
         @include media(md){
@@ -136,3 +123,4 @@
     }
   }
 }
+

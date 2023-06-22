@@ -34,7 +34,7 @@
       font-family: field-gothic-compact, "Lucida Sans", "Lucida Sans Regular", Geneva,
         Verdana, sans-serif;
       font-weight: 300;
-      font-size: 2.5rem;
+      font-size: 1.8rem;
       text-transform: uppercase;
       color: #1d1f48;
       letter-spacing: 2px;
@@ -47,16 +47,25 @@
         flex-wrap: nowrap;
         flex-direction: row;
         align-items: center;
+
       }
       @include media(xxl) {
-        font-size: 3.5rem;
+        font-size: 2.8rem;
       }
 
       strong {
-        font-size: 4.5rem;
+        font-size: 2.2rem;
         letter-spacing: 0px;
         margin-left: 15px;
         font-weight: 900;
+
+        @include media(md){
+          font-size: 2.8rem
+        }
+        @include media(lg){
+          font-size: 3.5rem
+        }
+      
       }
     }
     .link {

@@ -89,10 +89,10 @@ const index = () => {
               (11) 3647-5000
             </a>
             <a
-              href="mailto:exemplo@exemplo.com.br"
+              href="mailto:central.apas@apas.com.br "
               target="JET"
               title="E-mail"
-              aria-label="Telefone da APAS"
+              aria-label="E-mail da APAS"
               rel="noreferrer"
             >
               central.apas@apas.com.br

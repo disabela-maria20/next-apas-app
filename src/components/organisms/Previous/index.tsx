@@ -1,9 +1,10 @@
-import Style from './Previous.module.scss'
 import 'swiper/css'
+import 'swiper/css/navigation'
+import Style from './Previous.module.scss'
 
 import PAS from './Previous.json'
 
-import { Autoplay } from 'swiper'
+import { Autoplay, Navigation } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 // eslint-disable-next-line import-helpers/order-imports
@@ -61,7 +62,8 @@ const Previous = () => {
             spaceBetween: 50
           }
         }}
-        modules={[Autoplay]}
+        navigation={true}
+        modules={[Autoplay, Navigation]}
       >
         {PAS.map((data) => (
           <SwiperSlide key={data.id}>
@@ -69,7 +71,7 @@ const Previous = () => {
               <LazyLoadImage
                 effect="blur"
                 src={`/images/speaker2022/${data.image}`}
-                sizes="230px"
+                sizes="230px "
                 visibleByDefault={true}
                 threshold={100}
                 alt={data.nome}
@@ -83,14 +85,26 @@ const Previous = () => {
       <section className={Style.theme}>
         <h2>principais temas</h2>
         <div className={Style.themeCenter}>
-          <p>
-            lorem ipsum
-            <strong>lorem ipsum</strong>
-          </p>
-          <p>
-            lorem ipsum
-            <strong>lorem ipsum</strong>
-          </p>
+          <div className={Style.container}>
+            <p>
+              VipCommerce foca em estratégias omnicanais para setor
+              supermercadista. &nbsp;
+              <strong>
+                GIC Brasil apresenta sistema de gerenciamento para varejo.
+                &nbsp;
+              </strong>
+              Pricefy apresenta inovações para transformar experiência de
+              compra. &nbsp;
+              <strong>
+                Praticando o Impensável: as transformações do varejo. &nbsp;
+              </strong>
+              Metaverso: quais as tendências para o setor supermercadista?
+              &nbsp;
+              <strong>O futuro já chegou! &nbsp;</strong>
+              APAS NEXT: Presidente da APAS reforça a importância da tecnologia
+              no setor supermercadista. &nbsp;
+            </p>
+          </div>
         </div>
       </section>
     </article>

@@ -119,10 +119,10 @@
         display: block;
         margin: 0 auto;
         object-fit: contain;
-        width: 250px;
+        width: 330px;
 
         @include media(xxl) {
-          width: 300px;
+          width: 350px;
         }
       }
     }
