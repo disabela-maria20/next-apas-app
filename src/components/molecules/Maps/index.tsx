@@ -3,12 +3,12 @@ import Style from './Maps.module.scss'
 const Maps = () => {
   return (
     <article className={Style.bgMaps}>
-      <img
+      {/* <img
         src="./images/pattern.webp"
-        alt="Faixa"
-        sizes="1920px 100px"
+        role="presentation"
+        sizes="1920px 1108px"
         className={Style.range}
-      />
+      /> */}
       <section className={Style.maps}>
         <div className={Style.container}>
           <h3>agora em novo local:</h3>

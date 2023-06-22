@@ -82,6 +82,11 @@
     li {
       list-style-type: none;
       margin: 0 3.5px;
+
+      img{
+        width: 29px;
+        height: 29px;
+      }
     }
     @include media(lg) {
       margin-top: 0;

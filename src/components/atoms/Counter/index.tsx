@@ -121,7 +121,7 @@ const Counter: React.FC = (): JSX.Element => {
               <img
                 src="./images/arrow.png"
                 alt="seta para esquerda"
-                width={24}
+                width={36}
                 height={24}
               />
               inscreva-se

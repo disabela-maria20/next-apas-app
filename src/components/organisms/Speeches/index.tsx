@@ -63,7 +63,6 @@ const Speeches = () => {
                 disableOnInteraction: false
               }}
               slidesPerView={1}
-              spaceBetween={10}
               pagination={{
                 clickable: true
               }}
@@ -90,7 +89,8 @@ const Speeches = () => {
                     <LazyLoadImage
                       effect="blur"
                       src={`./images/speaker/${data.url}`}
-                      sizes="230px "
+                      sizes="230px 150px"
+                      role="presentation"
                       visibleByDefault={true}
                       threshold={100}
                     />

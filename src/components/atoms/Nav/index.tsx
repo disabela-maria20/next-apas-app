@@ -67,8 +67,8 @@ const Nav: React.FC<NavProps> = ({ open }) => {
                 <img
                   src={`./images/${redes.name}.webp`}
                   alt={`rede social ${redes.name}`}
-                  width={29}
-                  height={29}
+                  width={44}
+                  height={44}
                 />
               </a>
             </li>

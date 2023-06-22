@@ -18,16 +18,16 @@ const Previous = () => {
           <h2 className={Style.title}>o que rolou em 2022</h2>
           <div className={Style.dataFlex}>
             <h2 className={Style.data}>
-              xxx
-              <span>Pessoas</span>
+              34
+              <span>palestrantes</span>
             </h2>
             <h2 className={Style.data}>
-              xx
-              <span>marcas</span>
+              37
+              <span>patrocionadores</span>
             </h2>
             <h2 className={Style.data}>
-              xx
-              <span>palestras</span>
+              12
+              <span>horas de evento</span>
             </h2>
           </div>
         </section>
@@ -71,10 +71,11 @@ const Previous = () => {
               <LazyLoadImage
                 effect="blur"
                 src={`/images/speaker2022/${data.image}`}
-                sizes="230px "
+                sizes="230px 250px"
                 visibleByDefault={true}
                 threshold={100}
                 alt={data.nome}
+                role="presentation"
               />
               <h3>{data.nome}</h3>
             </section>
@@ -87,22 +88,23 @@ const Previous = () => {
         <div className={Style.themeCenter}>
           <div className={Style.container}>
             <p>
-              VipCommerce foca em estratégias omnicanais para setor
-              supermercadista. &nbsp;
+              Virtualização, Conexão e Convergência Digital. &nbsp;
               <strong>
-                GIC Brasil apresenta sistema de gerenciamento para varejo.
-                &nbsp;
+                Tecnologia: da retaguarda ao consumidor final. &nbsp;
               </strong>
-              Pricefy apresenta inovações para transformar experiência de
-              compra. &nbsp;
+              Além do Físico: o varejo mais Digital e mais Humano. &nbsp;
               <strong>
                 Praticando o Impensável: as transformações do varejo. &nbsp;
               </strong>
-              Metaverso: quais as tendências para o setor supermercadista?
-              &nbsp;
-              <strong>O futuro já chegou! &nbsp;</strong>
-              APAS NEXT: Presidente da APAS reforça a importância da tecnologia
-              no setor supermercadista. &nbsp;
+              Como construir uma jornada de compras memorável. &nbsp;
+              <strong>
+                Desafios e Riscos na sustentação do negócio. &nbsp;
+              </strong>
+              O futuro na prática de hoje.&nbsp;
+              <strong>
+                A loja 4.0 conectada com o consumidor digital. &nbsp;
+              </strong>
+              Experiências inovadoras no chão de loja e no mundo virtual.
             </p>
           </div>
         </div>

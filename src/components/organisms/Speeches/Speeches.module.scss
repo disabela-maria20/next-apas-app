@@ -119,7 +119,8 @@
         display: block;
         margin: 0 auto;
         object-fit: contain;
-        width: 330px;
+        width: 350px;
+        padding: 30px;
 
         @include media(xxl) {
           width: 350px;
