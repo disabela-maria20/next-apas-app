@@ -1,9 +1,10 @@
-import React, { useCallback, useEffect, useRef, useState } from 'react'
+import React, { useCallback, useEffect, useRef, useState, memo } from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import Style from './Counter.module.scss'
 
-const Counter: React.FC = (): JSX.Element => {
+// eslint-disable-next-line react/display-name
+const Counter: React.FC = memo(() => {
   const scroll = useRef<HTMLDivElement | null>(null)
   const [isScrolling, setIsScrolling] = useState<boolean>(false)
 
@@ -19,64 +20,61 @@ const Counter: React.FC = (): JSX.Element => {
     seconds: 0
   })
 
-  useEffect(() => {
+  const updateCountdown = useCallback(() => {
     const finalDate: string = '2023-08-15T01:00:00'
     const finalDateTime: number = new Date(finalDate).getTime()
 
-    const updateCountdown = () => {
-      const currentTime: Date = new Date()
-      const currentDateTime: number = currentTime.getTime()
-      const midnight: Date = new Date(
-        currentTime.getFullYear(),
-        currentTime.getMonth(),
-        currentTime.getDate(),
-        0,
-        0,
-        0
+    const currentTime: Date = new Date()
+    const currentDateTime: number = currentTime.getTime()
+    const midnight: Date = new Date(
+      currentTime.getFullYear(),
+      currentTime.getMonth(),
+      currentTime.getDate(),
+      0,
+      0,
+      0
+    )
+    const midnightDateTime: number = midnight.getTime()
+
+    if (finalDateTime > currentDateTime) {
+      const diffInMs: number = finalDateTime - currentDateTime
+      const diffInSeconds: number = Math.floor(diffInMs / 1000)
+      const days: number = Math.floor(diffInSeconds / (24 * 60 * 60))
+      const hours: number = Math.floor(
+        (diffInSeconds % (24 * 60 * 60)) / (60 * 60)
       )
-      const midnightDateTime: number = midnight.getTime()
+      const minutes: number = Math.floor((diffInSeconds % (60 * 60)) / 60)
+      const seconds: number = Math.floor(diffInSeconds % 60)
 
-      if (finalDateTime > currentDateTime) {
-        const diffInMs: number = finalDateTime - currentDateTime
-        const diffInSeconds: number = Math.floor(diffInMs / 1000)
-        const days: number = Math.floor(diffInSeconds / (24 * 60 * 60))
-        const hours: number = Math.floor(
-          (diffInSeconds % (24 * 60 * 60)) / (60 * 60)
-        )
-        const minutes: number = Math.floor((diffInSeconds % (60 * 60)) / 60)
-        const seconds: number = Math.floor(diffInSeconds % 60)
+      setTimeLeft({ days, hours, minutes, seconds })
+    } else {
+      const diffInMs: number = midnightDateTime - currentDateTime
+      const diffInSeconds: number = Math.floor(diffInMs / 1000)
+      const hours: number = Math.floor(diffInSeconds / (60 * 60))
+      const minutes: number = Math.floor((diffInSeconds % (60 * 60)) / 60)
+      const seconds: number = Math.floor(diffInSeconds % 60)
 
-        setTimeLeft({ days, hours, minutes, seconds })
-      } else {
-        const diffInMs: number = midnightDateTime - currentDateTime
-        const diffInSeconds: number = Math.floor(diffInMs / 1000)
-        const hours: number = Math.floor(diffInSeconds / (60 * 60))
-        const minutes: number = Math.floor((diffInSeconds % (60 * 60)) / 60)
-        const seconds: number = Math.floor(diffInSeconds % 60)
-
-        setTimeLeft({ days: 0, hours, minutes, seconds })
-      }
+      setTimeLeft({ days: 0, hours, minutes, seconds })
     }
+  }, [])
 
+  useEffect(() => {
     const timer = setInterval(updateCountdown, 1000)
     updateCountdown()
 
     return () => clearInterval(timer)
-  }, [])
+  }, [updateCountdown])
 
   const handleScroll = useCallback(() => {
     const scrollTop: number = window.scrollY
     const clientHeight: number = scroll.current?.clientHeight ?? 0
 
-    if (scrollTop > clientHeight) {
-      setIsScrolling(true)
-    } else {
-      setIsScrolling(false)
-    }
+    setIsScrolling(scrollTop > clientHeight)
   }, [])
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll)
+
     return () => {
       window.removeEventListener('scroll', handleScroll)
     }
@@ -132,7 +130,7 @@ const Counter: React.FC = (): JSX.Element => {
     )
   }
 
-  return <></>
-}
+  return null
+})
 
 export default Counter

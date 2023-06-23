@@ -19,16 +19,16 @@ const index = () => {
       name: 'Credenciamento',
       link: '#accreditation'
     },
-    {
-      id: 4,
-      name: 'Palestras',
-      link: '#speeches'
-    },
-    {
-      id: 5,
-      name: 'Palestrantes',
-      link: '#speakers'
-    },
+    // {
+    //   id: 4,
+    //   name: 'Palestras',
+    //   link: '#speeches'
+    // },
+    // {
+    //   id: 5,
+    //   name: 'Palestrantes',
+    //   link: '#speakers'
+    // },
     {
       id: 6,
       name: 'Contato',
