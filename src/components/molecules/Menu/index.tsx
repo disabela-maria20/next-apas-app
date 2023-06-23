@@ -16,7 +16,7 @@ const Menu = (): JSX.Element => {
               <Logo />
               <Burger open={!open} setOpen={() => setOpen(!open)} />
             </div>
-            <Nav open={open} />
+            <Nav open={open} setOpen={setOpen} />
           </div>
         </div>
       </div>

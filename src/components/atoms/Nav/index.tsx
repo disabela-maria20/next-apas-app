@@ -1,13 +1,13 @@
-'use client'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import Style from './Nav.module.scss'
 
 interface NavProps {
   open: boolean
+  setOpen: (value: boolean) => void
 }
 
-const Nav: React.FC<NavProps> = ({ open }) => {
+const Nav: React.FC<NavProps> = ({ open, setOpen }) => {
   const LINK = [
     {
       id: 0,
@@ -50,12 +50,13 @@ const Nav: React.FC<NavProps> = ({ open }) => {
     { id: 1, name: 'instagram', link: 'https://www.instagram.com/apasnext/' },
     { id: 2, name: 'facebook', link: 'https://www.facebook.com/ApasNext' }
   ]
+
   return (
     <nav className={`${Style.navBar} `}>
       <div className={`${!open ? Style.open : Style.close}`}>
         <ul>
           {LINK?.map((link) => (
-            <li key={link.id}>
+            <li key={link.id} onClick={() => setOpen(true)}>
               <AnchorLink href={link.link}>{link.name}</AnchorLink>
             </li>
           ))}

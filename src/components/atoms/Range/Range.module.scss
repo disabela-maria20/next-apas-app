@@ -3,17 +3,20 @@
   overflow: hidden;
   p {
     color: $primary-lingh-color;
-    padding: 1.5rem;
+    padding: 1.3rem;
     text-align: center;
     font-family: field-gothic, "Franklin Gothic Medium", "Arial Narrow", Arial,
       sans-serif;
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 700;
     transition: font-size linear infinite;
     animation: marquee 5s linear infinite;
     position: relative;
     top: 3px;
+    @include media(sm) {
+      font-size: 1.5rem;
+    }
     @include media(md) {
       font-size: 1.8rem;
     }

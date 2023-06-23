@@ -117,7 +117,7 @@ const Counter: React.FC = (): JSX.Element => {
                 </span>
               </div>
             </h2>
-            <AnchorLink href="#accreditation" className={Style.link}>
+            {/* <AnchorLink href="#accreditation" className={Style.link}>
               <img
                 src="./images/arrow.png"
                 alt="seta para esquerda"
@@ -125,7 +125,7 @@ const Counter: React.FC = (): JSX.Element => {
                 height={24}
               />
               inscreva-se
-            </AnchorLink>
+            </AnchorLink> */}
           </div>
         </div>
       </article>
