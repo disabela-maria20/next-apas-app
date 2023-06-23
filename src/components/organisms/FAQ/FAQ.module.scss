@@ -6,9 +6,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 9rem 0;
-
+  background-position: bottom;
+  
   @include media(sm) {
     padding: 12rem 0;
+    background-position: initial;
   }
 
   .gridFac {
@@ -18,7 +20,8 @@
       grid-template-columns: 1fr 1fr;
       align-items: center;
     }
-    p, address {
+    p,
+    address {
       font-family: exo-soft, "Lucida Sans", Geneva, Verdana, sans-serif;
       color: $primary-lingh-color;
       text-align: left;
@@ -26,6 +29,7 @@
       line-height: 2.4rem;
       font-weight: 200;
       font-style: normal;
+      text-shadow: 0px 0px 5px $secondary-colors-dark;
 
       @include media(sm) {
         font-size: 1.8rem;
@@ -41,7 +45,7 @@
       color: $primary-lingh-color;
       @include Title;
 
-      &.titleForm{
+      &.titleForm {
         text-align: center;
         margin-bottom: 4.5rem;
       }
@@ -56,7 +60,8 @@
       span {
         display: none;
       }
-      input, textarea {
+      input,
+      textarea {
         width: 100%;
         margin-bottom: 20px;
         padding: 0 20px;
@@ -71,7 +76,6 @@
         border-radius: 20px;
         color: $primary-lingh-color;
 
-       
         @include media(md) {
           font-size: 1.8rem;
           line-height: 2.8rem;
@@ -81,11 +85,11 @@
           color: $primary-lingh-color;
         }
       }
-      input{
+      input {
         height: 56px !important;
       }
 
-      textarea{
+      textarea {
         height: 240px !important;
         padding: 2rem;
       }
