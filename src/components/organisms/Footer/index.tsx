@@ -14,6 +14,11 @@ const index = () => {
       name: 'Sobre',
       link: '#about'
     },
+    {
+      id: 2,
+      name: 'Credenciamento - Em Breve',
+      link: '#'
+    },
     // {
     //   id: 2,
     //   name: 'Credenciamento',

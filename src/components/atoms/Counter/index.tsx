@@ -115,7 +115,11 @@ const Counter: React.FC = memo(() => {
                 </span>
               </div>
             </h2>
-            {/* <AnchorLink href="#accreditation" className={Style.link}>
+            {/* <a
+              href="https://easyeventos.com.br/v3/apasnext/22/indvis"
+              className={Style.link}
+              target="_SEJ"
+            >
               <img
                 src="./images/arrow.png"
                 alt="seta para esquerda"
@@ -123,7 +127,7 @@ const Counter: React.FC = memo(() => {
                 height={24}
               />
               inscreva-se
-            </AnchorLink> */}
+            </a> */}
           </div>
         </div>
       </article>

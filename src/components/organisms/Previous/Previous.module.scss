@@ -100,12 +100,12 @@
       gap: 7rem;
     }
     ul li { 
-      // list-style-type: none;
+      list-style-type: symbols(😊);
       font-family: exo-soft, "Lucida Sans", Geneva, Verdana, sans-serif;
       color: $primary-lingh-color;
       font-size: 1.9rem;
       font-weight: 300;
-      text-align: center;
+       //text-align: center;
       line-height: 1.2;
       margin-bottom: 1rem;
       
@@ -113,9 +113,7 @@
         font-size: 1.8rem;
       }
 
-      @include media(md){
-        font-size: 2.2rem;
-      }
+    
 
      
     }

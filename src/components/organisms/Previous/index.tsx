@@ -15,7 +15,7 @@ const Previous = () => {
     <article className={Style.previous}>
       <div className={Style.container}>
         <section>
-          <h2 className={Style.title}>o que rolou em 2022</h2>
+          <h2 className={Style.title}>veja o que rolou em 2022</h2>
           <div className={Style.dataFlex}>
             <h2 className={Style.data}>
               34

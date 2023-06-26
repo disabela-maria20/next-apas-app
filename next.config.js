@@ -10,6 +10,10 @@ const nextConfig = {
       @import 'abstracts/_index.scss';
     `
   },
+  env: {
+    RECAPTCHA_PUBLIC: process.env.RECAPTCHA_PUBLIC, 
+    RECAPTCHA_PRIVATE: process.env.RECAPTCHA_PRIVATE
+  }
   
 }
 
