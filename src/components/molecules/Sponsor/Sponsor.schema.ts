@@ -18,12 +18,18 @@ export const SponsorFormSchema = z.object({
     .string()
     .email('Formato de e-mail invalido')
     .toLowerCase()
-    .nonempty('O e-mail é obrigatório'),
+    .nonempty('O e-mail é obrigatório')
+    .refine(
+      (value: string) => /^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$/.test(value),
+      {
+        message: 'Endereço de e-mail invalido'
+      }
+    ),
   tel: z
     .string()
     .min(11, { message: 'Número de telefone invalido' })
     .nonempty('Telefone é obrigatorio')
-    .refine((value) => /^\(\d{2}\)\s\d{5}-\d{4}$/.test(value), {
+    .refine((value: string) => /^\(\d{2}\)\s\d{5}-\d{4}$/.test(value), {
       message: 'Número de telefone invalido'
     }),
   office: z
@@ -38,7 +44,10 @@ export const SponsorFormSchema = z.object({
     .string()
     .nonempty('O cnpj é obrigatório')
     .min(14, { message: 'A qualidade de caracteres minimas é 14' })
-    .refine((value) => /^\d{2}\.\d{3}\.\d{3}\/\d{4}-\d{2}$/.test(value), {
-      message: 'Infome o CNPJ valido'
-    })
+    .refine(
+      (value: string) => /^\d{2}\.\d{3}\.\d{3}\/\d{4}-\d{2}$/.test(value),
+      {
+        message: 'Infome o CNPJ valido'
+      }
+    )
 })

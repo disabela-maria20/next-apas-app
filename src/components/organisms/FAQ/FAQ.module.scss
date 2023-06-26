@@ -113,14 +113,37 @@
       border: none;
       transition: background 0.4s ease-out;
       cursor: pointer;
+      height: 56px;
 
       @include media(md) {
         font-size: 2.8rem;
       }
-
+      span{
+        position: relative;
+        bottom: -1px;
+      }
       &:hover {
         background-color: darken($tertiary-colors, 10%);
       }
     }
   }
+}
+
+.Modal{
+  font-family: field-gothic, "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-size: 120%;
+  .btn{
+    background: $secondary-colors;
+    text-transform: uppercase;
+    position: relative;
+    padding-top: 10px;
+    border-radius: 20px;
+    &:hover{
+      background: $secondary-colors-dark;
+    }
+    &:focus{
+      box-shadow: none;
+    }
+  }
+  
 }

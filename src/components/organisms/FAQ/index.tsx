@@ -7,9 +7,9 @@ import Style from './FAQ.module.scss'
 import { contactFormSchema } from './FAQ.schema'
 
 import { zodResolver as ResolverZod } from '@hookform/resolvers/zod'
+import axios from 'axios'
 import Swal from 'sweetalert2'
 import { z } from 'zod'
-
 export type contactForm = z.infer<typeof contactFormSchema>
 
 const FAQ = () => {
@@ -18,6 +18,7 @@ const FAQ = () => {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors }
   } = useForm<contactForm>({
     resolver: ResolverZod(contactFormSchema)
@@ -25,27 +26,33 @@ const FAQ = () => {
   const onSubmit = async (data: contactForm) => {
     setLoaging(true)
     try {
-      const res = await fetch('/backend/email.php', {
-        method: 'POST',
-        body: JSON.stringify({
-          nome: data.name,
-          email: data.email,
-          mensagem: data.message
-        })
+      const res = await axios.post('https://apasshow.com/api/send-next', {
+        nome: data.name,
+        email: data.email,
+        mensagem: data.message
       })
-      if (res.ok) {
+      if (res.data.status === 'success') {
         Swal.fire({
-          title: 'Contato enviada com sucesso!',
+          title: res.data.message,
           text: 'Em breve entraremos em contato',
           icon: 'success',
-          confirmButtonText: 'Fechar'
+          confirmButtonText: 'Fechar',
+          customClass: {
+            popup: Style.Modal,
+            confirmButton: Style.btn
+          }
         })
+        reset()
       } else {
         Swal.fire({
           title: 'Opss',
           text: 'Ocorreu um erro tente novamente mais tarde ',
           icon: 'error',
-          confirmButtonText: 'Fechar'
+          confirmButtonText: 'Fechar',
+          customClass: {
+            popup: Style.Modal,
+            confirmButton: Style.btn
+          }
         })
       }
     } catch (error) {

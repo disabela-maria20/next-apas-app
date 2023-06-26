@@ -7,7 +7,9 @@ import Style from './Sponsor.module.scss'
 
 import { SponsorFormSchema } from './Sponsor.schema'
 
+import { Cnpj, Phone } from '@/utils/mask/inde'
 import { zodResolver as ResolverZod } from '@hookform/resolvers/zod'
+import axios from 'axios'
 import Swal from 'sweetalert2'
 import { z } from 'zod'
 
@@ -18,6 +20,7 @@ const Sponsor = () => {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors }
   } = useForm<SponsorForm>({
     resolver: ResolverZod(SponsorFormSchema)
@@ -26,29 +29,40 @@ const Sponsor = () => {
   const onSubmit = async (data: SponsorForm) => {
     setLoaging(true)
     try {
-      const res = await fetch('/backend/email.php', {
-        method: 'POST',
-        body: JSON.stringify({
+      const res = await axios.post(
+        'https://apasshow.com/api/send-patrocinador-next',
+        {
           nome: data.name,
           email: data.email,
           telefone: data.tel,
           cargo: data.office,
-          empresa: data.company
-        })
-      })
-      if (res.ok) {
+          empresa: data.company,
+          cnpj: data.cnpj
+        }
+      )
+
+      if (res.data.status === 'success') {
         Swal.fire({
-          title: 'Contato enviada com sucesso!',
+          title: res.data.message,
           text: 'Em breve entraremos em contato',
           icon: 'success',
-          confirmButtonText: 'Fechar'
+          confirmButtonText: 'Fechar',
+          customClass: {
+            popup: Style.Modal,
+            confirmButton: Style.btn
+          }
         })
+        reset()
       } else {
         Swal.fire({
-          title: 'Opss',
-          text: 'Ocorreu um erro tente novamente mais tarde ',
+          title: res.data.menssage,
+          text: 'Ocorreu um erro. Tente novamente mais tarde.',
           icon: 'error',
-          confirmButtonText: 'Fechar'
+          confirmButtonText: 'Fechar',
+          customClass: {
+            popup: Style.Modal,
+            confirmButton: Style.btn
+          }
         })
       }
     } catch (error) {
@@ -96,10 +110,15 @@ const Sponsor = () => {
             <label htmlFor="tel">
               <span>Telefone</span>
               <input
-                type="text"
+                type="tel"
                 id="tel"
                 placeholder="Telefone"
                 {...register('tel')}
+                onChange={(e) =>
+                  ((e.target as HTMLInputElement).value = Phone(
+                    (e.target as HTMLInputElement).value
+                  ))
+                }
               />
               {errors.tel && (
                 <small className="text-error">{errors.tel.message}</small>
@@ -136,6 +155,11 @@ const Sponsor = () => {
                 id="cnpj"
                 placeholder="CNPJ"
                 {...register('cnpj')}
+                onChange={(e) =>
+                  ((e.target as HTMLInputElement).value = Cnpj(
+                    (e.target as HTMLInputElement).value
+                  ))
+                }
               />
               {errors.cnpj && (
                 <small className="text-error">{errors.cnpj.message}</small>
