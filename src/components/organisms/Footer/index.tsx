@@ -90,6 +90,7 @@ const index = () => {
               title="Telefone"
               aria-label="Telefone da APAS"
               rel="noreferrer"
+              role="button"
             >
               (11) 3647-5000
             </a>
@@ -99,6 +100,7 @@ const index = () => {
               title="E-mail"
               aria-label="E-mail da APAS"
               rel="noreferrer"
+              role="button"
             >
               central.apas@apas.com.br
             </a>
