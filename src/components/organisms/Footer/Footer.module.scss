@@ -107,6 +107,9 @@
 
     section{
       width: 100%;
+      @include media(lg) {
+        width: initial;
+      }
     }
 
     h3 {
@@ -118,7 +121,7 @@
       text-align: center;
       color: $primary-colors;
       margin-bottom: 2rem;
-      @include media(md) {
+      @include media(lg) {
         font-size: 3.5rem;
         text-align: left;
       }
