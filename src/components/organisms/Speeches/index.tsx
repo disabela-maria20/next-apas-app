@@ -1,4 +1,5 @@
-import { LazyLoadImage } from 'react-lazy-load-image-component'
+import Image from 'next/image'
+// import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 import 'swiper/css'
 import 'swiper/css/navigation'
@@ -86,13 +87,15 @@ const Speeches = () => {
               {URLIMAGES.map((data) => (
                 <SwiperSlide key={data.id}>
                   <section>
-                    <LazyLoadImage
-                      effect="blur"
+                    <Image
                       src={`./images/speaker/${data.url}`}
                       sizes="230px 150px"
                       role="presentation"
-                      visibleByDefault={true}
-                      threshold={100}
+                      quality={75}
+                      alt=""
+                      loading="lazy"
+                      placeholder="blur"
+                      unoptimized
                     />
 
                     <h3>{data.name}</h3>

@@ -34,8 +34,8 @@ const FAQ = () => {
     setLoaging(true)
     try {
       const res = await axios.post('https://apasshow.com/api/send-next', {
-        nome: data.name,
-        email: data.email,
+        nome: data.nomemsg,
+        email: data.emailmsg,
         mensagem: data.message
       })
       if (res.data.status === 'success') {
@@ -68,8 +68,6 @@ const FAQ = () => {
       setLoaging(false)
     }
   }
-
-  console.log(process.env.RECAPTCHA_PUBLIC)
 
   const handleSumitForm = useCallback(
     async (e: FormEvent) => {
@@ -116,28 +114,32 @@ const FAQ = () => {
                 onSubmit={handleSubmit(onSubmit)}
               >
                 <input type="hidden" name="form" value="contato" />
-                <label htmlFor="nome">
+                <label htmlFor="nomemsg">
                   <span>Nome</span>
                   <input
                     type="text"
-                    id="nome"
+                    id="nomemsg"
                     placeholder="Nome"
-                    {...register('name')}
+                    {...register('nomemsg')}
                   />
-                  {errors.name && (
-                    <small className="text-error">{errors.name.message}</small>
+                  {errors.nomemsg && (
+                    <small className="text-error">
+                      {errors.nomemsg.message}
+                    </small>
                   )}
                 </label>
-                <label htmlFor="email">
+                <label htmlFor="emailmsg">
                   <span>E-mail</span>
                   <input
                     type="email"
-                    id="email"
+                    id="emailmsg"
                     placeholder="E-mail"
-                    {...register('email')}
+                    {...register('emailmsg')}
                   />
-                  {errors.email && (
-                    <small className="text-error">{errors.email.message}</small>
+                  {errors.emailmsg && (
+                    <small className="text-error">
+                      {errors.emailmsg.message}
+                    </small>
                   )}
                 </label>
                 <label htmlFor="msg">

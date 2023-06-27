@@ -13,7 +13,10 @@ const nextConfig = {
   env: {
     RECAPTCHA_PUBLIC: process.env.RECAPTCHA_PUBLIC, 
     RECAPTCHA_PRIVATE: process.env.RECAPTCHA_PRIVATE
-  }
+  },
+  images: {
+    unoptimized: true,
+  },
   
 }
 

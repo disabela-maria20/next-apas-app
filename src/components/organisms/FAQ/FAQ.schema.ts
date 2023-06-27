@@ -1,7 +1,7 @@
 import { z } from 'zod'
 
 export const contactFormSchema = z.object({
-  name: z
+  nomemsg: z
     .string()
     .min(3, { message: 'A qualidade de caracteres minimas é 3' })
     .nonempty('O nome é obrigatório')
@@ -14,7 +14,7 @@ export const contactFormSchema = z.object({
         })
         .join(' ')
     ),
-  email: z
+  emailmsg: z
     .string()
     .email('Formato de e-mail invalido')
     .toLowerCase()
