@@ -48,7 +48,11 @@ const Nav: React.FC<NavProps> = ({ open, setOpen }) => {
       name: 'linkedin',
       link: 'https://www.linkedin.com/company/apas-next'
     },
-    { id: 1, name: 'instagram', link: 'https://www.instagram.com/apasnext/' },
+    {
+      id: 1,
+      name: 'instagram',
+      link: 'https://instagram.com/nextbyapas?igshid=MzRlODBiNWFlZA=='
+    },
     { id: 2, name: 'facebook', link: 'https://www.facebook.com/ApasNext' }
   ]
 

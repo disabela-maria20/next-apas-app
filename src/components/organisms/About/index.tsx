@@ -15,11 +15,7 @@ const About = () => {
           description:
             '<strong> <span>+2,3%</span>  em número de lojas</strong> 94.706 lojas'
         },
-        {
-          id: 1,
-          description:
-            '<strong> <span>+13,8%</span>  em faturamento</strong> R$695 bilhões em 2022'
-        },
+
         {
           id: 2,
           description:
@@ -36,11 +32,6 @@ const About = () => {
           id: 0,
           description:
             '<strong> <span>+2,3% </span> em número de lojas</strong> 20.820 lojas'
-        },
-        {
-          id: 1,
-          description:
-            '<strong> <span>+17% </span> em faturamento </strong> R$208 bilhões em 2022'
         },
         {
           id: 2,

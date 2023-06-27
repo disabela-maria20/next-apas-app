@@ -1,8 +1,4 @@
-import { FormEvent, useCallback, useEffect, useState } from 'react'
-import {
-  GoogleReCaptchaProvider,
-  useGoogleReCaptcha
-} from 'react-google-recaptcha-v3'
+import { useEffect, useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { PropagateLoader } from 'react-spinners'
 
@@ -18,10 +14,18 @@ import { z } from 'zod'
 export type contactForm = z.infer<typeof contactFormSchema>
 
 const FAQ = () => {
-  const [loaging, setLoaging] = useState<boolean>(false)
+  const [loading, setLoading] = useState<boolean>(false)
   const [selectedItems, setSelectedItems] = useState<Array<boolean>>([])
 
-  const { executeRecaptcha } = useGoogleReCaptcha()
+  useEffect(() => {
+    setSelectedItems(new Array(2).fill(false))
+  }, [])
+
+  const handleItemClick = (index: number) => {
+    const newSelectedItems = [...selectedItems]
+    newSelectedItems[index] = !newSelectedItems[index]
+    setSelectedItems(newSelectedItems)
+  }
 
   const {
     register,
@@ -33,7 +37,7 @@ const FAQ = () => {
   })
 
   const onSubmit = async (data: contactForm) => {
-    setLoaging(true)
+    setLoading(true)
     try {
       const res = await axios.post('https://apasshow.com/api/send-next', {
         nome: data.nomemsg,
@@ -67,33 +71,12 @@ const FAQ = () => {
     } catch (error) {
       console.error(error)
     } finally {
-      setLoaging(false)
+      setLoading(false)
     }
   }
 
-  const handleSumitForm = useCallback(
-    async (e: FormEvent) => {
-      e.preventDefault()
-      if (!executeRecaptcha) {
-        console.log('Execute recaptcha not yet available')
-        return
-      }
-      const token = await executeRecaptcha()
-      console.log(token, 'Google reCaptcha server response')
-    },
-    [executeRecaptcha]
-  )
-  useEffect(() => {
-    setSelectedItems(new Array(2).fill(false))
-  }, [])
-  const handleItemClick = (index: number) => {
-    const newSelectedItems = [...selectedItems]
-    newSelectedItems[index] = !newSelectedItems[index]
-    setSelectedItems(newSelectedItems)
-  }
-
   return (
-    <GoogleReCaptchaProvider reCaptchaKey={`${process.env.RECAPTCHA_PUBLIC}`}>
+    <>
       <article
         style={{ backgroundImage: 'url("./images/bg-fac.webp")' }}
         className={Style.fac}
@@ -111,12 +94,12 @@ const FAQ = () => {
                   className={Style.summary}
                   onClick={() => handleItemClick(0)}
                 >
-                  Data e Local do Evento{' '}
+                  Data e Local do Evento
                 </h2>
                 <div className={Style.blockAccodion}>
                   <p> O NSG ocorrerá no dia 15 de agosto de 2023.</p>
                   <address>
-                    São Paulo Expo (pavilhão 4) Rodovia dos Imigrantes, km 1,5{' '}
+                    São Paulo Expo (pavilhão 4) Rodovia dos Imigrantes, km 1,5
                     <br /> CEP: 04329-900 | São Paulo SP
                   </address>
                 </div>
@@ -178,7 +161,6 @@ const FAQ = () => {
               <h2 className={Style.titleForm}>Entre em contato</h2>
               <form
                 className={Style.sponsorForm}
-                //onSubmit={handleSumitForm}
                 onSubmit={handleSubmit(onSubmit)}
               >
                 <input type="hidden" name="form" value="contato" />
@@ -224,8 +206,8 @@ const FAQ = () => {
                     </small>
                   )}
                 </label>
-                <button type="submit" disabled={loaging}>
-                  {loaging ? (
+                <button type="submit" disabled={loading}>
+                  {loading ? (
                     <span>
                       <PropagateLoader color="#000" size={8} />
                     </span>
@@ -238,7 +220,7 @@ const FAQ = () => {
           </section>
         </div>
       </article>
-    </GoogleReCaptchaProvider>
+    </>
   )
 }
 

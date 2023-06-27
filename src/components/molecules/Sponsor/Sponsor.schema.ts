@@ -28,10 +28,10 @@ export const SponsorFormSchema = z.object({
   tel: z
     .string()
     .min(11, { message: 'Número de telefone invalido' })
-    .nonempty('Telefone é obrigatorio')
-    .refine((value: string) => /^\(\d{2}\)\s\d{5}-\d{4}$/.test(value), {
-      message: 'Número de telefone invalido'
-    }),
+    .nonempty('Telefone é obrigatorio'),
+  // .refine((value: string) => /^\(\d{2}\)\s\d{5}-\d{4}$/.test(value), {
+  //   message: 'Número de telefone invalido'
+  // }),
   office: z
     .string()
     .min(3, { message: 'A qualidade de caracteres minimas é 3' })
