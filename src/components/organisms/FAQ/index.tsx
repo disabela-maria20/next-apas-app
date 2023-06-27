@@ -1,4 +1,4 @@
-import { FormEvent, useCallback, useState } from 'react'
+import { FormEvent, useCallback, useEffect, useState } from 'react'
 import {
   GoogleReCaptchaProvider,
   useGoogleReCaptcha
@@ -19,6 +19,8 @@ export type contactForm = z.infer<typeof contactFormSchema>
 
 const FAQ = () => {
   const [loaging, setLoaging] = useState<boolean>(false)
+  const [selectedItems, setSelectedItems] = useState<Array<boolean>>([])
+
   const { executeRecaptcha } = useGoogleReCaptcha()
 
   const {
@@ -81,6 +83,14 @@ const FAQ = () => {
     },
     [executeRecaptcha]
   )
+  useEffect(() => {
+    setSelectedItems(new Array(2).fill(false))
+  }, [])
+  const handleItemClick = (index: number) => {
+    const newSelectedItems = [...selectedItems]
+    newSelectedItems[index] = !newSelectedItems[index]
+    setSelectedItems(newSelectedItems)
+  }
 
   return (
     <GoogleReCaptchaProvider reCaptchaKey={`${process.env.RECAPTCHA_PUBLIC}`}>
@@ -91,19 +101,77 @@ const FAQ = () => {
       >
         <div className={Style.container}>
           <section className={Style.gridFac}>
-            <div>
-              <p> O NSG ocorrerá no dia 15 de agosto de 2023.</p>
-              <address>
-                São Paulo Expo (pavilhão 4) Rodovia dos Imigrantes, km 1,5{' '}
-                <br /> CEP: 04329-900 | São Paulo SP
-              </address>
-              <p>
-                10 minutos do Rodoanel Mário Covas e Aeroporto de Congonhas.
-              </p>
-              <p>850 m do metrô Jabaquara.</p>
-              <p>
-                Fora do perímetro de restrição municipal de veículos (rodízio).
-              </p>
+            <div className={Style.block}>
+              <div
+                className={`${Style.details} ${
+                  selectedItems[0] ? Style.active : ''
+                }`}
+              >
+                <h2
+                  className={Style.summary}
+                  onClick={() => handleItemClick(0)}
+                >
+                  Data e Local do Evento{' '}
+                </h2>
+                <div className={Style.blockAccodion}>
+                  <p> O NSG ocorrerá no dia 15 de agosto de 2023.</p>
+                  <address>
+                    São Paulo Expo (pavilhão 4) Rodovia dos Imigrantes, km 1,5{' '}
+                    <br /> CEP: 04329-900 | São Paulo SP
+                  </address>
+                </div>
+              </div>
+              <div
+                className={`${Style.details} ${
+                  selectedItems[1] ? '' : Style.active
+                }`}
+              >
+                <h2
+                  className={Style.summary}
+                  onClick={() => handleItemClick(1)}
+                >
+                  Como Chegar
+                </h2>
+                <div className={Style.blockAccodion}>
+                  <p>
+                    Para quem vai de carro, estamos há 10 minutos do Rodoanel
+                    Mário Covas.
+                  </p>
+                  <p>
+                    Fora do perímetro de restrição municipal de veículos
+                    (rodízio).
+                  </p>
+                  <p>
+                    Para quem vai de transporte público, estamos há 850 m do
+                    metrô Jabaquara.
+                  </p>
+                  <p> Estamos há 10 minutos do Aeroporto de Congonhas.</p>
+                </div>
+              </div>
+              <div
+                className={`${Style.details} ${
+                  selectedItems[2] ? '' : Style.active
+                }`}
+              >
+                <h2
+                  className={Style.summary}
+                  onClick={() => handleItemClick(2)}
+                >
+                  Ainda estou com dúvidas
+                </h2>
+                <div className={Style.blockAccodion}>
+                  <span>
+                    E-mail:
+                    <a href="mailto:central.apas@apas.com.br">
+                      central.apas@apas.com.br
+                    </a>
+                  </span>
+                  <span>
+                    Telefone:
+                    <a href="tel:+(11) 3647-5000">(11) 3647-5000</a>
+                  </span>
+                </div>
+              </div>
               {/* <h2>fac</h2> */}
             </div>
             <div>

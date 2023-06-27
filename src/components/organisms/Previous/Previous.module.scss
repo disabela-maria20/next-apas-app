@@ -35,15 +35,14 @@
     justify-content: space-around;
     margin-bottom: 7rem;
 
-    @include media(sm){
+    @include media(sm) {
       flex-direction: row;
       justify-content: center;
 
-      h2{
+      h2 {
         margin: 0 2rem;
       }
     }
-    
   }
   h3 {
     font-size: 2.8rem;
@@ -57,11 +56,9 @@
       font-size: 4rem;
     }
   }
-  
 }
 
 .BlockImage {
-
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -74,8 +71,9 @@
     border-radius: 120px;
     border-bottom: 15px solid $primary-colors;
   }
-  h3{
-    font-family: field-gothic-condensed, "Lucida Sans", Geneva, Verdana, sans-serif;
+  h3 {
+    font-family: field-gothic-condensed, "Lucida Sans", Geneva, Verdana,
+      sans-serif;
     font-weight: 600;
     color: $primary-colors;
     font-size: 2.8rem;
@@ -84,41 +82,34 @@
   }
 }
 
-.theme{
-  h2{
+.theme {
+  h2 {
     padding-top: 4.5rem;
     margin-bottom: 2.5rem;
-
   }
-  .themeCenter{
-   .themeFlex{
-    @include media(xl){
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      align-items: center;
-      justify-content: center;
-      gap: 7rem;
-    }
-    ul li { 
-      list-style-type: circle;
-      font-family: exo-soft, "Lucida Sans", Geneva, Verdana, sans-serif;
-      color: $primary-lingh-color;
-      font-size: 1.9rem;
-      font-weight: 300;
-       //text-align: center;
-      line-height: 1.2;
-      margin-bottom: 1rem;
-      
-      @include media(sm) {
-        font-size: 1.8rem;
+  .themeCenter {
+    .themeFlex {
+      @include media(xl) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        gap: 7rem;
       }
-
-    
-
-     
+      ul li {
+        list-style-type: disc;
+        font-family: exo-soft, "Lucida Sans", Geneva, Verdana, sans-serif;
+        color: $primary-lingh-color;
+        font-size: 1.9rem;
+        font-weight: 300;
+        //text-align: center;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+        margin-inline-start: 2rem;
+        @include media(sm) {
+          font-size: 1.8rem;
+        }
+      }
     }
-   }
-    
   }
 }
-
