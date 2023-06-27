@@ -7,7 +7,7 @@
   background-size: cover;
   padding: 9rem 0;
   background-position: bottom;
-  
+
   @include media(sm) {
     padding: 12rem 0;
     background-position: initial;
@@ -58,7 +58,8 @@
     label {
       font-family: exo-soft, "Lucida Sans", Geneva, Verdana, sans-serif;
       span {
-        display: none;
+        position: absolute;
+        left: -99999px;
       }
       input,
       textarea {
@@ -118,7 +119,7 @@
       @include media(md) {
         font-size: 2.8rem;
       }
-      span{
+      span {
         position: relative;
         bottom: -1px;
       }
@@ -129,21 +130,20 @@
   }
 }
 
-.Modal{
+.Modal {
   font-family: field-gothic, "Lucida Sans", Geneva, Verdana, sans-serif;
   font-size: 120%;
-  .btn{
+  .btn {
     background: $secondary-colors;
     text-transform: uppercase;
     position: relative;
     padding-top: 10px;
     border-radius: 20px;
-    &:hover{
+    &:hover {
       background: $secondary-colors-dark;
     }
-    &:focus{
+    &:focus {
       box-shadow: none;
     }
   }
-  
 }

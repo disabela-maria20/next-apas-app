@@ -19,15 +19,11 @@ const Nav: React.FC<NavProps> = ({ open, setOpen }) => {
       name: 'Sobre',
       link: '#about'
     },
-    {
-      id: 2,
-      name: 'Sobre',
-      link: '#about'
-    },
+
     {
       id: 2,
       name: 'Credenciamento - Em Breve',
-      link: '#accreditation'
+      link: '#'
     },
     // {
     //   id: 4,

@@ -49,7 +49,8 @@
       label {
         font-family: exo-soft, "Lucida Sans", Geneva, Verdana, sans-serif;
         span {
-          display: none;
+          position: absolute;
+          left: -99999px;
         }
         input {
           width: 100%;

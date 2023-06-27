@@ -106,7 +106,7 @@ const FAQ = () => {
               <p>
                 Fora do perímetro de restrição municipal de veículos (rodízio).
               </p>
-              <h2>fac</h2>
+              {/* <h2>fac</h2> */}
             </div>
             <div>
               <h2 className={Style.titleForm}>Entre em contato</h2>
