@@ -81,7 +81,7 @@ const About = () => {
             <span>à frente do nosso tempo</span>
           </h2>
           <h2>
-            <span>A hora de transformar</span> o futuro do
+            <span>A hora de transformar</span> o futuro do&nbsp;
             <span>varejosupermercadista é agora.</span>
           </h2>
           <div className={Style.aboutCardGrid}>
