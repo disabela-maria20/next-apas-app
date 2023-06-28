@@ -82,7 +82,7 @@ const About = () => {
           </h2>
           <h2>
             <span>A hora de transformar</span> o futuro do&nbsp;
-            <span>varejosupermercadista é agora.</span>
+            <span>varejo supermercadista é agora.</span>
           </h2>
           <div className={Style.aboutCardGrid}>
             {CARD.map((card) => (
