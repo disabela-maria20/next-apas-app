@@ -21,14 +21,14 @@ export default function Document() {
 
         <Script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-Y370T3RYFS"
+          src="https://www.googletagmanager.com/gtag/js?id=G-T8SL8CXNTT"
         ></Script>
         <script
           dangerouslySetInnerHTML={{
             __html: `window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-Y370T3RYFS', { page_path: window.location.pathname });
+            gtag('config', 'G-T8SL8CXNTT', { page_path: window.location.pathname });
             `
           }}
         />
