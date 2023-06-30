@@ -3,6 +3,44 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Style from './Footer.module.scss'
 
 const index = () => {
+  const LINK = [
+    {
+      id: 0,
+      name: 'Home',
+      link: '#home'
+    },
+    {
+      id: 1,
+      name: 'Sobre',
+      link: '#about'
+    },
+    {
+      id: 2,
+      name: 'Credenciamento - Em Breve',
+      link: '#'
+    },
+    // {
+    //   id: 2,
+    //   name: 'Credenciamento',
+    //   link: '#accreditation'
+    // },
+    // {
+    //   id: 4,
+    //   name: 'Palestras',
+    //   link: '#speeches'
+    // },
+    // {
+    //   id: 5,
+    //   name: 'Palestrantes',
+    //   link: '#speakers'
+    // },
+    {
+      id: 6,
+      name: 'Contato',
+      link: '#contact'
+    }
+  ]
+
   const REDES = [
     {
       id: 0,
@@ -39,20 +77,11 @@ const index = () => {
             </nav>
             <nav className={Style.navBar}>
               <ul>
-                <li>
-                  <AnchorLink href="#home">Home</AnchorLink>
-                </li>
-                <li>
-                  <AnchorLink href="#about">Sobre</AnchorLink>
-                </li>
-                <li>
-                  <a href="https://apasnext.com.br/credenciamento/">
-                    Credenciamento
-                  </a>
-                </li>
-                <li>
-                  <AnchorLink href="#contact">Contato</AnchorLink>
-                </li>
+                {LINK.map((link) => (
+                  <li key={link.id}>
+                    <AnchorLink href={link.link}>{link.name}</AnchorLink>
+                  </li>
+                ))}
               </ul>
             </nav>
           </section>
