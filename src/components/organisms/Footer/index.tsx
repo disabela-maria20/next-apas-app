@@ -16,8 +16,8 @@ const index = () => {
     },
     {
       id: 2,
-      name: 'Credenciamento - Em Breve',
-      link: '#'
+      name: 'Credenciamento',
+      link: 'https://apasnext.com.br/credenciamento/'
     },
     // {
     //   id: 2,
@@ -61,18 +61,20 @@ const index = () => {
           <section>
             <nav className={Style.redes}>
               <ul>
-                {REDES.map((redes) => (
-                  <li key={redes.id}>
-                    <a href={redes.link}>
-                      <img
-                        src={`./images/${redes.name}.webp`}
-                        alt={`rede social ${redes.name}`}
-                        width={29}
-                        height={29}
-                      />
-                    </a>
-                  </li>
-                ))}
+                <li>
+                  <AnchorLink href="#home">Home</AnchorLink>
+                </li>
+                <li>
+                  <AnchorLink href="#about">Sobre</AnchorLink>
+                </li>
+                <li>
+                  <a href="https://apasnext.com.br/credenciamento/">
+                    Credenciamento
+                  </a>
+                </li>
+                <li>
+                  <AnchorLink href="#contact">Contato</AnchorLink>
+                </li>
               </ul>
             </nav>
             <nav className={Style.navBar}>

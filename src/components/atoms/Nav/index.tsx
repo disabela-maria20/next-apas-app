@@ -8,40 +8,6 @@ interface NavProps {
 }
 
 const Nav: React.FC<NavProps> = ({ open, setOpen }) => {
-  const LINK = [
-    {
-      id: 0,
-      name: 'Home',
-      link: '#home'
-    },
-    {
-      id: 1,
-      name: 'Sobre',
-      link: '#about'
-    },
-
-    {
-      id: 2,
-      name: 'Credenciamento - Em Breve',
-      link: '#'
-    },
-    // {
-    //   id: 4,
-    //   name: 'Palestras',
-    //   link: '#speeches'
-    // },
-    // {
-    //   id: 5,
-    //   name: 'Palestrantes',
-    //   link: '#speakers'
-    // },
-    {
-      id: 6,
-      name: 'Contato',
-      link: '#contact'
-    }
-  ]
-
   const REDES = [
     {
       id: 0,
@@ -60,11 +26,18 @@ const Nav: React.FC<NavProps> = ({ open, setOpen }) => {
     <nav className={`${Style.navBar} `}>
       <div className={`${!open ? Style.open : Style.close}`}>
         <ul>
-          {LINK?.map((link) => (
-            <li key={link.id} onClick={() => setOpen(true)}>
-              <AnchorLink href={link.link}>{link.name}</AnchorLink>
-            </li>
-          ))}
+          <li onClick={() => setOpen(true)}>
+            <AnchorLink href="#home">Home</AnchorLink>
+          </li>
+          <li onClick={() => setOpen(true)}>
+            <AnchorLink href="#about">Sobre</AnchorLink>
+          </li>
+          <li onClick={() => setOpen(true)}>
+            <a href="https://apasnext.com.br/credenciamento/">Credenciamento</a>
+          </li>
+          <li onClick={() => setOpen(true)}>
+            <AnchorLink href="#contact">Contato</AnchorLink>
+          </li>
         </ul>
         <ul className={Style.redes}>
           {REDES?.map((redes) => (
