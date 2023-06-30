@@ -116,7 +116,7 @@ const Counter: React.FC = memo(() => {
               </div>
             </h2>
             <a
-              href="https://easyeventos.com.br/v3/apasnext/22/indvis"
+              href="https://apasnext.com.br/credenciamento/"
               className={Style.link}
               target="_SEJ"
             >
