@@ -77,11 +77,20 @@ const index = () => {
             </nav>
             <nav className={Style.navBar}>
               <ul>
-                {LINK.map((link) => (
-                  <li key={link.id}>
-                    <AnchorLink href={link.link}>{link.name}</AnchorLink>
-                  </li>
-                ))}
+                <li>
+                  <AnchorLink href="#home">Home</AnchorLink>
+                </li>
+                <li>
+                  <AnchorLink href="#about">Sobre</AnchorLink>
+                </li>
+                <li>
+                  <a href="https://apasnext.com.br/credenciamento/">
+                    Credenciamento
+                  </a>
+                </li>
+                <li>
+                  <AnchorLink href="#contact">Contato</AnchorLink>
+                </li>
               </ul>
             </nav>
           </section>
