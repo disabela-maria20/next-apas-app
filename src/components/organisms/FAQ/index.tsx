@@ -6,6 +6,7 @@ import Style from './FAQ.module.scss'
 
 import { contactFormSchema } from './FAQ.schema'
 
+import { Cnpj, Phone } from '@/utils/mask'
 import { zodResolver as ResolverZod } from '@hookform/resolvers/zod'
 import axios from 'axios'
 import Swal from 'sweetalert2'
@@ -42,8 +43,14 @@ const FAQ = () => {
       const res = await axios.post('https://apasshow.com/api/send-next', {
         nome: data.nomemsg,
         email: data.emailmsg,
+        telefone: data.tel,
+        cargo: data.office,
+        empresa: data.company,
+        cnpj: data.cnpj,
         mensagem: data.message
       })
+      console.log(res)
+
       if (res.data.status === 'success') {
         Swal.fire({
           title: res.data.message,
@@ -192,6 +199,75 @@ const FAQ = () => {
                     </small>
                   )}
                 </label>
+                <div className={Style.gridForm}>
+                  <label htmlFor="tel">
+                    <span>Telefone</span>
+                    <input
+                      type="tel"
+                      id="tel"
+                      placeholder="Telefone"
+                      {...register('tel')}
+                      onChange={(e) =>
+                        ((e.target as HTMLInputElement).value = Phone(
+                          (e.target as HTMLInputElement).value
+                        ))
+                      }
+                    />
+                    {errors.tel && (
+                      <small className="text-error">{errors.tel.message}</small>
+                    )}
+                  </label>
+                  <label htmlFor="cnpj">
+                    <span>CNPJ</span>
+                    <input
+                      type="text"
+                      id="cnpj"
+                      placeholder="CNPJ"
+                      {...register('cnpj')}
+                      onChange={(e) =>
+                        ((e.target as HTMLInputElement).value = Cnpj(
+                          (e.target as HTMLInputElement).value
+                        ))
+                      }
+                    />
+                    {errors.cnpj && (
+                      <small className="text-error">
+                        {errors.cnpj.message}
+                      </small>
+                    )}
+                  </label>
+                </div>
+                <div className={Style.gridForm}>
+                  <label htmlFor="cargo">
+                    <span>Cargo</span>
+                    <input
+                      type="text"
+                      id="office"
+                      placeholder="Cargo"
+                      {...register('office')}
+                    />
+                    {errors.office && (
+                      <small className="text-error">
+                        {errors.office.message}
+                      </small>
+                    )}
+                  </label>
+                  <label htmlFor="empresa">
+                    <span>Empresa</span>
+                    <input
+                      type="text"
+                      id="empresa"
+                      placeholder="Empresa"
+                      {...register('company')}
+                    />
+                    {errors.company && (
+                      <small className="text-error">
+                        {errors.company.message}
+                      </small>
+                    )}
+                  </label>
+                </div>
+
                 <label htmlFor="msg">
                   <span>Mensagem</span>
                   <textarea

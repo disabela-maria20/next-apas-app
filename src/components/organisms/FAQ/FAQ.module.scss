@@ -126,8 +126,16 @@
       }
     }
 
-    @include media(sm) {
+    @include media(xxl) {
       margin: 0 70px;
+    }
+
+    .gridForm{
+      @include media(md) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+      }
     }
 
     label {
@@ -180,7 +188,7 @@
     button {
       background-color: $tertiary-colors;
       border-radius: 0 25px 25px 25px;
-      padding: 9px 0px 2px 0px;
+      padding: 25px 0px 2px 0px;
       font-family: field-gothic, "Lucida Sans", Geneva, Verdana, sans-serif;
       font-weight: 700;
       font-size: 2.4rem;

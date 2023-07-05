@@ -19,16 +19,16 @@ export default function Document() {
           src={`https://www.google.com/recaptcha/api.js?render=${process.env.KEY_RECAPTCHA}`}
         />
 
-        <Script
+        <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-T8SL8CXNTT"
-        ></Script>
+          src="https://www.googletagmanager.com/gtag/js?id=G-R3G0NYVTFP"
+        ></script>
         <script
           dangerouslySetInnerHTML={{
-            __html: `window.dataLayer = window.dataLayer || [];
+            __html: ` window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-T8SL8CXNTT', { page_path: window.location.pathname });
+            gtag('config', 'G-R3G0NYVTFP');
             `
           }}
         />
