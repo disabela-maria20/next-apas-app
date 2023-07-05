@@ -116,7 +116,7 @@ const Counter: React.FC = memo(() => {
               </div>
             </h2>
             <a
-              href="https://apasnext.com.br/credenciamento/"
+              href="https://eventonsg.com.br/credenciamento/"
               className={Style.link}
               target="_SEJ"
             >

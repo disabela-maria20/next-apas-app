@@ -67,7 +67,9 @@ const Nav: React.FC<NavProps> = ({ open, setOpen }) => {
             <AnchorLink href="#about">Sobre</AnchorLink>
           </li>
           <li>
-            <a href="https://apasnext.com.br/credenciamento/">Credenciamento</a>
+            <a href="https://eventonsg.com.br/credenciamento/">
+              Credenciamento
+            </a>
           </li>
           <li>
             <AnchorLink href="#contact">Contato</AnchorLink>

@@ -84,7 +84,7 @@ const index = () => {
                   <AnchorLink href="#about">Sobre</AnchorLink>
                 </li>
                 <li>
-                  <a href="https://apasnext.com.br/credenciamento/">
+                  <a href="https://eventonsg.com.br/credenciamento/">
                     Credenciamento
                   </a>
                 </li>
