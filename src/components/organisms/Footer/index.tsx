@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import Style from './Footer.module.scss'
@@ -78,7 +79,7 @@ const index = () => {
             <nav className={Style.navBar}>
               <ul>
                 <li>
-                  <AnchorLink href="#home">Home</AnchorLink>
+                  <Link href="/">Home</Link>
                 </li>
                 <li>
                   <AnchorLink href="#about">Sobre</AnchorLink>
@@ -87,6 +88,9 @@ const index = () => {
                   <a href="https://eventonsg.com.br/credenciamento/">
                     Credenciamento
                   </a>
+                </li>
+                <li>
+                  <Link href="/2022">Rolou em 2022</Link>
                 </li>
                 <li>
                   <AnchorLink href="#contact">Contato</AnchorLink>

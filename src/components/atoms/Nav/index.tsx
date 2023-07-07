@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import Style from './Nav.module.scss'
@@ -61,7 +62,7 @@ const Nav: React.FC<NavProps> = ({ open, setOpen }) => {
       <div className={`${!open ? Style.open : Style.close}`}>
         <ul>
           <li>
-            <AnchorLink href="#home">Home</AnchorLink>
+            <Link href="/">Home</Link>
           </li>
           <li>
             <AnchorLink href="#about">Sobre</AnchorLink>
@@ -70,6 +71,9 @@ const Nav: React.FC<NavProps> = ({ open, setOpen }) => {
             <a href="https://eventonsg.com.br/credenciamento/">
               Credenciamento
             </a>
+          </li>
+          <li>
+            <Link href="/2022">Rolou em 2022</Link>
           </li>
           <li>
             <AnchorLink href="#contact">Contato</AnchorLink>
