@@ -91,7 +91,7 @@
         margin: 0 auto;
         position: relative;
         bottom: 20px;
-
+        text-shadow: 1px 0px 2px #565acb;
         @include media(sm) {
           font-size: 3.5rem;
           bottom: 75px;
@@ -127,7 +127,7 @@
 
         @include media(lg) {
           width: 320px;
-          height: 350px;
+          height: 310px;
         }
       }
     }
@@ -211,7 +211,10 @@
         }
       }
       div {
-        max-height: 700px;
+        max-height: 370px;
+        @include media(xxl){
+          max-height: 500px;
+        }
         overflow: auto;
         p {
           font-size: 15px;
