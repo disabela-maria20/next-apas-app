@@ -87,7 +87,7 @@
         font-size: 3rem;
         text-transform: uppercase;
         text-align: center;
-        width: 200px;
+        width: 300px;
         margin: 0 auto;
         position: relative;
         bottom: 20px;
@@ -120,7 +120,10 @@
         margin: 0 auto;
         object-fit: contain;
         width: 350px;
-        padding: 30px;
+        height: 500px;
+        object-fit: cover;
+        margin: 30px;
+        border-radius: 20px;
 
         @include media(xxl) {
           width: 350px;
@@ -128,4 +131,121 @@
       }
     }
   }
+}
+
+.modalWindow {
+  position: fixed;
+  background-color: rgba(51, 51, 51, 0.25);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  &.active {
+    display: block;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  & > div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    background: #fff;
+    overflow: auto;
+    height: 100%;
+
+    @include media(sm){
+      width: 80%;
+      height: initial;
+      max-width: 850px;
+    }
+  }
+  .modalFlex {
+    display: grid;
+
+    @include media(sm) {
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .text {
+      padding: 20px;
+
+      h2 {
+        font-size: 18px;
+        font-family: field-gothic, "Lucida Sans", Geneva, Verdana, sans-serif;
+        line-height: 1.51;
+        @include media(md) {
+          font-size: 22px;
+        }
+        @include media(lg) {
+          font-size: 28px;
+        }
+        text: {
+          align: left;
+        }
+      }
+      h3 {
+        font-size: 18px;
+        font-family: field-gothic, "Lucida Sans", Geneva, Verdana, sans-serif;
+        line-height: 1.51;
+        margin-bottom: 20px;
+        @include media(md) {
+          font-size: 22px;
+        }
+        @include media(lg) {
+          font-size: 22px;
+        }
+        text: {
+          align: left;
+        }
+      }
+      p {
+        font-size: 15px;
+        font-family: field-gothic, "Lucida Sans", Geneva, Verdana, sans-serif;
+        line-height: 1.51;
+        margin-bottom: 20px;
+        @include media(md) {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+.modalClose {
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  font-size: 22px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px
+  ;
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
+}
+
+.modal-window {
+  & > div {
+    border-radius: 1rem;
+  }
+}
+
+.modal-window div:not(:last-of-type) {
+  margin-bottom: 15px;
 }

@@ -1,44 +1,37 @@
-import Image from 'next/image'
-// import { LazyLoadImage } from 'react-lazy-load-image-component'
-
 import 'swiper/css'
 import 'swiper/css/navigation'
+import { useState, memo } from 'react'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+
 import Style from './Speeches.module.scss'
+
+import URLIMAGES from './Speeches.json'
 
 import { Autoplay, Navigation } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
+type Speaker = {
+  id: number
+  name: string
+  profession: string
+  company: string
+  description: string
+  lecture: string
+  image: string
+}
+
 const Speeches = () => {
-  const URLIMAGES = [
-    {
-      id: 0,
-      name: 'Nome Um Sobrenome',
-      company: 'Empresa',
-      url: 'speaker-1.png'
-    },
-    {
-      id: 1,
-      name: 'Nome Dois Sobrenome',
-      company: 'Empresa',
-      url: 'speaker-2.png'
-    },
-    {
-      id: 2,
-      name: 'Nome Três Sobrenome',
-      company: 'Empresa',
-      url: 'speaker-3.png'
-    },
-    {
-      id: 3,
-      name: 'Nome Um Sobrenome',
-      company: 'Empresa',
-      url: 'speaker-1.png'
-    }
-  ]
+  const [modal, setModal] = useState<boolean>(false)
+  const [dados, setDados] = useState<Speaker | undefined>()
+  const Open = (state: boolean, data: Speaker) => {
+    setModal(state)
+    setDados(data)
+  }
+  console.log(dados)
 
   return (
     <>
-      <section className={Style.theme} id="speakers">
+      {/* <section className={Style.theme} id="speakers">
         <div className={Style.container}>
           <h2>principais temas</h2>
           <ul>
@@ -48,7 +41,7 @@ const Speeches = () => {
             <li>Lorem ipsum Lorem ipsum</li>
           </ul>
         </div>
-      </section>
+      </section> */}
       <section
         className={Style.speaker}
         style={{ backgroundImage: 'url("./images/bg-gradient.webp")' }}
@@ -72,10 +65,7 @@ const Speeches = () => {
                   slidesPerView: 2,
                   spaceBetween: 20
                 },
-                768: {
-                  slidesPerView: 3,
-                  spaceBetween: 40
-                },
+
                 1200: {
                   slidesPerView: 3,
                   spaceBetween: 40
@@ -86,16 +76,13 @@ const Speeches = () => {
             >
               {URLIMAGES.map((data) => (
                 <SwiperSlide key={data.id}>
-                  <section>
-                    <Image
-                      src={`./images/speaker/${data.url}`}
+                  <section onClick={() => Open(true, data as never)}>
+                    <LazyLoadImage
+                      src={`${data.image}`}
                       sizes="230px 150px"
                       role="presentation"
-                      quality={75}
                       alt=""
                       loading="lazy"
-                      placeholder="blur"
-                      unoptimized
                     />
 
                     <h3>{data.name}</h3>
@@ -107,8 +94,41 @@ const Speeches = () => {
           </article>
         </div>
       </section>
+      <section className="">
+        <div
+          id="open-modal"
+          className={`${Style.modalWindow} ${modal ? Style.active : ''}`}
+        >
+          <div>
+            <span
+              className={Style.modalClose}
+              onClick={() => setModal(false)}
+              role="button"
+            >
+              ×
+            </span>
+            <div className={Style.modalFlex}>
+              <img
+                src={dados?.image}
+                alt={dados?.name}
+                width={350}
+                height={300}
+              />
+              <div className={Style.text}>
+                <h2>{dados?.name}</h2>
+                <h3>{dados?.profession}</h3>
+                <div
+                  dangerouslySetInnerHTML={{
+                    __html: dados?.description as string
+                  }}
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
 
-export default Speeches
+export default memo(Speeches)

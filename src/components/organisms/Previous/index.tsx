@@ -1,5 +1,7 @@
 import 'swiper/css'
 import 'swiper/css/navigation'
+import { memo } from 'react'
+
 import Style from './Previous.module.scss'
 
 import PAS from './Previous.json'
@@ -118,4 +120,4 @@ const Previous = () => {
   )
 }
 
-export default Previous
+export default memo(Previous)
