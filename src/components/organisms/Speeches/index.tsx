@@ -1,6 +1,6 @@
 import 'swiper/css'
 import 'swiper/css/navigation'
-import { useState, memo } from 'react'
+import { useState, memo, useEffect, useCallback } from 'react'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 import Style from './Speeches.module.scss'
@@ -27,7 +27,23 @@ const Speeches = () => {
     setModal(state)
     setDados(data)
   }
-  console.log(dados)
+  const handleCloseModal = useCallback(() => {
+    setModal(false)
+  }, [])
+
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        handleCloseModal()
+      }
+    }
+
+    document.addEventListener('keydown', handleKeyDown)
+
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown)
+    }
+  }, [handleCloseModal])
 
   return (
     <>
@@ -102,7 +118,7 @@ const Speeches = () => {
           <div>
             <span
               className={Style.modalClose}
-              onClick={() => setModal(false)}
+              onClick={handleCloseModal}
               role="button"
             >
               ×

@@ -121,7 +121,7 @@
         object-fit: contain;
         width: 350px;
         height: 500px;
-        object-fit: cover;
+        // object-fit: cover;
         margin: 30px;
         border-radius: 20px;
 
@@ -169,14 +169,15 @@
   .modalFlex {
     display: grid;
     overflow: auto;
+    
     @include media(sm) {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: .6fr 1fr;
       align-items: center;
     }
     img {
       width: 100%;
-      height: 100%;
-      object-fit: cover;
+      object-fit: contain;
+      
     }
     .text {
       padding: 20px;
@@ -194,6 +195,7 @@
         text: {
           align: left;
         }
+        cursor: pointer;
       }
       h3 {
         font-size: 18px;
@@ -241,6 +243,7 @@
   top: 0;
   width: 70px;
   text-decoration: none;
+  cursor: pointer;
   &:hover {
     color: black;
   }
