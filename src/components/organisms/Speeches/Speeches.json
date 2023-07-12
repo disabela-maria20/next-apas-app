@@ -61,5 +61,104 @@
     "description": "<p>Executivo e Board Member, Veras é formado em Tecnologia, possui MBA em Gestão de Varejo pela FIA e especialização em Retail &amp; Operations, pela University of East Anglia. Como Executivo Sênior, tem +25 anos em TI e Digital, modelando estratégias B2C, B2B e D2C, tendo uma sólida carreira de sucesso nas seguintes empresas: Infracommerce, Grupo Nagumo, Riachuelo, Pernambucanas e GPA. Liderando equipes na implantação e sustentação de Operações Físicas (toda cadeia de valor), E-commerce, Omnichannel, Marketplaces e Ecossistemas complexos para variados tipos de indústrias, como: Varejo, Alimentos, Bebidas, FMCG / CPG, Pet, Eletrônicos, Têxteis, Moda, Luxo, Farma, Pet e Agro, entre outros. Em sua última passagem executiva, Veras foi Diretor VP de TI na Infracommerce. Anteriormente, foi CTO &amp; Diretor de Ecommerce no Grupo Nagumo. Como Conselheiro Consultivo, também tem passagens pelo Comitê de Inovação e Tech da APAS, ECBR e mantém posições em empresas de Varejo, Indústria e Startups.</p>",
     "lecture": "",
     "image": "./images/speaker/FabioVeras.png"
+  },
+  {
+    "id": 8,
+    "name": "Alfredo Garcia Lopes",
+    "profession": "Diretor de TI",
+    "company": "Grupo Pereira",
+    "description": "<p>Atualmente ocupa o cargo de Diretor de TI do Grupo Pereira, formados pelas bandeiras Fort Atacadista, Supermercados Comper, Atacado Bate Forte, Farmácia Sempre Fort, Posto Fort, Perlog PeraTUR.</p><p>Graduado em Processamento de Dados, Pós-graduado em Gestão da Tecnologia da Informação e MBA em Gestão Empresarial.</p><p>Possui mais de 25 anos de experiência no varejo com ênfase em Tecnologia da Informação e conhecimento em operações logísticas.</p>",
+    "lecture": "", 
+    "image": "./images/speaker/AlfredoLopes.png"
+  },
+  {
+    "id": 9,
+    "name": "Antonio Francischelli",
+    "profession": "Diretor",
+    "company": "BSP Cloud",
+    "description": "<p>Trabalhou no mercado varejista, sendo um dos pioneiros no Brasil pela introcução da automação comercial no Mappin, atuando como Gerente de TI e Planejamento, e em seguida como Diretor de TI nos Supermercados Gentil Moreira (empresa com forte atuação no interior de São Paulo na década de 80/90) e em seguida como Diretor de TI dos Supermercados Paes Mendonça.</p><p>Possui grande experiência em empresas multinacionais da área de tecnologia, como Labo Nixdorf, NCR do Brasil, Digital Equipments, AT&T e Hughes Telecomunicações, com atuações além do Brasil no México, França, Argentina e EUA.</p><p>Atualmente está há 14 anos na BSP Cloud, o qual é sócio fundador, empresa que tem como objetivo serviços de recursos computacionais em Cloud Computing, tendo como principal parceiro a AWS - Amazon Web Services e Ingram Micro, e diversos clientes do segmento de varejo, serviços e indústrias.</p>",
+    "lecture": "", 
+    "image": "./images/speaker/AntonioFrancischelli.png"
+  },
+  {
+    "id": 10,
+    "name": "Bruno Guimarães",
+    "profession": "Diretor da Vertical Varejo ACATE e CEO do WiFeed",
+    "company": "WiFeed e Vertical Varejo ACATE",
+    "description": "<p>Formado em administração de empresas pela Universidade do Estado de Santa Catarina (UDESC/ESAG), certificado em gestão de projetos pelo Australian  Institute of Professional Education e certificado no programa de Inovação e Aceleração da UC Berkeley.</p>",
+    "lecture": "", 
+    "image": "./images/speaker/BrunoGuimaraes.png"
+  },
+  {
+    "id": 11,
+    "name": "Edmilson de Siqueira Varejão Neto",
+    "profession": "CEO",
+    "company": "Proffer",
+    "description": "<p>Edmilson Varejão é bacharel, mestre e doutorado em Economia pela Fundação Getúlio Vargas (FGV). Durante seu percurso acadêmico, ele teve a oportunidade de aprimorar seus conhecimentos como Visiting Graduate Researcher na Universidade da Califórnia em Los Angeles (UCLA).</p><p>Durante 10 anos atuou como economista sênior no mercado financeiro e em consultorias econômicas, como FGV e Tendências Consultoria, envolvido em estudos de projeções e modelagem econométrica. Além disso, Edmilson Varejão também ocupou o cargo de vice-presidente do Clube de Regatas do Flamengo.</p><p>Nos últimos cinco anos, fundou e atua como CEO da AI Consult, uma empresa especializada no desenvolvimento de soluções em Inteligência Artificial, e fundador e CEO da Proffer, uma startup que utiliza algoritmos de Inteligência Artificial para otimização de preços. Além disso, também atua como professor de ciência de dados e inteligência artificial em cursos de MBA oferecidos pela FGV e FUCAPE e como palestrante em eventos de inovação e tecnologia.</p>",
+    "lecture": "", 
+    "image": "./images/speaker/EdmilsonVarejao.png"
+  },
+  {
+    "id": 12,
+    "name": "Filipe Fernandes Pereira",
+    "profession": "Diretor Geral",
+    "company": "Vércer",
+    "description": "<p>Economista, com mais de 15 anos de experiência em indústria e varejo e passagens por empresas como Unilever, Panco e GPA. Também liderou a área de Novos Produtos da dunnhumby Brasil.</p><p>Desafios e Riscos na sustentação do negócio</p>",
+    "lecture": "", 
+    "image": "./images/speaker/FilipePereira.png"
+  },
+  {
+    "id": 13,
+    "name": "Pedro Lopes Brandão",
+    "profession": "Presidente",
+    "company": "APAS",
+    "description": "<p>Empreendedor por essência, Pedro Lopes é mineiro de Turmalina, cidade do Vale do Jequitinhonha. No início da década de 70, migrou para a cidade de Guarulhos, em São Paulo, onde trabalhou como mecânico e frentista. No ano de 1974, a veia empreendedora e a paixão pelo varejo impulsionaram a criação de um pequeno comércio em sociedade com os irmãos. O crescimento resultou na fundação da rede Lopes Supermercados, que conta hoje com 30 supermercados e 3 atacarejos, presentes em 11 cidades no estado de São Paulo.</p><p>A partir de sua larga experiência e destaque no setor supermercadista, integrou o quadro executivo da APAS como 1º vice-presidente da entidade no último biênio, assumindo a presidência da Associação na gestão 2022/2024.</p>",
+    "lecture": "", 
+    "image": "./images/speaker/PedroLopes.JPG"
+  },
+  {
+    "id": 14,
+    "name": "Renata Oliveira da Costa Silva",
+    "profession": "CEO",
+    "company": "Beepay",
+    "description": "<p>Profissional com mais de 25 anos no mercado varejista, larga experiência em vendas, comunicação e marketing estratégico, especialista em comportamento do consumidor. Experiência no segmento de varejo e cooperativas de crédito. Ex diretora da Vertical Varejo da Acate (Associação Catarinense de tecnologia). Atualmente, CEO Beepay (www.beepayapp.com.br) e mentora Acate, Inovativa, Nasa Space Apps, StartupSP. Além disso, conselheira e investidora das startups 2Care, Etiqueta certa e Mais vivida.</p>",
+    "lecture": "",
+    "image": "./images/speaker/RenataCosta.png"
+  },
+  {
+    "id": 15,
+    "name": "Samuel Gonsales",
+    "profession": "Sócio / Diretor de Relacionamento",
+    "company": "E-Commerce Brasil",
+    "description": "<p>Samuel Gonsales é especialista em Omnichannel, Sistema de Gestão (ERP) e e-Commerce acumulando mais de 26 anos de experiência.</p><p>Certificate MIT - Massachusetts Institute of Technology Leadership Program – (USA).</p><p>Mestre em Administração de Empresas pela Flórida Christian University (Orlando, Flórida, USA).</p><p>Autor do Livro: Sistemas ERP na Omniera.</p><p>Co-Autor do Livro: Vendas + Operações no e-Commerce.</p><p>Participação Especial no Livro: Indústria e E-Commerce.</p><p>Autor de 13 livros digitais (ebooks) sobre e-Commerce e Omnichannel.</p><p>Sócio / Diretor de Relacionamento no E-Commerce Brasil onde realizamos o maior evento de e-commerce da américa latina há 14 anos.</p><p>Professor MBA – Escola Superior de E-Commerce.</p><p>Vencedor Prêmio ABCOMM 2017 - Melhor Profissional de e-Commerce.</p><p>Vencedor Prêmio DIGITALKS 2017/2018 - Profissional destaque do Mercado Digital/Tecnologia.</p><p>Prêmio: Entre os profissionais que mais contribuíram com conteúdo relevante nos últimos 10 anos (2019).</p><p>Conselheiro de indústrias, distribuidores, varejistas e empresas de tecnologia.</p><p>Palestrante: Eventos, Convenções, Fóruns e Congressos.</p>",
+    "lecture": "", 
+    "image": "./images/speaker/SamuelGonsales.png"
+  },
+  {
+    "id": 16,
+    "name": "Santiago Edo",
+    "profession": "CEO",
+    "company": "Harmo",
+    "description": "<p>Santiago Edo, 49, é co-fundador e CEO da Harmo, empresa de tecnologia líder em gestão de reputação online e experiência do cliente no Brasil. Atualmente a Plataforma Harmo é utilizada em mais de 35 mil pontos de venda e possui clientes como Oba, Savegnago, Ipiranga, ampm, Cacau Show, Bob’s, Americanas, C&A e Hering.</p><p>Formado em Administração e Pós Graduado em MKT, iniciou a sua carreira em 1990, como estagiário em uma agência de publicidade na cidade de Joinville. Sempre acreditou que o diferencial de uma empresa está no atendimento ao cliente e tem como lema uma frase do mestre Philip Kotler:  &#8223;Crie casos de amor com seus clientes que eles farão a publicidade da sua marca &#x201D;. </p><p>Em 2016 fundou a sua primeira startup, iniciando a jornada como empreendedor na área de tecnologia. Passou pelo programa de incubação do MIDITEC, pelo programa de aceleração da DARWIN e por programas de capacitação como Startup SC, Scale Up Endeavor e Oracle for Startups.</p><p>Em Junho de 2020, após uma fusão, surge a Harmo. Logo no início, foram investidos pela Hi Partners, principal VC Brasileiro de retail techs e, no ano passado, receberam um novo investimento e se uniram ao Reclame Aqui, passando a fazer parte da StoneCo, que reúne empresas como Linx, MLabs, Delivery Much e Pagar.me.</p><p>Em 2022 se tornou Diretor do Programa ACATE Startups da Associação Catarinense de Tecnologia e mentor do MIDITEC.</p>",
+    "lecture": "", 
+    "image": "./images/speaker/SantiagoEdo.png"
+  },
+  {
+    "id": 17,
+    "name": "Vladimir Fortes dos Santos",
+    "profession": "CFO-Diretor Financeiro e Administrativo",
+    "company": "GRUPO AMIGÃO",
+    "description": "<p>Vladimir Fortes dos Santos é CFO - Diretor Financeiro e Administrativo no Grupo Amigão Supermercados desde o ano de 2017, responsável além da área financeira e de controladoria, pela Tecnologia da Informação, Gestão de Prevenção de Perdas, Qualidade e Segurança Alimentar, Jurídico e Planejamento Financeiro e Estratégico.</p><p>Atuação no segmento de Varejo por mais de 23 anos como Diretor Financeiro e Controladoria na Pernambucanas, IMC e Walmart.</p><p>Experiência em empresas Big Four de auditoria externa – Coopers & Lybrand (atual PWC) por mais de 10 anos.</p><p>Possui Mestrado Acadêmico em Administração de Empresas na Universidade FMU - Linha de Pesquisa em Inovação e Tecnologia com artigo da pesquisa publicado sobre Versionamento de Produtos Digitais.</p><p>MBA pela FGV com extensão na Ohio University.</p><p>Especialização no Varejo pela Provar-USP e Dom Cabral.</p><p>Graduação em Ciências Contábeis pelo Centro Universitário das Faculdades Metropolitanas Unidas.</p><p>Professor convidado de Pós-Graduação/MBA na Universidade Presbiteriana Mackenzie e na Universidade da Estácio de Sá.</p>",
+    "lecture": "", 
+    "image": "./images/speaker/VladimirSantos.png"
+  },
+  {
+    "id": 18,
+    "name": "Paula França",
+    "profession": "Head Nacional de Ecommerce",
+    "company": "Cencosud Brasil",
+    "description": "<p>Paula França apaixonada por varejo, com 20 anos de experiência em gestão, operação e estratégia digital em grandes Varejistas, com MBA em Estratégia de Varejo e Especialização em Novas Tecnologias, atualmente é Head Nacional E-commerce da Cencosud no Brasil</p>",
+    "lecture": "", 
+    "image": "./images/speaker/PaulaFrança.png"
   }
 ]
