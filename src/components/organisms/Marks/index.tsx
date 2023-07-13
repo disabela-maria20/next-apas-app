@@ -1,18 +1,31 @@
 import Style from './Marks.module.scss'
 
+import LOGOS from './Marks.json'
 const Marks = () => {
   return (
-    <article className={Style.marks}>
-      <div className={Style.container}>
-        <h2>patrocinadores</h2>
-      </div>
-      <div className={Style.marksTitle}>
-        <h3>Tera</h3>
-      </div>
-      <div className={Style.container}>
-        <img src="./images/div-5_big.png" alt="amostra" />
-      </div>
-      <div className={Style.marksTitle}>
+    <>
+      <article className={Style.marks}>
+        <div className={Style.container}>
+          <h2>patrocinadores</h2>
+        </div>
+        <div className={Style.marksTitle}>
+          <h3>Tera</h3>
+        </div>
+        <div className={Style.container}>
+          <div className={Style.logoMarks}>
+            {LOGOS.tera.map((data) => (
+              <img
+                src={data.image}
+                alt={data.name}
+                width={120}
+                height={70}
+                key={data.id}
+                className={Style.max1x}
+              />
+            ))}
+          </div>
+        </div>
+        {/* <div className={Style.marksTitle}>
         <h3>Big Data</h3>
       </div>
       <div className={Style.container}>
@@ -23,13 +36,25 @@ const Marks = () => {
       </div>
       <div className={Style.container}>
         <img src="./images/div-5.png" alt="amostra" />
-      </div>
-      <div className={Style.marksTitle}>
-        <h3>mega</h3>
-      </div>
-      <div className={Style.container}>
-        <img src="./images/div-5.png" alt="amostra" />
-      </div>
+      </div> */}
+        <div className={Style.marksTitle}>
+          <h3>mega</h3>
+        </div>
+        <div className={Style.container}>
+          <div className={Style.logoMarks}>
+            {LOGOS.mega.map((data) => (
+              <img
+                src={data.image}
+                alt={data.name}
+                width={120}
+                height={70}
+                key={data.id}
+                className={Style.max4x}
+              />
+            ))}
+          </div>
+        </div>
+      </article>
       <div className={Style.admMarks}>
         <div className={Style.container}>
           <div className={Style.gridMark}>
@@ -54,7 +79,7 @@ const Marks = () => {
           </div>
         </div>
       </div>
-    </article>
+    </>
   )
 }
 

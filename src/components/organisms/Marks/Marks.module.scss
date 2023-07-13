@@ -3,11 +3,11 @@
 }
 
 .marks {
-  padding-top: 9rem;
+  padding: 9rem 0;
   background-color: $primary-lingh-color;
 
   @include media(sm) {
-    padding-top: 12rem;
+    padding: 12rem 0;
   }
 
   h2 {
@@ -72,7 +72,7 @@
     }
   }
 
-  img:not(figure img):not(.range) {
+  img:not(figure img, .logoMarks img):not(.range) {
     display: block;
     margin: 0 auto;
     margin-bottom: 6rem;
@@ -80,43 +80,73 @@
       margin-bottom: 9rem;
     }
   }
-  .admMarks {
-    background-color: #d9d9d9;
-  }
-  .gridMark {
-    display: grid;
-    gap: 3rem;
-    padding: 6rem 0;
-
-    @include media(sm) {
-      grid-template-columns: 1fr 1fr;
-      gap: 0rem;
-      max-width: 650px;
-      margin: 0 auto;
-    }
-    figure {
-      img {
-        margin: 0 auto;
-        display: block;
-        object-fit: contain;
-      }
-      legend {
-        display: block;
-        text-align: center !important;
-        font-family: exo-soft, "Lucida Sans", Geneva, Verdana, sans-serif;
-        text-align: left;
-        font-size: 1.5rem;
-        line-height: 2.4rem;
-        font-weight: 400;
-        margin-bottom: 2rem;
-
-        @include media(md) {
-          font-size: 1.8rem;
-          line-height: 2.8rem;
-        }
-      }
-    }
-  }
-
+ 
   
+
+  .logoMarks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    @include media(md) {
+     gap: 45px; 
+    }
+    img{
+      object-fit: contain;
+    }
+    .max1x{
+      width: 100%;
+      max-width: 170px;
+      
+      @include media(md) {
+        max-width: 220px;
+      }
+    }
+    .min4x{
+      max-width: 130px;
+      @include media(md) {
+        max-width: 180px;
+      }
+    }
+  }
+  
+}
+.admMarks {
+  background-color: #d9d9d9;
+}
+
+.gridMark {
+  display: grid;
+  gap: 3rem;
+  padding: 6rem 0;
+
+  @include media(sm) {
+    grid-template-columns: 1fr 1fr;
+    gap: 0rem;
+    max-width: 650px;
+    margin: 0 auto;
+  }
+  figure {
+    img {
+      margin: 0 auto;
+      display: block;
+      object-fit: contain;
+    }
+    legend {
+      display: block;
+      text-align: center !important;
+      font-family: exo-soft, "Lucida Sans", Geneva, Verdana, sans-serif;
+      text-align: left;
+      font-size: 1.5rem;
+      line-height: 2.4rem;
+      font-weight: 400;
+      margin-bottom: 2rem;
+
+      @include media(md) {
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+      }
+    }
+  }
 }

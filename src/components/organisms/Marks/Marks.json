@@ -1,0 +1,56 @@
+{
+  "tera": [
+    {
+      "id": 0,
+      "name": "Ambeve",
+      "image": "./images/marks/tera/ambev.png"
+    },
+    {
+      "id": 1,
+      "name": "Bluesoft",
+      "image": "./images/marks/tera/Bluesoft.svg"
+    },
+    {
+      "id": 2,
+      "name": "ImpostoCerto by-itworks",
+      "image": "./images/marks/tera/ImpostoCerto.png"
+    },
+    {
+      "id": 3,
+      "name": "RedCloud",
+      "image": "./images/marks/tera/RedCloud.png"
+    },
+    {
+      "id": 4,
+      "name": "Witzler Energia",
+      "image": "./images/marks/tera/WITZLER-ENERGIA.png"
+    }
+  ],
+  "mega": [
+    {
+      "id": 0,
+      "name": "Arius Sistemas",
+      "image": "./images/marks/mega/Arius-Sistemas.png"
+    },
+    {
+      "id": 1,
+      "name": "BSP Cloud",
+      "image": "./images/marks/mega/bsp.png"
+    },
+    {
+      "id": 2,
+      "name": "H2J Innovative Solutions",
+      "image": "./images/marks/mega/H2J.png"
+    },
+    {
+      "id": 3,
+      "name": "intersolid",
+      "image": "./images/marks/mega/intersolid.png"
+    },
+    {
+      "id": 4,
+      "name": "toledo",
+      "image": "./images/marks/mega/toledo.png"
+    }
+  ]
+}
