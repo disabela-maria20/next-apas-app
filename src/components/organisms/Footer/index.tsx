@@ -93,7 +93,13 @@ const index = () => {
                   <Link href="/2022">Rolou em 2022</Link>
                 </li>
                 <li>
+                  <AnchorLink href="#marks">patrocinadores</AnchorLink>
+                </li>
+                <li>
                   <AnchorLink href="#contact">Contato</AnchorLink>
+                </li>
+                <li>
+                  <AnchorLink href="#marks">patrocinadores</AnchorLink>
                 </li>
               </ul>
             </nav>

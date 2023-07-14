@@ -1,10 +1,11 @@
 import Style from './Marks.module.scss'
 
 import LOGOS from './Marks.json'
+
 const Marks = () => {
   return (
     <>
-      <article className={Style.marks}>
+      <section className={Style.marks} id="marks">
         <div className={Style.container}>
           <h2>patrocinadores</h2>
         </div>
@@ -54,12 +55,12 @@ const Marks = () => {
             ))}
           </div>
         </div>
-      </article>
+      </section>
       <div className={Style.admMarks}>
         <div className={Style.container}>
           <div className={Style.gridMark}>
             <figure>
-              <legend>Administração e Realização</legend>
+              <legend>Divulgação Oficial</legend>
               <img
                 src="./images/super-varejo.png"
                 alt="Super Varejo"
@@ -68,7 +69,7 @@ const Marks = () => {
               />
             </figure>
             <figure>
-              <legend>Divulgação Oficial</legend>
+              <legend>Administração e Realização</legend>
               <img
                 src="./images/apas.png"
                 alt="Super Varejo"

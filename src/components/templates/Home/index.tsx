@@ -23,8 +23,8 @@ const Home = () => {
         <FAQ />
         <Marks />
         <Maps />
-        <Footer />
       </main>
+      <Footer />
     </>
   )
 }

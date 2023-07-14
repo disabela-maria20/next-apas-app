@@ -5,6 +5,8 @@ import Styled from './Stage.module.scss'
 
 import Speeches from './DataEvent.json'
 
+import { LineUp } from '@/components/molecules'
+
 const COLOR: string[] = ['#5f249f', '#00b5d7', '#007186', '#676eff']
 
 type PropsPales = {
@@ -46,44 +48,47 @@ const Stages = () => {
   }, [])
 
   return (
-    <article className={Styled.stage} id="speeches">
-      <div className={Styled.container}>
-        <h2>Palestras</h2>
-        <section className={Styled.stageGrid}>
-          <div>
-            <h2>
-              customer <br /> experience
-            </h2>
-            <div className={Styled.containerStage} ref={blockDiv}>
-              <div className={Styled.top}></div>
-              <div className={Styled.botton}></div>
-              <div className={Styled.right}></div>
-              <div className={Styled.left}></div>
-              <span className={Styled.circle} ref={circlediv}></span>
+    <>
+      <LineUp />
+      <article className={Styled.stage} id="speeches">
+        <div className={Styled.container}>
+          <h2>Palestras</h2>
+          <section className={Styled.stageGrid}>
+            <div>
+              <h2>
+                customer <br /> experience
+              </h2>
+              <div className={Styled.containerStage} ref={blockDiv}>
+                <div className={Styled.top}></div>
+                <div className={Styled.botton}></div>
+                <div className={Styled.right}></div>
+                <div className={Styled.left}></div>
+                <span className={Styled.circle} ref={circlediv}></span>
+              </div>
             </div>
-          </div>
-          <div ref={blockTable} style={{ color: '#5f249f' }}>
-            {componente?.map((data: PropsPales) => (
-              <section key={data.id}>
-                <div className={Styled.gridTime}>
-                  <div className={Styled.time}>
-                    <strong>18h00</strong>
-                    <p>
-                      duração <strong>{data.duration}</strong>{' '}
-                    </p>
+            <div ref={blockTable} style={{ color: '#5f249f' }}>
+              {componente?.map((data: PropsPales) => (
+                <section key={data.id}>
+                  <div className={Styled.gridTime}>
+                    <div className={Styled.time}>
+                      <strong>18h00</strong>
+                      <p>
+                        duração <strong>{data.duration}</strong>{' '}
+                      </p>
+                    </div>
+                    <div className={Styled.Info}>
+                      <h3>{data.name}</h3>
+                      <p>{data.description}</p>
+                    </div>
                   </div>
-                  <div className={Styled.Info}>
-                    <h3>{data.name}</h3>
-                    <p>{data.description}</p>
-                  </div>
-                </div>
-                <span></span>
-              </section>
-            ))}
-          </div>
-        </section>
-      </div>
-    </article>
+                  <span></span>
+                </section>
+              ))}
+            </div>
+          </section>
+        </div>
+      </article>
+    </>
   )
 }
 

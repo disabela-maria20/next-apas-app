@@ -58,7 +58,7 @@ const Nav: React.FC<NavProps> = ({ open, setOpen }) => {
   ]
 
   return (
-    <nav className={`${Style.navBar} `}>
+    <nav className={`${Style.navBar}`}>
       <div className={`${!open ? Style.open : Style.close}`}>
         <ul>
           <li>
@@ -74,6 +74,9 @@ const Nav: React.FC<NavProps> = ({ open, setOpen }) => {
           </li>
           <li>
             <Link href="/2022">Rolou em 2022</Link>
+          </li>
+          <li>
+            <AnchorLink href="#marks">patrocinadores</AnchorLink>
           </li>
           <li>
             <AnchorLink href="#contact">Contato</AnchorLink>
