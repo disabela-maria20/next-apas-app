@@ -70,6 +70,7 @@ const index = () => {
                         alt={`rede social ${redes.name}`}
                         width={29}
                         height={29}
+                        role="presentation"
                       />
                     </a>
                   </li>
@@ -113,7 +114,7 @@ const index = () => {
               title="Telefone"
               aria-label="Telefone da APAS"
               rel="noreferrer"
-              role="button"
+              role="link"
             >
               (11) 3647-5000
             </a>
@@ -123,7 +124,7 @@ const index = () => {
               title="E-mail"
               aria-label="E-mail da APAS"
               rel="noreferrer"
-              role="button"
+              role="link"
             >
               central.apas@apas.com.br
             </a>

@@ -20,20 +20,30 @@
     justify-content: center;
 
     .linupSpeeches {
-      margin: 10px;
+      margin: 15px;
       max-width: 180px;
 
       .time {
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 700;
+        text-transform: uppercase;
       }
       .speach {
-        background-color: $secondary-colors;
+        background-color: $secondary-colors-dark;
         color: $primary-lingh-color;
-        padding: 5px 20px;
-        margin-top: 20px;
-        font-size: 15px;
+        padding: 20px;
+        font-weight: 700;
+        font-size: 18px;
         position: relative;
+
+        +div span{
+          background-color: $secondary-colors;
+          text-transform: uppercase;
+          display: block;
+          padding: 15px 20px;
+          font-size: 15px;
+          color: $primary-lingh-color;
+        }
         &::after {
           content: " ";
           position: absolute;

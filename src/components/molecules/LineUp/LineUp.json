@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "time": "9h às 9h30",
+    "talks": "Palco Central - Abertura"
+  },
+  {
+    "id": 2,
+    "time": "9h30 à 10h",
+    "talks": "Palco Central <br/> Pesquisa APAS de tecnologica, prontidão e inovação: resultados e insights"
+  },
+  {
+    "id": 3,
+    "time": "10h às 10h30",
+    "talks": "Pesquisa APAS de tecnológica, prontidão e inovação: resultados e insights"
+  },
+  {
+    "id": 4,
+    "time": "10h30 às 11h15",
+    "talks": "Coffee break"
+  },
+  {
+    "id": 5,
+    "time": "11h15 à 11h35",
+    "talks": "Palcos Simultâneas ",
+    "stage": "<span>Palco 1 - Da TI básica às tecnologias</span> <span>Palco 2 - Cultura de inovação e aceleração</span><span>Palco 3 - Expansão Omnichannel</span><span>Palco 4 - Evolução do Supply Chain</span>"
+  },
+  {
+    "id": 6,
+    "time": "11h35 à 12h30",
+    "talks": "Palcos Simultâneas",
+    "stage": "<span>Palco 1 - Da TI básica às tecnologias</span> <span>Palco 2 - Cultura de inovação e aceleração</span> <span>Palco 3 - Expansão Omnichannel</span> <span>Palco 4 - Evolução do Supply Chain</span>"
+  },
+  {
+    "id": 7,
+    "time": "12h30 às 14h",
+    "talks": "Work Lunch"
+  },
+  {
+    "id": 8,
+    "time": "14h às 14h30",
+    "talks": "Palco Central"
+  },
+  {
+    "id": 9,
+    "time": "14h35 à 15h05",
+    "talks": "Palcos Simultâneas",
+    "stage":"<span>Palco 1 - Da TI básica às tecnologias</span> <span>Palco 2 - Cultura de inovação e aceleração</span><span>Palco 3 - Expansão Omnichannel</span><span>Palco 4 - Evolução do Supply Chain</span>"
+  },
+  {
+    "id": 10,
+    "time": "15h10 à 16h10",
+    "talks": "Palcos Simultâneas",
+    "stage": "<span>Palco 1 - Da TI básica às tecnologias</span><span>Palco 2 - Cultura de inovação e aceleração</span><span>Palco 3 - Expansão Omnichannel</span> <span>Palco 4 - Evolução do Supply Chain</span>"
+  },
+  {
+    "id": 11,
+    "time": "16h10 às 17h",
+    "talks": "Coffee break"
+  },
+  {
+    "id": 12,
+    "time": "17h às 17h30",
+    "talks": "Palco Central - Encerramento"
+  }
+]
