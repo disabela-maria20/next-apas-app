@@ -11,11 +11,15 @@ const LineUp = () => {
       <div className={Style.linupHours}>
         {LINE.map((data) => (
           <div className={Style.linupSpeeches} key={data.id}>
-            <h5 className={Style.time}>{data.time}</h5>
-            <div
-              className={Style.speach}
-              dangerouslySetInnerHTML={{ __html: data?.talks }}
-            />
+            <div className={Style.speach}>
+              <h5 className={Style.time}>{data.time}</h5>
+              {data.talks && (
+                <div
+                  dangerouslySetInnerHTML={{ __html: data?.talks as never }}
+                  className={Style.title}
+                ></div>
+              )}
+            </div>
 
             {data.stage && (
               <div

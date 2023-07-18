@@ -24,10 +24,15 @@
       max-width: 180px;
 
       .time {
-        font-size: 18px;
+        font-size: 13px;
+        
+        color: $tertiary-colors;
         font-weight: 700;
         text-transform: uppercase;
       }
+     .title{
+      margin-top: 10px;
+     }
       .speach {
         background-color: $secondary-colors-dark;
         color: $primary-lingh-color;
@@ -35,11 +40,12 @@
         font-weight: 700;
         font-size: 18px;
         position: relative;
-
+        
         +div span{
           background-color: $secondary-colors;
           text-transform: uppercase;
           display: block;
+          
           padding: 15px 20px;
           font-size: 15px;
           color: $primary-lingh-color;

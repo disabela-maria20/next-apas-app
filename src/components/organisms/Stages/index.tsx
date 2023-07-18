@@ -49,7 +49,7 @@ const Stages = () => {
 
   return (
     <>
-      <LineUp />
+      {/* <LineUp /> */}
       <article className={Styled.stage} id="speeches">
         <div className={Styled.container}>
           <h2>Palestras</h2>

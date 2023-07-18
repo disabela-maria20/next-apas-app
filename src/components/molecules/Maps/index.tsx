@@ -12,9 +12,10 @@ const Maps = () => {
       <section className={Style.maps}>
         <div className={Style.container}>
           <h3>agora em novo local:</h3>
-          <h2>são paulo expo</h2>
+          <h2>são paulo expo </h2>
           <p>
-            Rodovia dos Imigrantes, 1,5 km - <br />
+            PAVILHÃO 4
+            <br /> Rodovia dos Imigrantes, 1,5 km - <br />
             Vila Água Funda, São Paulo - SP, 04329-900
           </p>
         </div>
