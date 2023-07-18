@@ -76,6 +76,7 @@
     display: block;
     margin: 0 auto;
     margin-bottom: 6rem;
+
     @include media(sm) {
       margin-bottom: 9rem;
     }
@@ -119,7 +120,7 @@
 .gridMark {
   display: grid;
   gap: 3rem;
-  padding: 6rem 0;
+  padding: 5rem 0 3rem;
 
   @include media(sm) {
     grid-template-columns: 1fr 1fr;
@@ -132,6 +133,7 @@
       margin: 0 auto;
       display: block;
       object-fit: contain;
+      width: 200px;
     }
     legend {
       display: block;
@@ -139,13 +141,11 @@
       font-family: exo-soft, "Lucida Sans", Geneva, Verdana, sans-serif;
       text-align: left;
       font-size: 1.5rem;
-      line-height: 2.4rem;
       font-weight: 400;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
 
       @include media(md) {
-        font-size: 1.8rem;
-        line-height: 2.8rem;
+        font-size: 1.6rem;
       }
     }
   }
