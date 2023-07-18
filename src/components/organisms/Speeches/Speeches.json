@@ -187,5 +187,43 @@
     "lecture": "", 
     "description": "<p>Graduado em Física e mestre em Mecânica Quântica, possui vasta experiência no setor empresarial, onde atuou em áreas como Transporte, Educação e Varejo, sempre estabelecendo conexões com a tecnologia. Com quase uma década de trabalho com Inteligência Artificial, é co-fundador e CEO da Looqbox, uma startup inovadora que facilita a busca de informações dentro das organizações por meio da utilização de linguagem natural.</p>",
     "image": "./images/speaker/RodrigoMurta.png"
+  },
+  {
+    "id": 22,
+    "name": "Wander Smelan",
+    "profession": "CTO",
+    "company": "Compra Agora",
+    "lecture": "",
+    "description": "<p>Atualmente CTO do Compra Agora para América Latina, Wander Smelan iniciou sua carreira em consultoria, Accenture e Fujitsu, tendo uma passagem de 14 anos no Brasil e nos EUA com clientes como Carrefour, OfficeMax e Samsung. Posteriormente atuou no Carrefour Brasil no relançamento do Ecommerce/B2C e tecnologia para sistemas comerciais. E mais recentemente atuou no Perú como líder do programa de tecnologia e transformação na Belcorp com Venda Direta para canais B2B, B2C e B2B2C em 14 países da América Latina. Wander é mestre em Tecnologia da Informação pela Universidade de Engenharia da Northwestern University de Chicago, EUA.</p>",
+   "image": "./images/speaker/WanderSmelan.png"
+  },
+  {
+    "id": 23,
+    "name": "Kleber Thanasio",
+    "profession": "Arquiteto de Soluções",
+    "company": "Consultor",
+    "lecture": "",
+    "description": "<p>Como Arquiteto de Soluções Sênior com mais de 15 anos de experiência no setor de varejo, trago uma vasta experiência em design de sistemas distribuídos, ERP, Integração, NodeJS e Typescript. Minha grande experiência em operações de varejo me trouxe uma perspectiva única de como a tecnologia pode ser alavancada para gerar resultados de negócios, e aprimorei minhas habilidades através de uma gama diversificada de projetos entregues a grandes varejistas no Brasil, como migração de ERP, implementação de WMS e também em meu último emprego (uma empresa de full commerce), dezenas de projetos de Ecommerce.</p>",
+   "image": "./images/speaker/kleberthanasio.png"
+  },
+  {
+    "id": 24,
+    "name": "Farroco",
+    "profession": "CDO - Chief Digital Officer",
+    "company": "Grupo Ri Happy",
+    "lecture": "",
+    "description": "<p>Formado em Bacharel em Ciências da Computação pela USP – Universidade de São Paulo, Pós Graduado em IT Governance pela USP – Universidade de São Paulo, Curso de Extensão em Economia e Gestão Empresarial pela MIT Sloan School of Management, formado em Leadership Program and Business Projects pela Ashridge Business Schoell (Inglaterra), formado em TOC Holistic Management pela Goldrat School, participou como membro do Comitê de Tecnologia e Inovação da APAS – Associação Paulista de Supermercados, membro do Conselho Deliberativo do ABLTI Associação Brasileira de Líderes de Tecnologia da Informação e membro do Conselho Assessor da CIONET Brasil, Farroco especializou-se na área de Tecnologia da Informação.</p>\n\n<p>O executivo que atuou no Lloyds Bank, C&A Brasil, C&A México, Casas Pernambucanas, Lojas Riachuelo e Carrefour Brasil, agora encontra-se como CDO do Grupo Ri Happy Brasil.</p>",
+   "image": "./images/speaker/PauloFarroco.png"
+  },
+  {
+    "id": 25,
+    "name": "Ageu",
+    "profession": "Diretor Tech",
+    "company": "Leroy Merlin",
+    "lecture": "",
+    "description": "<p>Carreira desenvolvida na área de Gestão e Tecnologia no Varejo. Profissional com vasta experiência na condução de projetos de implementação e melhoria de processos e sistemas de varejo no ramo de alimentos e bens de consumo. Aplicação de metodologias de boas práticas, controle de recursos financeiros e alinhamento da demanda e necessidade de inovação tecnológica ao desenvolvimento de projetos.</p>",
+   "image": "./images/speaker/AgeuPedro.png"
   }
 ]
+
+  
