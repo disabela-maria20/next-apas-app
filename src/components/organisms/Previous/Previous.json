@@ -4,91 +4,91 @@
     "nome": "Alessandro Martins",
     "cargo": "Head de P&D",
     "função": "Consultor de Inovação e Expert em Lojas Autônomas",
-    "image": "AlessandroMartins.jpeg"
+    "image": "AlessandroMartins.webp"
   },
   {
     "id": 2,
     "nome": "Alex Terra",
     "cargo": "Diretor de Produto e Inovação",
     "empresa": "Pricefy by Selbetti",
-    "image": "Alex-terra.jpg"
+    "image": "Alex-terra.webp"
   },
   {
     "id": 3,
     "nome": "Ana Paula Maniero",
     "cargo": "Responsável pela área de Engajamento, Desenvolvimento de Mercado e Projetos Setoriais",
     "empresa": "GS1",
-    "image": "AnaPaulaManiero.jpg"
+    "image": "AnaPaulaManiero.webp"
   },
   {
     "id": 4,
     "nome": "André Faria",
     "cargo": "CEO",
     "empresa": "Bluesoft",
-    "image": "AndreFaria.jpg"
+    "image": "AndreFaria.webp"
   },
   {
     "id": 5,
     "nome": "Benny Szylkowski",
     "cargo": "CEO",
     "empresa": "Scanntech",
-    "image": "Benny.jpg"
+    "image": "Benny.webp"
   },
   {
     "id": 6,
     "nome": "Bruna Fallani",
     "cargo": "Consultora e Fundadora",
     "empresa": "Shopper 2B",
-    "image": "BrunaFallani.jpg"
+    "image": "BrunaFallani.webp"
   },
   {
     "id": 7,
     "nome": "Camila Santos",
     "cargo": "CEO",
     "empresa": "Camix Customer",
-    "image": "CamilaSantos.jpeg"
+    "image": "CamilaSantos.webp"
   },
   {
     "id": 8,
     "nome": "Carlo Alberto Julio",
     "cargo": "Sócio",
     "empresa": "C.A.Julio Consultoria Empresarial",
-    "image": "CarlosJulio.jpg"
+    "image": "CarlosJulio.webp"
   },
   {
     "id": 9,
     "nome": "Daniela Toledo",
     "cargo": "Diretora de Client Service",
     "empresa": "Boltis",
-    "image": "Daniela.jpg"
+    "image": "Daniela.webp"
   },
   {
     "id": 10,
     "nome": "Edson Silva",
     "cargo": "Presidente",
     "empresa": "Nexxera",
-    "image": "Edson.jpg"
+    "image": "Edson.webp"
   },
   {
     "id": 11,
     "nome": "Eduardo Ariel",
     "cargo": "Gestor de Serviços aos Supermercados",
     "empresa": "APAS - Associação Paulista de Supermercados",
-    "image": "EduardoArielGrunewald.jpg"
+    "image": "EduardoArielGrunewald.webp"
   },
   {
     "id": 12,
     "nome": "Felipe Mendes",
     "cargo": "CEO",
     "empresa": "GFK",
-    "image": "FelipeMendes.jpg"
+    "image": "FelipeMendes.webp"
   },
   {
     "id": 13,
     "nome": "Filipe Pereira",
     "cargo": "CEO - Diretor Geral",
     "empresa": "Vércer",
-    "image": "Felipe.jpeg"
+    "image": "Felipe.webp"
   },
 
   {
@@ -96,28 +96,28 @@
     "nome": "Gabriel Fernandes",
     "cargo": "CEO",
     "empresa": "CD2 Retail Tech",
-    "image": "GabrielFernandes.jpeg"
+    "image": "GabrielFernandes.webp"
   },
   {
     "id": 16,
     "nome": "Gustavo Pecly",
     "cargo": "Sócio",
     "empresa": "EY",
-    "image": "GustavoPacly.jpg"
+    "image": "GustavoPacly.webp"
   },
   {
     "id": 17,
     "nome": "João Cestari",
     "cargo": "Diretor de TI & Inovação",
     "empresa": "Enxuto Supermercados",
-    "image": "JoãoCestari.jpeg"
+    "image": "JoãoCestari.webp"
   },
   {
     "id": 18,
     "nome": "João Giaccomassi",
     "cargo": "Gerente Executivo de Produto",
     "empresa": "TOTVS",
-    "image": "joao.jpeg"
+    "image": "joao.webp"
   },
 
   {
@@ -125,62 +125,62 @@
     "nome": "Jorge Inafuco",
     "cargo": "Sócio-Diretor",
     "empresa": "LeadersLab Consultoria & Treinamento",
-    "image": "JorgeInafuco.jpg"
+    "image": "JorgeInafuco.webp"
   },
   {
     "id": 21,
     "nome": "José Flávio Cabreira Fernandes",
     "cargo": "CEO",
     "empresa": "Superbom Supermercados",
-    "image": "flaviofernandes.png"
+    "image": "flaviofernandes.webp"
   },
   {
     "id": 22,
     "nome": "Kátia Cortez",
     "cargo": "Diretora de Alianças Estratégicas",
     "empresa": "PwC",
-    "image": "KatiaCortez.jpeg"
+    "image": "KatiaCortez.webp"
   },
   {
     "id": 23,
     "nome": "Leandro Castanheira",
     "cargo": "COO",
     "empresa": "VipCommerce",
-    "image": "LeandroCastanheira.JPG"
+    "image": "LeandroCastanheira.webp"
   },
   {
     "id": 24,
     "nome": "Marcos Freire Gurgel",
     "cargo": "Diretor de Inovação",
     "empresa": "iFood",
-    "image": "09052016-DSC07758.jpg"
+    "image": "09052016-DSC07758.webp"
   },
   {
     "id": 25,
     "nome": "Natalie Freire",
     "cargo": "Sales Industry Lead",
     "empresa": "TikTok",
-    "image": "Natalie.jpeg"
+    "image": "Natalie.webp"
   },
   {
     "id": 26,
     "nome": "Patrícia Quintiliano",
     "cargo": "Head de Growth Marketing",
     "empresa": "Stoa Estratégias Digitais",
-    "image": "PatiQuintiliano.jpg"
+    "image": "PatiQuintiliano.webp"
   },
   {
     "id": 27,
     "nome": "Patricia Peck Pinheiro",
     "cargo": "CEO - Sócia Fundadora",
     "empresa": "Peck Advogados",
-    "image": "PatriciaPeckPinheiro.jpeg"
+    "image": "PatriciaPeckPinheiro.webp"
   },
   {
     "id": 28,
     "nome": "Pedro Della Nora",
     "cargo": "Supermercadista e Influencer Digital",
     "empresa": "Pedro Della Nora - Ideal Supermercado",
-    "image": "Pedro.png"
+    "image": "Pedro.webp"
   }
 ]

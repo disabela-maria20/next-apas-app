@@ -32,12 +32,12 @@ const Sponsor = () => {
       const res = await axios.post(
         'https://apasshow.com/api/send-patrocinador-next',
         {
-          nome: data.name,
-          email: data.email,
-          telefone: data.tel,
-          cargo: data.office,
-          empresa: data.company,
-          cnpj: data.cnpj
+          nome: data.s_name,
+          email: data.s_email,
+          telefone: data.s_tel,
+          cargo: data.s_office,
+          empresa: data.s_company,
+          cnpj: data.s_cnpj
         }
       )
 
@@ -83,89 +83,93 @@ const Sponsor = () => {
           <h2>Seja um patrocinador!</h2>
           <form className={Style.sponsorForm} onSubmit={handleSubmit(onSubmit)}>
             <input type="hidden" name="form" value="cadastro" />
-            <label htmlFor="nome">
+            <label htmlFor="s_nome">
               <span>Nome</span>
               <input
                 type="text"
-                id="nome"
+                id="s_nome"
                 placeholder="Nome"
-                {...register('name')}
+                {...register('s_name')}
               />
-              {errors.name && (
-                <small className="text-error">{errors.name.message}</small>
+              {errors.s_name && (
+                <small className="text-error">{errors.s_name.message}</small>
               )}
             </label>
-            <label htmlFor="email">
+            <label htmlFor="s_email">
               <span>E-mail</span>
               <input
                 type="email"
-                id="email"
+                id="s_email"
                 placeholder="E-mail"
-                {...register('email')}
+                {...register('s_email')}
               />
-              {errors.email && (
-                <small className="text-error">{errors.email.message}</small>
+              {errors.s_email && (
+                <small className="text-error">{errors.s_email.message}</small>
               )}
             </label>
             <div className={Style.gridForm}>
-              <label htmlFor="tel">
+              <label htmlFor="s_tel">
                 <span>Telefone</span>
                 <input
                   type="tel"
-                  id="tel"
+                  id="s_tel"
                   placeholder="Telefone"
-                  {...register('tel')}
+                  {...register('s_tel')}
                   onChange={(e) =>
                     ((e.target as HTMLInputElement).value = Phone(
                       (e.target as HTMLInputElement).value
                     ))
                   }
                 />
-                {errors.tel && (
-                  <small className="text-error">{errors.tel.message}</small>
+                {errors.s_tel && (
+                  <small className="text-error">{errors.s_tel.message}</small>
                 )}
               </label>
-              <label htmlFor="cnpj">
+              <label htmlFor="s_cnpj">
                 <span>CNPJ</span>
                 <input
                   type="text"
-                  id="cnpj"
+                  id="s_cnpj"
                   placeholder="CNPJ"
-                  {...register('cnpj')}
+                  {...register('s_cnpj')}
                   onChange={(e) =>
                     ((e.target as HTMLInputElement).value = Cnpj(
                       (e.target as HTMLInputElement).value
                     ))
                   }
                 />
-                {errors.cnpj && (
-                  <small className="text-error">{errors.cnpj.message}</small>
+                {errors.s_cnpj && (
+                  <small className="text-error">{errors.s_cnpj.message}</small>
                 )}
               </label>
             </div>
             <div className={Style.gridForm}>
-              <label htmlFor="cargo">
+              <label htmlFor="s_office">
                 <span>Cargo</span>
                 <input
                   type="text"
-                  id="office"
+                  id="s_office"
                   placeholder="Cargo"
-                  {...register('office')}
+                  {...register('s_office')}
                 />
-                {errors.office && (
-                  <small className="text-error">{errors.office.message}</small>
+                {errors.s_office && (
+                  <small className="text-error">
+                    {errors.s_office.message}
+                  </small>
                 )}
               </label>
-              <label htmlFor="empresa">
+              <label htmlFor="s_empresa">
                 <span>Empresa</span>
                 <input
                   type="text"
-                  id="empresa"
+                  id="s_empresa"
                   placeholder="Empresa"
-                  {...register('company')}
+                  {...register('s_company')}
                 />
-                {errors.company && (
-                  <small className="text-error">{errors.company.message}</small>
+                {errors.s_company && (
+                  <small className="text-error">
+                    {errors.s_company.message}
+                  </small>
                 )}
               </label>
             </div>

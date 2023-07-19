@@ -1,7 +1,7 @@
 import { z } from 'zod'
 
 export const SponsorFormSchema = z.object({
-  name: z
+  s_name: z
     .string()
     .min(3, { message: 'A qualidade de caracteres minimas é 3' })
     .nonempty('O nome é obrigatório')
@@ -14,7 +14,7 @@ export const SponsorFormSchema = z.object({
         })
         .join(' ')
     ),
-  email: z
+  s_email: z
     .string()
     .email('Formato de e-mail invalido')
     .toLowerCase()
@@ -25,22 +25,22 @@ export const SponsorFormSchema = z.object({
         message: 'Endereço de e-mail invalido'
       }
     ),
-  tel: z
+  s_tel: z
     .string()
     .min(11, { message: 'Número de telefone invalido' })
     .nonempty('Telefone é obrigatorio'),
   // .refine((value: string) => /^\(\d{2}\)\s\d{5}-\d{4}$/.test(value), {
   //   message: 'Número de telefone invalido'
   // }),
-  office: z
+  s_office: z
     .string()
     .min(3, { message: 'A qualidade de caracteres minimas é 3' })
     .nonempty('Infome o cargo'),
-  company: z
+  s_company: z
     .string()
     .nonempty('O nome da empresa é obrigatório')
     .min(3, { message: 'A qualidade de caracteres minimas é 3' }),
-  cnpj: z
+  s_cnpj: z
     .string()
     .nonempty('O cnpj é obrigatório')
     .min(14, { message: 'A qualidade de caracteres minimas é 14' })

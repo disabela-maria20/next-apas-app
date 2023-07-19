@@ -3,7 +3,7 @@
     {
       "id": 0,
       "name": "Ambeve",
-      "image": "./images/marks/tera/ambev.png"
+      "image": "./images/marks/tera/Ambev.svg"
     },
     {
       "id": 1,
@@ -13,44 +13,44 @@
     {
       "id": 2,
       "name": "ImpostoCerto by-itworks",
-      "image": "./images/marks/tera/ImpostoCerto.png"
+      "image": "./images/marks/tera/ImpostoCerto.svg"
     },
     {
       "id": 3,
       "name": "RedCloud",
-      "image": "./images/marks/tera/RedCloud.png"
+      "image": "./images/marks/tera/RedCloud.svg"
     },
     {
       "id": 4,
       "name": "Witzler Energia",
-      "image": "./images/marks/tera/WITZLER-ENERGIA.png"
+      "image": "./images/marks/tera/WITZLER-ENERGIA.svg"
     }
   ],
   "mega": [
     {
       "id": 0,
       "name": "Arius Sistemas",
-      "image": "./images/marks/mega/Arius-Sistemas.png"
+      "image": "./images/marks/mega/arius.svg"
     },
     {
       "id": 1,
       "name": "BSP Cloud",
-      "image": "./images/marks/mega/bsp.png"
+      "image": "./images/marks/mega/bsp.svg"
     },
     {
       "id": 2,
       "name": "H2J Innovative Solutions",
-      "image": "./images/marks/mega/H2J.png"
+      "image": "./images/marks/mega/H2J.svg"
     },
     {
       "id": 3,
       "name": "intersolid",
-      "image": "./images/marks/mega/intersolid.png"
+      "image": "./images/marks/mega/intersolid.svg"
     },
     {
       "id": 4,
       "name": "toledo",
-      "image": "./images/marks/mega/toledo.png"
+      "image": "./images/marks/mega/toledo.svg"
     }
   ]
 }
