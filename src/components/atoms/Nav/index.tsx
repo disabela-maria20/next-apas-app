@@ -90,7 +90,7 @@ const Nav: React.FC<NavProps> = ({ open, setOpen }) => {
             <li key={redes.id}>
               <a href={redes.link}>
                 <img
-                  src={`./images/${redes.name}.webp`}
+                  src={`./images/${redes.name}.svg`}
                   alt={`rede social ${redes.name}`}
                   width={44}
                   height={44}

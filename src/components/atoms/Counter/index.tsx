@@ -121,7 +121,7 @@ const Counter: React.FC = memo(() => {
               target="_SEJ"
             >
               <img
-                src="./images/arrow.png"
+                src="./images/arrow.svg"
                 alt="seta para esquerda"
                 width={36}
                 height={24}
