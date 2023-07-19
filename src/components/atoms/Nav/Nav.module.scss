@@ -12,6 +12,7 @@
       height: 0;
       @include media(lg) {
         height: initial;
+        overflow: hidden;
       }
     }
     &.open{
@@ -63,6 +64,7 @@
         color: $primary-lingh-color;
         transition: color 200ms ease;
 
+       
         @include media(xxl) {
           font-size: 1.8rem;
         }
@@ -86,6 +88,15 @@
       img{
         width: 29px;
         height: 29px;
+      }
+      a {
+        
+        span{
+          position: absolute;
+          right: -9999px;
+          visibility: hidden;
+          
+        }
       }
     }
     @include media(lg) {

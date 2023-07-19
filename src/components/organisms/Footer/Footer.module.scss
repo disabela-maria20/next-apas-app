@@ -87,6 +87,12 @@
       li {
         list-style-type: none;
         margin: 0 3.5px;
+        a{
+          span{
+            position: absolute;
+            left: -9999px;
+          }
+        }
       }
       @include media(lg) {
         justify-content: left;

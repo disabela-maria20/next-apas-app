@@ -72,6 +72,7 @@ const index = () => {
                         height={29}
                         role="presentation"
                       />
+                      <span>{redes.name}</span>
                     </a>
                   </li>
                 ))}

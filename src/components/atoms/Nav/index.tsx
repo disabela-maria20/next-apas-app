@@ -95,6 +95,7 @@ const Nav: React.FC<NavProps> = ({ open, setOpen }) => {
                   width={44}
                   height={44}
                 />
+                <span>{redes.name}</span>
               </a>
             </li>
           ))}
