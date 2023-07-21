@@ -1,5 +1,11 @@
 [
   {
+    "id": 93,
+    "time": "08h00",
+    "talks": "Recepção do evento",
+    "color": 0
+  },
+  {
     "id": 0,
     "time": "08h45 à 09h00",
     "talks": "Palco Central - Abertura",
