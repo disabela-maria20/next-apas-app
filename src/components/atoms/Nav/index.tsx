@@ -76,7 +76,7 @@ const Nav: React.FC<NavProps> = ({ open, setOpen }) => {
             <Link href="/2022">Rolou em 2022</Link>
           </li>
           <li>
-            <AnchorLink href="#marks">palestrantes</AnchorLink>
+            <AnchorLink href="#speakers">palestrantes</AnchorLink>
           </li>
           <li>
             <AnchorLink href="#marks">patrocinadores</AnchorLink>

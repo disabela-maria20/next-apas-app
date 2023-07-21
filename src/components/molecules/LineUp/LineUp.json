@@ -1,66 +1,121 @@
 [
   {
+    "id": 0,
+    "time": "08h45 à 09h00",
+    "talks": "Palco Central - Abertura",
+    "color": 0
+  },
+  {
     "id": 1,
-    "time": "9h às 9h30",
-    "talks": "Palco Central - Abertura"
+    "time": "9h00 à 09h30",
+    "talks": "Palco Central ",
+    "stage": "Liderando o Futuro",
+    "color": 2
   },
   {
     "id": 2,
-    "time": "9h30 à 10h",
-    "talks": "Palco Central <br/> Pesquisa APAS de tecnologica, prontidão e inovação: resultados e insights"
+    "time": "09H35 à 10h15",
+    "talks": "Palco Central",
+    "stage": "Pesquisa APAS de tecnologia, prontidão e inovação: resultados e insights",
+    "color": 2
   },
   {
     "id": 3,
-    "time": "10h às 10h30",
-    "talks": "Pesquisa APAS de tecnológica, prontidão e inovação: resultados e insights"
+    "time": "10h15 às 11h00",
+    "talks": "Coffee break",
+    "color": 0
   },
   {
     "id": 4,
-    "time": "10h30 às 11h15",
-    "talks": "Coffee break"
+    "color": 1,
+    "tema":  "Palco 1 - Da TI básica às tecnologias emergentes",
+    "talks": [{
+      "time": "11h00 à 11h25", 
+      "stage": "Escalando com a TI: A Influência da Arquitetura Tecnológica no Crescimento do Varejo"
+    }, {
+      "time": "11h35 à 12h30", 
+      "stage": "em breve"
+    },{
+      "time": "14h35 à 15h05", 
+      "stage": "em breve"
+    }, {
+      "time": "15h10 à 16h10", 
+      "stage": "em breve"
+    }]
   },
   {
     "id": 5,
-    "time": "11h15 à 11h35",
-
-    "stage": "<span>Palco 1 - Da TI básica às tecnologias</span> <span>Palco 2 - Cultura de inovação e aceleração</span><span>Palco 3 - Expansão Omnichannel</span><span>Palco 4 - Evolução do Supply Chain</span>"
+    "color": 2, 
+    "tema":  "Palco 2 - Cultura de inovação e aceleração digital",
+    "talks": [{
+      "time": "11h00 à 11h25",
+      "stage": "Guia Rápido de Inovação para Supermercados"
+    }, {
+      "time": "11h35 à 12h30", 
+      "stage": "em breve"
+    }, {
+      "time": "14h35 à 15h05",
+      "stage": "A Caminhada para o Sucesso através da Inovação: Lições do Grupo Pereira "
+    }, {
+      "time": "15h10 à 16h10", 
+      "stage": ""
+    }]
   },
   {
     "id": 6,
-    "time": "11h35 à 12h30",
-
-    "stage": "<span>Palco 1 - Da TI básica às tecnologias</span> <span>Palco 2 - Cultura de inovação e aceleração</span> <span>Palco 3 - Expansão Omnichannel</span> <span>Palco 4 - Evolução do Supply Chain</span>"
+    "color": 4, 
+    "tema":  "Palco 3 - Expansão Omnichannel",
+    "talks": [{
+      "time": "11h00 à 11h25", 
+      "stage": "Home Delivery: Como Transformar o Desafio em Oportunidade no Varejo"
+    }, {
+      "time": "11h35 à 12h30", 
+      "stage": "em breve"
+    },{
+      "time": "14h35 à 15h05", 
+      "stage": "A Jornada Omnichannel: 450% de crescimento em 3 anos"
+    }, {
+      "time": "15h10 à 16h10", 
+      "stage": "em breve"
+    }]
   },
   {
     "id": 7,
-    "time": "12h30 às 14h",
-    "talks": "Work Lunch"
+    "color": 3,  
+    "tema":  "Palco 4 - Evolução do Supply Chain e operações",
+    "talks": [{
+      "time": "11h00 à 11h25", 
+      "stage": "em breve"
+    }, {
+      "time": "11h35 à 12h30", 
+      "stage": "Como a eficiência operacional contribui com a lucratividade do negócio"
+    }, {
+      "time": "14h35 à 15h05", 
+      "stage": "em breve"
+    }, {
+      "time": "15h10 à 16h10", 
+      "stage": "em breve"
+    }]
   },
   {
     "id": 8,
-    "time": "14h às 14h30",
-    "talks": "Palco Central"
+    "color": 2,
+    "time": "12h30 às 14h", 
+    "talks":  "Work Lunch"
   },
+ 
+ 
   {
-    "id": 9,
-    "time": "14h35 à 15h05",
-
-    "stage":"<span>Palco 1 - Da TI básica às tecnologias</span> <span>Palco 2 - Cultura de inovação e aceleração</span><span>Palco 3 - Expansão Omnichannel</span><span>Palco 4 - Evolução do Supply Chain</span>"
-  },
-  {
-    "id": 10,
-    "time": "15h10 à 16h10",
-  
-    "stage": "<span>Palco 1 - Da TI básica às tecnologias</span><span>Palco 2 - Cultura de inovação e aceleração</span><span>Palco 3 - Expansão Omnichannel</span> <span>Palco 4 - Evolução do Supply Chain</span>"
-  },
-  {
-    "id": 11,
-    "time": "16h10 às 17h",
-    "talks": "Coffee break"
-  },
-  {
-    "id": 12,
-    "time": "17h às 17h30",
-    "talks": "Palco Central - Encerramento"
+    "id": 14,
+    "color": 2,
+    "talks":  "Coffee break ",
+    "time": "16h10 às 17h"
+  },{
+    "id": 15,
+    "color": 2,
+    "time": "17h às 17h30", 
+    "talks": "Palco Central - Encerramento",
+    "stage": "Sem Medo de Inovar"
   }
+  
 ]

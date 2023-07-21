@@ -1,6 +1,8 @@
 .lineup {
   background-color: $secondary-lingh-color;
   font-family: field-gothic, "Lucida Sans", Geneva, Verdana, sans-serif;
+  position: relative;
+  z-index: -1;
   h2 {
     @include Title;
     text-align: center;
@@ -18,57 +20,5 @@
     flex-wrap: wrap;
     overflow: hidden;
     justify-content: center;
-
-    .linupSpeeches {
-      margin: 15px;
-      max-width: 180px;
-
-      .time {
-        font-size: 13px;
-        
-        color: $tertiary-colors;
-        font-weight: 700;
-        text-transform: uppercase;
-      }
-     .title{
-      margin-top: 10px;
-     }
-      .speach {
-        background-color: $secondary-colors-dark;
-        color: $primary-lingh-color;
-        padding: 20px;
-        font-weight: 700;
-        font-size: 18px;
-        position: relative;
-        
-        +div span{
-          background-color: $secondary-colors;
-          text-transform: uppercase;
-          display: block;
-          
-          padding: 15px 20px;
-          font-size: 15px;
-          color: $primary-lingh-color;
-        }
-        &::after {
-          content: " ";
-          position: absolute;
-          width: 100vw;
-          border-top: 2px solid $secondary-colors;
-          height: 2px;
-          top: -2px;
-          left: calc(-100vw + 100%);
-        }
-        &::before {
-          content: " ";
-          position: absolute;
-          width: 100vw;
-          border-top: 2px solid $secondary-colors;
-          height: 2px;
-          top: -2px;
-          left: 100%;
-        }
-      }
-    }
   }
 }

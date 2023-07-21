@@ -47,19 +47,34 @@ const Speeches = () => {
 
   return (
     <>
-      {/* <section className={Style.theme} id="speakers">
+      <section className={Style.theme}>
         <div className={Style.container}>
           <h2>principais temas</h2>
           <ul>
-            <li>Lorem ipsum Lorem ipsum</li>
-            <li>Lorem ipsum Lorem ipsum</li>
-            <li>Lorem ipsum Lorem ipsum</li>
-            <li>Lorem ipsum Lorem ipsum</li>
+            <li>
+              Escalando com a TI: A Influência da Arquitetura Tecnológica no
+              Crescimento do Varejo
+            </li>
+            <li>Guia Rápido de Inovação para Supermercados</li>
+            <li>
+              Home Delivery: Como Transformar o Desafio em Oportunidade no
+              Varejo
+            </li>
+            <li>
+              Como a eficiência operacional contribui com a lucratividade do
+              negócio
+            </li>
+            <li>
+              A Caminhada para o Sucesso através da Inovação: Lições do Grupo
+              Pereira
+            </li>
+            <li>A Jornada Omnichannel: 450% de crescimento em 3 anos</li>
           </ul>
         </div>
-      </section> */}
+      </section>
       <section
         className={Style.speaker}
+        id="speakers"
         style={{ backgroundImage: 'url("./images/bg-gradient.webp")' }}
       >
         <div className={Style.container}>

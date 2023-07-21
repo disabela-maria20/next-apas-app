@@ -1,178 +1,124 @@
 [
+  
   [
     {
       "id": 0,
-      "name": "CUSTOMER EXPERIENCE",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+      "name": "Home Delivery: Como Transformar o Desafio em Oportunidade no Varejo",
+      "time": "11h00 à 11h25",
+      "duration": "25min",
+      "description": ""
     },
     {
-      "id": 1,
-      "name": "NOME DA PALESTRA",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+      "id": 0,
+      "name": "EM BREVE",
+      "time": "11h35 à 12h30",
+      "duration": "55min",
+      "description": ""
     },
     {
-      "id": 2,
-      "name": "NOME DA PALESTRA",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+      "id": 0,
+      "name": "A Jornada Omnichannel: 450% de crescimento em 3 anos",
+      "time": "14h35 à 15h05",
+      "duration": "35min",
+      "description": ""
     },
     {
-      "id": 3,
-      "name": "NOME DA PALESTRA",
-      "duration": "",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+      "id": 0,
+      "name": "EM BREVE",
+      "time": "15h10 à 16h10",
+      "duration": "1h",
+      "description": ""
+    }
+  ], 
+  [
+    {
+      "id": 0,
+      "name": "Escalando com a TI: A Influência da Arquitetura Tecnológica no Crescimento do Varejo",
+      "time": "11h00 à 11h25",
+      "duration": "25min",
+      "description": ""
     },
     {
-      "id": 4,
-      "name": "NOME DA PALESTRA",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3 Palestrante 2, Palestrante 3 Palestrante 3 ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante "
+      "id": 0,
+      "name": "EM BREVE",
+      "time": "11h35 à 12h30",
+      "duration": "55min",
+      "description": ""
     },
     {
-      "id": 5,
-      "name": "NOME DA PALESTRA",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+      "id": 0,
+      "name": "EM BREVE",
+      "time": "14h35 à 15h05",
+      "duration": "35min",
+      "description": ""
     },
     {
-      "id": 6,
-      "name": "NOME DA PALESTRA",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+      "id": 0,
+      "name": "EM BREVE",
+      "time": "15h10 à 16h10",
+      "duration": "1h",
+      "description": ""
     }
   ],
   [
     {
       "id": 0,
-      "name": "ARQUITETURA E SUSTENTAÇÃO",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+      "name": "Guia Rápido de Inovação para Supermercados",
+      "time": "11h00 à 11h25",
+      "duration": "25min",
+      "description": ""
     },
     {
-      "id": 1,
-      "name": "INOVAÇÕES TECNOLÓGICAS",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+      "id": 0,
+      "name": "EM BREVE",
+      "time": "11h35 à 12h30",
+      "duration": "55min",
+      "description": ""
     },
     {
-      "id": 2,
-      "name": "NOME DA PALESTRA",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+      "id": 0,
+      "name": "A Caminhada para o Sucesso através da Inovação: Lições do Grupo Pereira",
+      "time": "14h35 à 15h05",
+      "duration": "35min",
+      "description": ""
     },
     {
-      "id": 3,
-      "name": "NOME DA PALESTRA",
-      "duration": "",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
-    },
-    {
-      "id": 4,
-      "name": "NOME DA PALESTRA",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
-    },
-    {
-      "id": 5,
-      "name": "NOME DA PALESTRA",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
-    },
-    {
-      "id": 6,
-      "name": "NOME DA PALESTRA",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+      "id": 0,
+      "name": "EM BREVE",
+      "time": "15h10 à 16h10",
+      "duration": "1h",
+      "description": ""
     }
   ],
   [
     {
       "id": 0,
-      "name": "NOME DA PALESTRA",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+      "name": "EM BREVE",
+      "time": "11h00 à 11h25",
+      "duration": "25min",
+      "description": ""
     },
-    {
-      "id": 1,
-      "name": "NOME DA PALESTRA",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
-    },
-    {
-      "id": 2,
-      "name": "NOME DA PALESTRA",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
-    },
-    {
-      "id": 3,
-      "name": "NOME DA PALESTRA",
-      "duration": "",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
-    },
-    {
-      "id": 4,
-      "name": "NOME DA PALESTRA",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
-    },
-    {
-      "id": 5,
-      "name": "NOME DA PALESTRA",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
-    },
-    {
-      "id": 6,
-      "name": "NOME DA PALESTRA",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
-    }
-  ],
-  [
     {
       "id": 0,
-      "name": "fit",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+      "name": "Como a eficiência operacional contribui com a lucratividade do negócio",
+      "time": "11h35 à 12h30",
+      "duration": "55min",
+      "description": ""
     },
     {
-      "id": 1,
-      "name": "NOME DA PALESTRA",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+      "id": 0,
+      "name": "EM BREVE",
+      "time": "14h35 à 15h05",
+      "duration": "35min",
+      "description": ""
     },
     {
-      "id": 2,
-      "name": "NOME DA PALESTRA",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
-    },
-    {
-      "id": 3,
-      "name": "NOME DA PALESTRA",
-      "duration": "",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
-    },
-    {
-      "id": 4,
-      "name": "NOME DA PALESTRA",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
-    },
-    {
-      "id": 5,
-      "name": "NOME DA PALESTRA",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
-    },
-    {
-      "id": 6,
-      "name": "NOME DA PALESTRA",
-      "duration": "1h30",
-      "description": "ema da palestra ou empresa Palestrante 1, Palestrante 2, Palestrante 3"
+      "id": 0,
+      "name": "EM BREVE",
+      "time": "15h10 à 16h10",
+      "duration": "1h",
+      "description": ""
     }
   ]
+ 
 ]

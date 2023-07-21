@@ -1,0 +1,94 @@
+.linupSpeeches {
+  margin: 15px;
+  max-width: 220px;
+
+  .title {
+    margin-top: 10px;
+  }
+
+  .speach {
+    background-color: $secondary-colors-dark;
+    color: $primary-lingh-color;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+
+    #single {
+      text-transform: uppercase;
+      display: block;
+      font-size: 15px;
+      color: $primary-lingh-color;
+    }
+    &::after {
+      content: " ";
+      position: absolute;
+      width: 100vw;
+      border-top: 2px solid $secondary-colors;
+      height: 2px;
+      top: 0px;
+      left: calc(-100vw + 100%);
+      z-index: -1;
+    }
+    &::before {
+      content: " ";
+      position: absolute;
+      width: 100vw;
+      border-top: 2px solid $secondary-colors;
+      height: 2px;
+      top: 0;
+      left: 100%;
+      z-index: -1;
+    }
+  }
+}
+.time {
+  font-size: 13px;
+  color: $tertiary-colors;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.speach.painel1,
+.painel1 {
+  background-color: darken($primary-colors, 5%);
+  ~ .tema {
+    background: $primary-colors;
+  }
+}
+.speach.painel2,
+.painel2 {
+  background-color: darken($secondary-colors, 5%);
+  ~ .tema {
+    background: $secondary-colors;
+  }
+}
+.speach.painel3,
+.painel3 {
+  background-color: darken($tertiary-colors, 3%);
+  color: $quaternary-colos;
+  ~ .tema {
+    .time{
+      color: $quaternary-colos;
+    }
+    
+    background: $tertiary-colors;
+  }
+}
+.speach.painel4,
+.painel4 {
+  background-color: darken($primary-lingh-color, 5%);
+  color: $quaternary-colos;
+  ~ .tema {
+    color: $quaternary-colos;
+    background: $primary-lingh-color;
+  }
+}
+
+.tema {
+  padding: 15px 20px;
+  text-transform: uppercase;
+  display: block;
+  font-size: 15px;
+  color: $primary-lingh-color;
+}
