@@ -156,8 +156,8 @@
   {
     "id": 19,
     "name": "Alexandre C. de Quadros",
-    "profession": "Grupo Koch",
-    "company": "Diretor Executivo",
+    "profession": "Diretor Executivo",
+    "company": "Grupo Koch",
     "lecture": "", 
     "description": "<p><strong>FORMAÇÃO</strong><br>Formado em Ciências Contábeis e também com as seguintes especializações:<br>MBA Executivo Global, Fundação Getúlio Vargas, SP;<br>Pós-Graduação em Gestão Global, Universidade de Lisboa, Portugal;<br>Pós-Graduação em Direito Tributário;<br>MBA Finanças e Controladoria;<br>Conselheiro de Administração formado pelo IBGC.</p><p><strong>RESUMO DE QUALIFICAÇÕES</strong><br>Experiência de 23 anos na Gestão de Varejo ocupando cargos de Diretoria em grandes empresas desenvolvendo projetos de Planejamento Estratégico, Governança e Inovação.<br>Atualmente é Diretor Executivo do Grupo Koch, 13o maior rede de Supermercados do Ranking Abras 2023.",
     "image": "./images/speaker/AlexandreQuadros.webp"
@@ -175,7 +175,7 @@
     "id": 21,
     "name": "Murta",
     "profession": "CEO",
-    "company": "Looqbox",
+    "company": "Lookbox",
     "lecture": "", 
     "description": "<p>Graduado em Física e mestre em Mecânica Quântica, possui vasta experiência no setor empresarial, onde atuou em áreas como Transporte, Educação e Varejo, sempre estabelecendo conexões com a tecnologia. Com quase uma década de trabalho com Inteligência Artificial, é co-fundador e CEO da Looqbox, uma startup inovadora que facilita a busca de informações dentro das organizações por meio da utilização de linguagem natural.</p>",
     "image": "./images/speaker/RodrigoMurta.webp"

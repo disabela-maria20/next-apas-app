@@ -13,14 +13,14 @@
   },
   {
     "id": 1,
-    "time": "9h00 à 09h30",
+    "time": "9h00 à 09h40",
     "talks": "Palco Central ",
     "stage": "Liderando o Futuro",
     "color": 2
   },
   {
     "id": 2,
-    "time": "09H35 à 10h15",
+    "time": "09H40 à 10h15",
     "talks": "Palco Central",
     "stage": "Pesquisa APAS de tecnologia, prontidão e inovação: resultados e insights",
     "color": 2
@@ -39,7 +39,7 @@
       "time": "11h00 à 11h25", 
       "stage": "Escalando com a TI: A Influência da Arquitetura Tecnológica no Crescimento do Varejo"
     }, {
-      "time": "11h35 à 12h30", 
+      "time": "11h30 à 12h30", 
       "stage": "em breve"
     },{
       "time": "14h35 à 15h05", 
@@ -57,7 +57,7 @@
       "time": "11h00 à 11h25",
       "stage": "Guia Rápido de Inovação para Supermercados"
     }, {
-      "time": "11h35 à 12h30", 
+      "time": "11h30 à 12h30", 
       "stage": "em breve"
     }, {
       "time": "14h35 à 15h05",
@@ -75,7 +75,7 @@
       "time": "11h00 à 11h25", 
       "stage": "Home Delivery: Como Transformar o Desafio em Oportunidade no Varejo"
     }, {
-      "time": "11h35 à 12h30", 
+      "time": "11h30 à 12h30", 
       "stage": "em breve"
     },{
       "time": "14h35 à 15h05", 
@@ -93,7 +93,7 @@
       "time": "11h00 à 11h25", 
       "stage": "em breve"
     }, {
-      "time": "11h35 à 12h30", 
+      "time": "11h30 à 12h30", 
       "stage": "Como a eficiência operacional contribui com a lucratividade do negócio"
     }, {
       "time": "14h35 à 15h05", 
