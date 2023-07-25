@@ -9,21 +9,21 @@
     "id": 0,
     "time": "08h45 à 09h00",
     "talks": "Palco Central - Abertura",
-    "color": 0
+    "color": 2
   },
   {
     "id": 1,
     "time": "9h00 à 09h40",
     "talks": "Palco Central ",
     "stage": "Liderando o Futuro",
-    "color": 0
+    "color": 2
   },
   {
     "id": 2,
     "time": "09H40 à 10h15",
     "talks": "Palco Central",
     "stage": "Pesquisa APAS de tecnologia, prontidão e inovação: resultados e insights",
-    "color": 0
+    "color": 2
   },
   {
     "id": 3,
@@ -69,7 +69,7 @@
   },
   {
     "id": 6,
-    "color": 4, 
+    "color": 5, 
     "tema":  "Palco 3 - Expansão Omnichannel",
     "talks": [{
       "time": "11h00 à 11h25", 
@@ -118,7 +118,7 @@
     "time": "16h10 às 17h"
   },{
     "id": 15,
-    "color": 0,
+    "color": 2,
     "time": "17h às 17h30", 
     "talks": "Palco Central - Encerramento",
     "stage": "Sem Medo de Inovar"
