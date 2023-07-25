@@ -16,14 +16,14 @@
     "time": "9h00 à 09h40",
     "talks": "Palco Central ",
     "stage": "Liderando o Futuro",
-    "color": 2
+    "color": 0
   },
   {
     "id": 2,
     "time": "09H40 à 10h15",
     "talks": "Palco Central",
     "stage": "Pesquisa APAS de tecnologia, prontidão e inovação: resultados e insights",
-    "color": 2
+    "color": 0
   },
   {
     "id": 3,
@@ -105,7 +105,7 @@
   },
   {
     "id": 8,
-    "color": 2,
+    "color": 0,
     "time": "12h30 às 14h", 
     "talks":  "Work Lunch"
   },
@@ -113,12 +113,12 @@
  
   {
     "id": 14,
-    "color": 2,
+    "color": 0,
     "talks":  "Coffee break ",
     "time": "16h10 às 17h"
   },{
     "id": 15,
-    "color": 2,
+    "color": 0,
     "time": "17h às 17h30", 
     "talks": "Palco Central - Encerramento",
     "stage": "Sem Medo de Inovar"
