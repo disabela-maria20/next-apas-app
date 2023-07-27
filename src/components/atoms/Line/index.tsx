@@ -47,7 +47,7 @@ const Line = ({ data }: LineUpItem) => {
             {data.tema}
           </div>
           {data.talks.map((data) => (
-            <div className={Style.tema} key={data.stage}>
+            <div className={Style.tema} key={data.time}>
               <h5 className={Style.time}>{data.time}</h5>
               <p>{data.stage}</p>
             </div>

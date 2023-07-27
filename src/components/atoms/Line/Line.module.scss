@@ -86,11 +86,14 @@
 .painel4 {
   background-color: darken($primary-lingh-color, 5%);
   color: $quaternary-colos;
+  .time{
+    color: $quaternary-indigo-colos;
+  }
   ~ .tema {
     .time{
-      color: $secondary-colors-dark;
+      color: $quaternary-indigo-colos;
     }
-    color: $quaternary-colos;
+    color: $quaternary-indigo-colos;
     background: $primary-lingh-color;
   }
 }

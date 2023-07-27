@@ -3,7 +3,7 @@
     "id": 93,
     "time": "08h00",
     "talks": "Recepção do evento",
-    "color": 0
+    "color": 4
   },
   {
     "id": 0,
@@ -29,7 +29,7 @@
     "id": 3,
     "time": "10h15 às 11h00",
     "talks": "Coffee break",
-    "color": 0
+    "color": 4
   },
   {
     "id": 4,
@@ -105,7 +105,7 @@
   },
   {
     "id": 8,
-    "color": 0,
+    "color": 4,
     "time": "12h30 às 14h", 
     "talks":  "Work Lunch"
   },
@@ -113,7 +113,7 @@
  
   {
     "id": 14,
-    "color": 0,
+    "color": 4,
     "talks":  "Coffee break ",
     "time": "16h10 às 17h"
   },{

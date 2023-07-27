@@ -1,13 +1,14 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef, useState, useTransition } from 'react'
 
 import Styled from './Stage.module.scss'
 
 import Speeches from './DataEvent.json'
+import Interval from './DataEventInterval.json'
 
 import { LineUp } from '@/components/molecules'
 
-const COLOR: string[] = ['#1d1f48', '#00b5d7', '#5f249f', '#d6c800']
+// const COLOR: string[] = ['#1d1f48', '#00b5d7', '#5f249f', '#d6c800']
 const TITLEARRAY: string[] = [
   'Expansão Omnichannel',
   'Da TI básica às tecnologias emergentes',
@@ -19,9 +20,11 @@ const Stages = () => {
   const blockTable = useRef<HTMLDivElement>(null)
   const blockDiv = useRef<HTMLDivElement | null>(null)
   const triangle = useRef<NodeListOf<HTMLDivElement> | null>(null)
+
   const [arrTitle, setArrTitle] = useState(
     'CULTURA DE INOVAÇÃO E ACELERAÇÃO DIGITAL'
   )
+
   const [componente, setComponente] = useState<any[]>()
 
   useEffect(() => {
@@ -31,8 +34,9 @@ const Stages = () => {
       'div'
     ) as NodeListOf<HTMLDivElement>
     const handleMouseOver = (i: number) => {
-      circlediv.current?.setAttribute('style', `background-color:${COLOR[i]}`)
-      blockTable.current?.setAttribute('style', `color:${COLOR[i]}`)
+      // circlediv.current?.setAttribute('style', `background-color:${COLOR[i]}`)
+      // blockTable.current?.setAttribute('style', `color:${COLOR[i]}`)
+      setTab('palcos')
       setComponente(Speeches[i])
       setArrTitle(TITLEARRAY[i])
     }
@@ -48,6 +52,15 @@ const Stages = () => {
     }
   }, [])
 
+  const [isPending, startTransition] = useTransition()
+  const [tab, setTab] = useState('palco')
+
+  function selectTab(nextTab: string) {
+    startTransition(() => {
+      setTab(nextTab)
+    })
+  }
+
   return (
     <>
       <LineUp />
@@ -56,34 +69,74 @@ const Stages = () => {
           <h2>Palestras</h2>
           <section className={Styled.stageGrid}>
             <div>
-              <h2>{arrTitle}</h2>
+              {tab === 'palco' && <h2>{arrTitle}</h2>}
+              {tab === 'interval' && <h2>Palco Central</h2>}
               <div className={Styled.containerStage} ref={blockDiv}>
-                <div className={Styled.top}></div>
-                <div className={Styled.botton}></div>
-                <div className={Styled.right}></div>
-                <div className={Styled.left}></div>
-                <span className={Styled.circle} ref={circlediv}></span>
+                <div
+                  className={Styled.top}
+                  onMouseOver={() => selectTab('palco')}
+                ></div>
+                <div
+                  className={Styled.botton}
+                  onMouseOver={() => selectTab('palco')}
+                ></div>
+                <div
+                  className={Styled.right}
+                  onMouseOver={() => selectTab('palco')}
+                ></div>
+                <div
+                  className={Styled.left}
+                  onMouseOver={() => selectTab('palco')}
+                ></div>
+                <span
+                  className={Styled.circle}
+                  ref={circlediv}
+                  onMouseOver={() => selectTab('interval')}
+                ></span>
               </div>
             </div>
-            <div ref={blockTable} style={{ color: '#5f249f' }}>
-              {componente?.map((data) => (
-                <section key={data.id}>
-                  <div className={Styled.gridTime}>
-                    <div className={Styled.time}>
-                      <strong>{data.time}</strong>
-                      <p>
-                        <strong>{data.duration}</strong>
-                      </p>
+            {tab === 'palco' && (
+              <div ref={blockTable} style={{ color: '#5f249f' }}>
+                {componente?.map((data) => (
+                  <section key={data.id}>
+                    <div className={Styled.gridTime}>
+                      <div className={Styled.time}>
+                        <strong>{data.time}</strong>
+                        <p>
+                          <strong>{data.duration}</strong>
+                        </p>
+                      </div>
+                      <div className={Styled.Info}>
+                        <h3>{data.name}</h3>
+                        <p>{data.description}</p>
+                      </div>
                     </div>
-                    <div className={Styled.Info}>
-                      <h3>{data.name}</h3>
-                      <p>{data.description}</p>
+                    <span></span>
+                  </section>
+                ))}
+              </div>
+            )}
+            {tab === 'interval' && (
+              <div ref={blockTable} style={{ color: '#5f249f' }}>
+                {Interval?.map((data) => (
+                  <section key={data.id}>
+                    <div className={Styled.gridTime}>
+                      <div className={Styled.time}>
+                        <strong>{data.time}</strong>
+                        <p>
+                          <strong>{data.duration}</strong>
+                        </p>
+                      </div>
+                      <div className={Styled.Info}>
+                        <h3>{data.name}</h3>
+                        <p>{data.description}</p>
+                      </div>
                     </div>
-                  </div>
-                  <span></span>
-                </section>
-              ))}
-            </div>
+                    <span></span>
+                  </section>
+                ))}
+              </div>
+            )}
           </section>
         </div>
       </article>

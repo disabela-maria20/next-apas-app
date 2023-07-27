@@ -68,7 +68,7 @@
     "profession": "Diretor de TI",
     "company": "Grupo Pereira",
     "description": "<p>Atualmente ocupa o cargo de Diretor de TI do Grupo Pereira, formados pelas bandeiras Fort Atacadista, Supermercados Comper, Atacado Bate Forte, Farmácia Sempre Fort, Posto Fort, Perlog PeraTUR.</p><p>Graduado em Processamento de Dados, Pós-graduado em Gestão da Tecnologia da Informação e MBA em Gestão Empresarial.</p><p>Possui mais de 25 anos de experiência no varejo com ênfase em Tecnologia da Informação e conhecimento em operações logísticas.</p>",
-    "lecture": "", 
+    "lecture": "",
     "image": "./images/speaker/AlfredoLopes.webp"
   },
   {
@@ -77,7 +77,7 @@
     "profession": "Diretor",
     "company": "BSP Cloud",
     "description": "<p>Trabalhou no mercado varejista, sendo um dos pioneiros no Brasil pela introcução da automação comercial no Mappin, atuando como Gerente de TI e Planejamento, e em seguida como Diretor de TI nos Supermercados Gentil Moreira (empresa com forte atuação no interior de São Paulo na década de 80/90) e em seguida como Diretor de TI dos Supermercados Paes Mendonça.</p><p>Possui grande experiência em empresas multinacionais da área de tecnologia, como Labo Nixdorf, NCR do Brasil, Digital Equipments, AT&T e Hughes Telecomunicações, com atuações além do Brasil no México, França, Argentina e EUA.</p><p>Atualmente está há 14 anos na BSP Cloud, o qual é sócio fundador, empresa que tem como objetivo serviços de recursos computacionais em Cloud Computing, tendo como principal parceiro a AWS - Amazon Web Services e Ingram Micro, e diversos clientes do segmento de varejo, serviços e indústrias.</p>",
-    "lecture": "", 
+    "lecture": "",
     "image": "./images/speaker/AntonioFrancischelli.webp"
   },
   {
@@ -86,7 +86,7 @@
     "profession": "Diretor da Vertical Varejo ACATE e CEO do WiFeed",
     "company": "WiFeed e Vertical Varejo ACATE",
     "description": "<p>Formado em administração de empresas pela Universidade do Estado de Santa Catarina (UDESC/ESAG), certificado em gestão de projetos pelo Australian  Institute of Professional Education e certificado no programa de Inovação e Aceleração da UC Berkeley.</p>",
-    "lecture": "", 
+    "lecture": "",
     "image": "./images/speaker/BrunoGuimaraes.webp"
   },
   {
@@ -95,7 +95,7 @@
     "profession": "CEO",
     "company": "Proffer",
     "description": "<p>Edmilson Varejão é bacharel, mestre e doutorado em Economia pela Fundação Getúlio Vargas (FGV). Durante seu percurso acadêmico, ele teve a oportunidade de aprimorar seus conhecimentos como Visiting Graduate Researcher na Universidade da Califórnia em Los Angeles (UCLA).</p><p>Durante 10 anos atuou como economista sênior no mercado financeiro e em consultorias econômicas, como FGV e Tendências Consultoria, envolvido em estudos de projeções e modelagem econométrica. Além disso, Edmilson Varejão também ocupou o cargo de vice-presidente do Clube de Regatas do Flamengo.</p><p>Nos últimos cinco anos, fundou e atua como CEO da AI Consult, uma empresa especializada no desenvolvimento de soluções em Inteligência Artificial, e fundador e CEO da Proffer, uma startup que utiliza algoritmos de Inteligência Artificial para otimização de preços. Além disso, também atua como professor de ciência de dados e inteligência artificial em cursos de MBA oferecidos pela FGV e FUCAPE e como palestrante em eventos de inovação e tecnologia.</p>",
-    "lecture": "", 
+    "lecture": "",
     "image": "./images/speaker/EdmilsonVarejao.webp"
   },
   {
@@ -104,10 +104,9 @@
     "profession": "Diretor Geral",
     "company": "Vércer",
     "description": "<p>Economista, com mais de 15 anos de experiência em indústria e varejo e passagens por empresas como Unilever, Panco e GPA. Também liderou a área de Novos Produtos da dunnhumby Brasil.</p><p>Desafios e Riscos na sustentação do negócio</p>",
-    "lecture": "", 
+    "lecture": "",
     "image": "./images/speaker/FilipePereira.webp"
   },
-  
   {
     "id": 14,
     "name": "Renata Costa",
@@ -123,7 +122,7 @@
     "profession": "Sócio / Diretor de Relacionamento",
     "company": "E-Commerce Brasil",
     "description": "<p>Samuel Gonsales é especialista em Omnichannel, Sistema de Gestão (ERP) e e-Commerce acumulando mais de 26 anos de experiência.</p><p>Certificate MIT - Massachusetts Institute of Technology Leadership Program – (USA).</p><p>Mestre em Administração de Empresas pela Flórida Christian University (Orlando, Flórida, USA).</p><p>Autor do Livro: Sistemas ERP na Omniera.</p><p>Co-Autor do Livro: Vendas + Operações no e-Commerce.</p><p>Participação Especial no Livro: Indústria e E-Commerce.</p><p>Autor de 13 livros digitais (ebooks) sobre e-Commerce e Omnichannel.</p><p>Sócio / Diretor de Relacionamento no E-Commerce Brasil onde realizamos o maior evento de e-commerce da américa latina há 14 anos.</p><p>Professor MBA – Escola Superior de E-Commerce.</p><p>Vencedor Prêmio ABCOMM 2017 - Melhor Profissional de e-Commerce.</p><p>Vencedor Prêmio DIGITALKS 2017/2018 - Profissional destaque do Mercado Digital/Tecnologia.</p><p>Prêmio: Entre os profissionais que mais contribuíram com conteúdo relevante nos últimos 10 anos (2019).</p><p>Conselheiro de indústrias, distribuidores, varejistas e empresas de tecnologia.</p><p>Palestrante: Eventos, Convenções, Fóruns e Congressos.</p>",
-    "lecture": "", 
+    "lecture": "",
     "image": "./images/speaker/SamuelGonsales.webp"
   },
   {
@@ -132,7 +131,7 @@
     "profession": "CEO",
     "company": "Harmo",
     "description": "<p>Santiago Edo, 49, é co-fundador e CEO da Harmo, empresa de tecnologia líder em gestão de reputação online e experiência do cliente no Brasil. Atualmente a Plataforma Harmo é utilizada em mais de 35 mil pontos de venda e possui clientes como Oba, Savegnago, Ipiranga, ampm, Cacau Show, Bob’s, Americanas, C&A e Hering.</p><p>Formado em Administração e Pós Graduado em MKT, iniciou a sua carreira em 1990, como estagiário em uma agência de publicidade na cidade de Joinville. Sempre acreditou que o diferencial de uma empresa está no atendimento ao cliente e tem como lema uma frase do mestre Philip Kotler:  &#8223;Crie casos de amor com seus clientes que eles farão a publicidade da sua marca &#x201D;. </p><p>Em 2016 fundou a sua primeira startup, iniciando a jornada como empreendedor na área de tecnologia. Passou pelo programa de incubação do MIDITEC, pelo programa de aceleração da DARWIN e por programas de capacitação como Startup SC, Scale Up Endeavor e Oracle for Startups.</p><p>Em Junho de 2020, após uma fusão, surge a Harmo. Logo no início, foram investidos pela Hi Partners, principal VC Brasileiro de retail techs e, no ano passado, receberam um novo investimento e se uniram ao Reclame Aqui, passando a fazer parte da StoneCo, que reúne empresas como Linx, MLabs, Delivery Much e Pagar.me.</p><p>Em 2022 se tornou Diretor do Programa ACATE Startups da Associação Catarinense de Tecnologia e mentor do MIDITEC.</p>",
-    "lecture": "", 
+    "lecture": "",
     "image": "./images/speaker/SantiagoEdo.webp"
   },
   {
@@ -141,7 +140,7 @@
     "profession": "CFO-Diretor Financeiro e Administrativo",
     "company": "GRUPO AMIGÃO",
     "description": "<p>Vladimir Fortes dos Santos é CFO - Diretor Financeiro e Administrativo no Grupo Amigão Supermercados desde o ano de 2017, responsável além da área financeira e de controladoria, pela Tecnologia da Informação, Gestão de Prevenção de Perdas, Qualidade e Segurança Alimentar, Jurídico e Planejamento Financeiro e Estratégico.</p><p>Atuação no segmento de Varejo por mais de 23 anos como Diretor Financeiro e Controladoria na Pernambucanas, IMC e Walmart.</p><p>Experiência em empresas Big Four de auditoria externa – Coopers & Lybrand (atual PWC) por mais de 10 anos.</p><p>Possui Mestrado Acadêmico em Administração de Empresas na Universidade FMU - Linha de Pesquisa em Inovação e Tecnologia com artigo da pesquisa publicado sobre Versionamento de Produtos Digitais.</p><p>MBA pela FGV com extensão na Ohio University.</p><p>Especialização no Varejo pela Provar-USP e Dom Cabral.</p><p>Graduação em Ciências Contábeis pelo Centro Universitário das Faculdades Metropolitanas Unidas.</p><p>Professor convidado de Pós-Graduação/MBA na Universidade Presbiteriana Mackenzie e na Universidade da Estácio de Sá.</p>",
-    "lecture": "", 
+    "lecture": "",
     "image": "./images/speaker/VladimirSantos.webp"
   },
   {
@@ -150,7 +149,7 @@
     "profession": "Head Nacional de Ecommerce",
     "company": "Cencosud Brasil",
     "description": "<p>Paula França apaixonada por varejo, com 20 anos de experiência em gestão, operação e estratégia digital em grandes Varejistas, com MBA em Estratégia de Varejo e Especialização em Novas Tecnologias, atualmente é Head Nacional E-commerce da Cencosud no Brasil</p>",
-    "lecture": "", 
+    "lecture": "",
     "image": "./images/speaker/PaulaFrança.webp"
   },
   {
@@ -158,7 +157,7 @@
     "name": "Alexandre C. de Quadros",
     "profession": "Diretor Executivo",
     "company": "Grupo Koch",
-    "lecture": "", 
+    "lecture": "",
     "description": "<p><strong>FORMAÇÃO</strong><br>Formado em Ciências Contábeis e também com as seguintes especializações:<br>MBA Executivo Global, Fundação Getúlio Vargas, SP;<br>Pós-Graduação em Gestão Global, Universidade de Lisboa, Portugal;<br>Pós-Graduação em Direito Tributário;<br>MBA Finanças e Controladoria;<br>Conselheiro de Administração formado pelo IBGC.</p><p><strong>RESUMO DE QUALIFICAÇÕES</strong><br>Experiência de 23 anos na Gestão de Varejo ocupando cargos de Diretoria em grandes empresas desenvolvendo projetos de Planejamento Estratégico, Governança e Inovação.<br>Atualmente é Diretor Executivo do Grupo Koch, 13o maior rede de Supermercados do Ranking Abras 2023.",
     "image": "./images/speaker/AlexandreQuadros.webp"
   },
@@ -167,8 +166,8 @@
     "name": "André Faria",
     "profession": "CEO",
     "company": "BLUESOFT",
-    "lecture": "", 
-    "description":  "<p>André Faria Gomes (@andrefaria) é CEO na Bluesoft em São Paulo, Mentor e Investidor na Wow Aceleradora.<br>O executivo é Bacharel em Sistemas de Informação pela FIAP, tem especialização em Lean Seis Sigma pela Fundação Vanzolini, especialização em M&A pela Imperial College e MBA Executivo (EMBA) pela Universidade de Pittsburgh.<br>Com perfil empreendedor, o foco principal de seu trabalho é de executivo, tendo participado ativamente do crescimento da Bluesoft de 10 pessoas para mais de 200, com forte crescimento e múltiplos 8 dígitos de faturamento. Ao longo de mais de 18 anos André atou na formação de todos os departamentos da companhia assim como a estruturação dos processos de Marketing, Vendas, Distribuição, Implantação, Suporte, Produto, Engenharia e Customer Success. Antes da carreira de executivo, André atuou também na liderança de equipes de produto e engenharia de software, no coaching de métodos ágeis, e no desenvolvimento de produtos para a Internet. Iniciou sua carreira na TI em 1999, desde então trabalhou com uma grande diversidade de tecnologias.<br>Liderou diversos projetos importantes na Bluesoft como um ERP Web Completo, WMS, NF-e, SPED ICMS/IPI, SPED PIS/COFINS, SPED ECF, Sistema Contábil, EDI Financeiro, Sistema de Help Desk, Sistema de Gestão Projetos, CRM, entre outros.<br>Como consultor André orientou, treinou e ajudou empresas públicas e privadas, em diferentes indústrias, e de todos os tamanhos a evoluirem na adoção de métodos ágeis e práticas modernas de gestão. André treinou pessoas de empresas como Petrobrás, INEP, Banco Central (BACEN), UOL, Locaweb, MPM, IBC, TRT, Bradesco, Itaú, Banco Original, Terra e Logicalis. André também atua como palestrante e influenciador, e podcaster. Escreve artigos para revistas e portais de tecnologia e negócios, e mantém seu blog andrefaria.com.<br>André é autor do livro “Agile: Desenvolvimento de software com entregas frequentes e foco no valor de negócio” pela Editora Casa do Código, e é também tradutor do livro How to Change the World de Jurgen Appelo para Português.</p>",
+    "lecture": "",
+    "description": "<p>André Faria Gomes (@andrefaria) é CEO na Bluesoft em São Paulo, Mentor e Investidor na Wow Aceleradora.<br>O executivo é Bacharel em Sistemas de Informação pela FIAP, tem especialização em Lean Seis Sigma pela Fundação Vanzolini, especialização em M&A pela Imperial College e MBA Executivo (EMBA) pela Universidade de Pittsburgh.<br>Com perfil empreendedor, o foco principal de seu trabalho é de executivo, tendo participado ativamente do crescimento da Bluesoft de 10 pessoas para mais de 200, com forte crescimento e múltiplos 8 dígitos de faturamento. Ao longo de mais de 18 anos André atou na formação de todos os departamentos da companhia assim como a estruturação dos processos de Marketing, Vendas, Distribuição, Implantação, Suporte, Produto, Engenharia e Customer Success. Antes da carreira de executivo, André atuou também na liderança de equipes de produto e engenharia de software, no coaching de métodos ágeis, e no desenvolvimento de produtos para a Internet. Iniciou sua carreira na TI em 1999, desde então trabalhou com uma grande diversidade de tecnologias.<br>Liderou diversos projetos importantes na Bluesoft como um ERP Web Completo, WMS, NF-e, SPED ICMS/IPI, SPED PIS/COFINS, SPED ECF, Sistema Contábil, EDI Financeiro, Sistema de Help Desk, Sistema de Gestão Projetos, CRM, entre outros.<br>Como consultor André orientou, treinou e ajudou empresas públicas e privadas, em diferentes indústrias, e de todos os tamanhos a evoluirem na adoção de métodos ágeis e práticas modernas de gestão. André treinou pessoas de empresas como Petrobrás, INEP, Banco Central (BACEN), UOL, Locaweb, MPM, IBC, TRT, Bradesco, Itaú, Banco Original, Terra e Logicalis. André também atua como palestrante e influenciador, e podcaster. Escreve artigos para revistas e portais de tecnologia e negócios, e mantém seu blog andrefaria.com.<br>André é autor do livro “Agile: Desenvolvimento de software com entregas frequentes e foco no valor de negócio” pela Editora Casa do Código, e é também tradutor do livro How to Change the World de Jurgen Appelo para Português.</p>",
     "image": "./images/speaker/AndreFaria.webp"
   },
   {
@@ -176,7 +175,7 @@
     "name": "Murta",
     "profession": "CEO",
     "company": "Looqbox",
-    "lecture": "", 
+    "lecture": "",
     "description": "<p>Graduado em Física e mestre em Mecânica Quântica, possui vasta experiência no setor empresarial, onde atuou em áreas como Transporte, Educação e Varejo, sempre estabelecendo conexões com a tecnologia. Com quase uma década de trabalho com Inteligência Artificial, é co-fundador e CEO da Looqbox, uma startup inovadora que facilita a busca de informações dentro das organizações por meio da utilização de linguagem natural.</p>",
     "image": "./images/speaker/RodrigoMurta.webp"
   },
@@ -187,7 +186,7 @@
     "company": "Compra Agora",
     "lecture": "",
     "description": "<p>Atualmente CTO do Compra Agora para América Latina, Wander Smelan iniciou sua carreira em consultoria, Accenture e Fujitsu, tendo uma passagem de 14 anos no Brasil e nos EUA com clientes como Carrefour, OfficeMax e Samsung. Posteriormente atuou no Carrefour Brasil no relançamento do Ecommerce/B2C e tecnologia para sistemas comerciais. E mais recentemente atuou no Perú como líder do programa de tecnologia e transformação na Belcorp com Venda Direta para canais B2B, B2C e B2B2C em 14 países da América Latina. Wander é mestre em Tecnologia da Informação pela Universidade de Engenharia da Northwestern University de Chicago, EUA.</p>",
-   "image": "./images/speaker/WanderSmelan.webp"
+    "image": "./images/speaker/WanderSmelan.webp"
   },
   {
     "id": 23,
@@ -196,7 +195,7 @@
     "company": "Consultor",
     "lecture": "",
     "description": "<p>Como Arquiteto de Soluções Sênior com mais de 15 anos de experiência no setor de varejo, trago uma vasta experiência em design de sistemas distribuídos, ERP, Integração, NodeJS e Typescript. Minha grande experiência em operações de varejo me trouxe uma perspectiva única de como a tecnologia pode ser alavancada para gerar resultados de negócios, e aprimorei minhas habilidades através de uma gama diversificada de projetos entregues a grandes varejistas no Brasil, como migração de ERP, implementação de WMS e também em meu último emprego (uma empresa de full commerce), dezenas de projetos de Ecommerce.</p>",
-   "image": "./images/speaker/kleberthanasio.webp"
+    "image": "./images/speaker/kleberthanasio.webp"
   },
   {
     "id": 24,
@@ -205,7 +204,7 @@
     "company": "Grupo Ri Happy",
     "lecture": "",
     "description": "<p>Formado em Bacharel em Ciências da Computação pela USP – Universidade de São Paulo, Pós Graduado em IT Governance pela USP – Universidade de São Paulo, Curso de Extensão em Economia e Gestão Empresarial pela MIT Sloan School of Management, formado em Leadership Program and Business Projects pela Ashridge Business Schoell (Inglaterra), formado em TOC Holistic Management pela Goldrat School, participou como membro do Comitê de Tecnologia e Inovação da APAS – Associação Paulista de Supermercados, membro do Conselho Deliberativo do ABLTI Associação Brasileira de Líderes de Tecnologia da Informação e membro do Conselho Assessor da CIONET Brasil, Farroco especializou-se na área de Tecnologia da Informação.</p>\n\n<p>O executivo que atuou no Lloyds Bank, C&A Brasil, C&A México, Casas Pernambucanas, Lojas Riachuelo e Carrefour Brasil, agora encontra-se como CDO do Grupo Ri Happy Brasil.</p>",
-   "image": "./images/speaker/PauloFarroco.webp"
+    "image": "./images/speaker/PauloFarroco.webp"
   },
   {
     "id": 25,
@@ -215,7 +214,8 @@
     "lecture": "",
     "description": "<p>Carreira desenvolvida na área de Gestão e Tecnologia no Varejo. Profissional com vasta experiência na condução de projetos de implementação e melhoria de processos e sistemas de varejo no ramo de alimentos e bens de consumo. Aplicação de metodologias de boas práticas, controle de recursos financeiros e alinhamento da demanda e necessidade de inovação tecnológica ao desenvolvimento de projetos.</p>",
     "image": "./images/speaker/AgeuPedro.webp"
-  },{
+  },
+  {
     "id": 26,
     "name": "Rodrigo Mariano",
     "profession": "Head",
@@ -223,7 +223,8 @@
     "lecture": "",
     "description": "<h2>Head de Gestão Corporativa e Governança Corporativa da Associação Paulista de Supermercados (APAS)</h2><p>\n  Conselheiro na Associação Metropolitana de Micro e Pequenas Empresas de Florianópolis (AMPE)<br>\n  Conselheiro no Conselho Regional de Economia do estado de São Paulo (CORECON-SP)<br>\n  Conselheiro no Sindicato dos Economistas do estado de São Paulo (SINDECON-SP)<br>\n  Conselheiro na Bolodim Educação Financeira<br>\n  Professor Universitário<br>\n  Membro do Comitê de Empreendedorismo Insper; Mentor InovAtiva Brasil; Mentor Voluntário na Gerando Falcões<br>\n  Mestre em Economia pela Pontifícia Universidade Católica de São Paulo (PUC-SP)<br>\n  MBA Executivo pelo Insper<br>\n  Pós-Graduação em Análise Econômica pela FIPE/USP<br>\n  Extensão em Princípios Econômicos pela Universidade da Califórnia<br>\n  Graduado em Ciências Econômicas pela Universidade Presbiteriana Mackenzie\n</p>\n<h2>Experiência</h2>\n<p>\n  - Governança Corporativa: desenvolvimento de atividades junto aos Fóruns do Conselho de Administração, Conselho Fiscal e na estruturação de Comitês de Trabalho, bem como, atuando na Revisão de Estatuto, Elaboração de Regimento Interno e de Código de Conduta.<br>\n  - Gestão Corporativa: desenvolvimento de planejamento estratégico, tático e operacional de curto, médio e longo prazo, conduzindo a elaboração e viabilização de planos de ações.<br>\n  - Condução de áreas administrativa, financeira, controladoria, recursos humanos, jurídico, governança corporativa, gestão predial, tecnologia da informação, projetos e processos.<br>\n  - Gerenciamento de Projetos: contemplando as fases de Planejamento e Elaboração, Execução, análise, controle e monitoramento, atuando na criação e estruturação de Escritório de Projetos Corporativo (PMO).<br>\n  - Gerenciamento de Processos de Negócios: contemplando as fases de Mapeamento da Cadeia de Valor, Redesenho de Processos, AS IS / TO BE, Controle e Monitoramento do Plano de Ação para Implantação de Processos, Auditoria de Processos.<br>\n  - Executivo com mais de 20 anos de experiência como economista em análise econômica de diversos setores de atividade.\n</p>",
     "image": "./images/speaker/RodrigoMariano.webp"
-  },{
+  },
+  {
     "id": 27,
     "name": "Eduardo Ariel",
     "profession": "Gerente da área de Serviços aos Supermercados",
@@ -231,7 +232,8 @@
     "lecture": "",
     "description": "<p>Gestor de Serviços aos Supermercados da APAS - Associação Paulista de Supermercados. Cursou Administração de Empresas pela Universidade São Francisco, possui MBA pela ESPM. Atua na APAS desde 2004, atualmente com o desafio de captar as necessidades do setor supermercadista e reverter em soluções efetivas para os supermercados associados através de comitês técnicos, cursos, consultorias, convênios e eventos. Em seu histórico trabalhou em indústria de máquinas, rede varejista de moda jovem e desenvolveu operações de cartões private label em banco</p>",
     "image": "./images/speaker/Ariel.webp"
-  }, {
+  },
+  {
     "id": 28,
     "name": "Robledo Castro",
     "profession": "CIO",
@@ -239,7 +241,23 @@
     "lecture": "",
     "description": "<p>Mais de 25 anos de experiência em gestão de tecnologia da informação (TI), transformação digital e e-business, passando por empresas de tecnologia como Stefanini, empresas de serviço como CPFL e Grupo Equipav, e uma vasta experiência no varejo em empresas como Grupo DPaschoal, Grupo RiHappy/PBKids e atualmente como CIO do GPA (Grupo Pão de Açucar). Formado como Técnico em Processamento de Dados pelo Colégio Técnico da Unicamp, Análise de Sistemas pela PUC, mestre em Ciência da Computação na Unicamp e especialista em projetos e metodologias ágeis.</p>",
     "image": "./images/speaker/RobledoCastro.webp"
+  },
+  {
+    "id": 29,
+    "name": " Keila Pereira",
+    "profession": "Gerente de Arquitetura e Sistemas",
+    "company": "Gruponos",
+    "lecture": "",
+    "description": " <p>Keila é especialista com 19 anos de atuação no varejo, com experiências relevantes nas áreas de Tecnologia, Supply Chain, Projetos de inovação, Processos e Transformação Digital. Atualmente, ela ocupa o cargo de Gerente de sistemas do Grupo Nos (Joint venture das marcas Shell Select e OXXO) onde tem usado sua expertise em tecnologia e processos para apoiar na expansão ambiciosa da empresa.</p> <p>Em sua trajetória Keila também contribuiu para o crescimento de varejistas como Ri Happy, Marisa e Lojas Americanas.</p> <p>No campo acadêmico, Keila é formada em Executive Management pela Ohio University, Pós-graduada em gestão de projetos pela UERJ e Graduada em Administração pelo CEFET-RJ.</p>",
+    "image": "./images/speaker/KeilaPereira.webp"
+  },
+  {
+    "id": 30,
+    "name": "Marcos Arante",
+    "profession": "Diretor de Transportes e Plataforma Logística",
+    "company": "Grupo Boticário",
+    "lecture": "",
+    "description": "<p>Engenheiro, Cientista da Computação, Empresário, Executivo e entusiasta de tecnologia e inovação aplicada. </p><p>Construiu uma carreira eclética atuando como executivo e empresário em diferentes segmentos (produção e distribuição de aço, distribuição de medicamentos, cadeia automotiva, cadeia da construção civil, logística pesada, logística para e-commerce e foodtech). Em 2019 fundou Equilibrium, uma Logtech vendida para o grupo Boticário em 2021. </p><p>Ao longo da carreira desenvolveu competências e acumulou experiência nas áreas de transformação digital, desenvolvimento de negócios de tecnologia e jornada Zero ao Exit. </p><p>Hoje é Executivo do Grupo Boticário, Advisor e Investidor</p>",
+    "image": "./images/speaker/MarcosArante.webp"
   }
 ]
-
-  
