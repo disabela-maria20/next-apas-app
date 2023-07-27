@@ -117,7 +117,7 @@ const Stages = () => {
               </div>
             )}
             {tab === 'interval' && (
-              <div ref={blockTable} style={{ color: '#5f249f' }}>
+              <div ref={blockTable} style={{ color: '#000' }}>
                 {Interval?.map((data) => (
                   <section key={data.id}>
                     <div className={Styled.gridTime}>
