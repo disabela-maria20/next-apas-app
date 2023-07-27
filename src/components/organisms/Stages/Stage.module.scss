@@ -134,7 +134,7 @@
 
   .right {
     transform: rotate(45deg);
-    background-color: #fff;
+    background-color: #753bbc;
     left: 72%;
     top: -1px;
     &::before {
@@ -148,7 +148,7 @@
       transform: rotate(225deg) translate(55px, 20px);
       font-size: 1.8rem;
       text-align: center;
-      color: #1d1f48;
+      color: #fff;
       width: 223px;
     }
   }
@@ -156,7 +156,7 @@
     transform: rotate(135deg);
     top: 71%;
     right: 2%;
-    background-color: #753bbc;
+    background-color: #fff;
     &::before {
       content: "Palco 3";
       font-family: field-gothic, "Lucida Sans", Geneva, Verdana, sans-serif;
@@ -168,7 +168,7 @@
       transform: rotate(225deg) translate(55px, 20px);
       font-size: 1.8rem;
       text-align: center;
-      color: #fff;
+      color: #1d1f48;
       width: 205px;
     }
   }
