@@ -49,8 +49,17 @@
     },
     {
       "id": 4,
-      "name": "toledo",
-      "image": "./images/marks/mega/toledo.svg"
+      "name": "ACATE",
+      "image": "./images/marks/mega/ACATE.webp"
+    }, 
+    {
+      "id": 5,
+      "name": "cred",
+      "image": "./images/marks/mega/cred.webp"
+    },  {
+      "id": 6,
+      "name": "ProfitShiel",
+      "image": "./images/marks/mega/ProfitShiel.webp"
     }
   ]
 }

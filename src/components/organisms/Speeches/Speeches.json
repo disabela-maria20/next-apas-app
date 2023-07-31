@@ -20,7 +20,7 @@
   {
     "id": 2,
     "name": "Gabriel Fernandes",
-    "profession": "CEO na CD2 e Head Mercado na ACATE",
+    "profession": "CD2 Retail Tech",
     "company": "ACATE Vertical Varejo e CD2 Retail Tech",
     "description": "<p>CEO e fundador da CD2 Retail Tech e cofundador da Instivo. Com mais de 25 anos de experiência, ele cria soluções personalizadas para o varejo, com foco supermercadista, potencializa equipes e tira projetos do papel. Além disso, como gestor de TI de supermercados por mais de 15 anos, possui expertise no setor. É coautor do livro \"Linux Fundamentos\", finalista do CInTeQ (International Conference on Software Testing and Quality) com projeto de métodos ágeis para supermercados, e atua como Head de Mercado na ACATE Vertical Varejo, onde cuida do relacionamento com corporates. Ele é especialista em tecnologia para varejo e metodologias ágeis, entusiasta Linux e IoT. Gabriel é pai, casado, apaixonado pela vida e um admirador de pessoas, marcas e tecnologia.</p>",
     "lecture": "",
@@ -48,7 +48,7 @@
     "id": 5,
     "name": "Samuel Vanio",
     "profession": "Presidente Grupo Enxuto",
-    "company": "Grupo Enxuto",
+    "company": "Enxuto Supermercados",
     "description": "<p>Com mais de 30 anos dedicados ao varejo e à indústria de serviços, o CEO do Grupo Enxuto traz a experiencia adquirida em grandes players nacionais e multinacionais, entre eles Carrefour, Walmart, Dia Group, Bom Preço NE, Etna Home Store e Gran Sapore tendo atuado como executivo nas diversas áreas do negócio dentre elas Comercial, Operações, Logística, Tecnologia, Finanças, Franquias e e-business. As especializações e MBAs pela Fundação Getulio Vargas, Instituto Europeo de Desing e Fundação Dom Cabral complementam sua experiencia. Palestrante e participante com mais 50 executivos de referência no Brasil como co-autor do livro “Falando com Mentes Brilhantes” gosta de dizer: “nada supera estar presente no dia a dia da empresa e das pessoas”.</p>",
     "lecture": "",
     "image": "./images/speaker/SamuelVanio.webp"
@@ -84,7 +84,7 @@
     "id": 10,
     "name": "Bruno Guimarães",
     "profession": "Diretor da Vertical Varejo ACATE e CEO do WiFeed",
-    "company": "WiFeed e Vertical Varejo ACATE",
+    "company": "WiFeed",
     "description": "<p>Formado em administração de empresas pela Universidade do Estado de Santa Catarina (UDESC/ESAG), certificado em gestão de projetos pelo Australian  Institute of Professional Education e certificado no programa de Inovação e Aceleração da UC Berkeley.</p>",
     "lecture": "",
     "image": "./images/speaker/BrunoGuimaraes.webp"
@@ -201,7 +201,7 @@
     "id": 24,
     "name": "Farroco",
     "profession": "CDO - Chief Digital Officer",
-    "company": "Grupo Ri Happy",
+    "company": "Ri Happy",
     "lecture": "",
     "description": "<p>Formado em Bacharel em Ciências da Computação pela USP – Universidade de São Paulo, Pós Graduado em IT Governance pela USP – Universidade de São Paulo, Curso de Extensão em Economia e Gestão Empresarial pela MIT Sloan School of Management, formado em Leadership Program and Business Projects pela Ashridge Business Schoell (Inglaterra), formado em TOC Holistic Management pela Goldrat School, participou como membro do Comitê de Tecnologia e Inovação da APAS – Associação Paulista de Supermercados, membro do Conselho Deliberativo do ABLTI Associação Brasileira de Líderes de Tecnologia da Informação e membro do Conselho Assessor da CIONET Brasil, Farroco especializou-se na área de Tecnologia da Informação.</p>\n\n<p>O executivo que atuou no Lloyds Bank, C&A Brasil, C&A México, Casas Pernambucanas, Lojas Riachuelo e Carrefour Brasil, agora encontra-se como CDO do Grupo Ri Happy Brasil.</p>",
     "image": "./images/speaker/PauloFarroco.webp"
@@ -237,7 +237,7 @@
     "id": 28,
     "name": "Robledo Castro",
     "profession": "CIO",
-    "company": "GPA",
+    "company": "Grupo Pão de Açúcar",
     "lecture": "",
     "description": "<p>Mais de 25 anos de experiência em gestão de tecnologia da informação (TI), transformação digital e e-business, passando por empresas de tecnologia como Stefanini, empresas de serviço como CPFL e Grupo Equipav, e uma vasta experiência no varejo em empresas como Grupo DPaschoal, Grupo RiHappy/PBKids e atualmente como CIO do GPA (Grupo Pão de Açucar). Formado como Técnico em Processamento de Dados pelo Colégio Técnico da Unicamp, Análise de Sistemas pela PUC, mestre em Ciência da Computação na Unicamp e especialista em projetos e metodologias ágeis.</p>",
     "image": "./images/speaker/RobledoCastro.webp"
@@ -246,7 +246,7 @@
     "id": 29,
     "name": " Keila Pereira",
     "profession": "Gerente de Arquitetura e Sistemas",
-    "company": "Gruponos",
+    "company": "Grupo Nos",
     "lecture": "",
     "description": " <p>Keila é especialista com 19 anos de atuação no varejo, com experiências relevantes nas áreas de Tecnologia, Supply Chain, Projetos de inovação, Processos e Transformação Digital. Atualmente, ela ocupa o cargo de Gerente de sistemas do Grupo Nos (Joint venture das marcas Shell Select e OXXO) onde tem usado sua expertise em tecnologia e processos para apoiar na expansão ambiciosa da empresa.</p> <p>Em sua trajetória Keila também contribuiu para o crescimento de varejistas como Ri Happy, Marisa e Lojas Americanas.</p> <p>No campo acadêmico, Keila é formada em Executive Management pela Ohio University, Pós-graduada em gestão de projetos pela UERJ e Graduada em Administração pelo CEFET-RJ.</p>",
     "image": "./images/speaker/KeilaPereira.webp"

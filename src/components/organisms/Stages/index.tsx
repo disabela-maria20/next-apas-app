@@ -8,7 +8,7 @@ import Interval from './DataEventInterval.json'
 
 import { LineUp } from '@/components/molecules'
 
-// const COLOR: string[] = ['#1d1f48', '#00b5d7', '#5f249f', '#d6c800']
+const COLOR: string[] = ['#1d1f48', '#00b5d7', '#5f249f', '#d6c800']
 const TITLEARRAY: string[] = [
   'Expansão Omnichannel',
   'Da TI básica às tecnologias emergentes',
@@ -27,6 +27,15 @@ const Stages = () => {
 
   const [componente, setComponente] = useState<any[]>()
 
+  const [isPending, startTransition] = useTransition()
+  const [tab, setTab] = useState(1)
+
+  function selectTab(nextTab: number) {
+    startTransition(() => {
+      setTab(nextTab)
+    })
+  }
+
   useEffect(() => {
     setComponente(Speeches[0])
 
@@ -35,8 +44,8 @@ const Stages = () => {
     ) as NodeListOf<HTMLDivElement>
     const handleMouseOver = (i: number) => {
       // circlediv.current?.setAttribute('style', `background-color:${COLOR[i]}`)
-      // blockTable.current?.setAttribute('style', `color:${COLOR[i]}`)
-      setTab('palcos')
+      blockTable.current?.setAttribute('style', `color:${COLOR[i]}`)
+      setTab(1)
       setComponente(Speeches[i])
       setArrTitle(TITLEARRAY[i])
     }
@@ -50,16 +59,7 @@ const Stages = () => {
         item.removeEventListener('mouseover', () => handleMouseOver(index))
       })
     }
-  }, [])
-
-  const [isPending, startTransition] = useTransition()
-  const [tab, setTab] = useState('palco')
-
-  function selectTab(nextTab: string) {
-    startTransition(() => {
-      setTab(nextTab)
-    })
-  }
+  }, [tab])
 
   return (
     <>
@@ -69,33 +69,21 @@ const Stages = () => {
           <h2>Palestras</h2>
           <section className={Styled.stageGrid}>
             <div>
-              {tab === 'palco' && <h2>{arrTitle}</h2>}
-              {tab === 'interval' && <h2>Palco Central</h2>}
+              {tab === 1 && <h2>{arrTitle}</h2>}
+              {tab === 2 && <h2>Palco Central</h2>}
               <div className={Styled.containerStage} ref={blockDiv}>
-                <div
-                  className={Styled.top}
-                  onMouseOver={() => selectTab('palco')}
-                ></div>
-                <div
-                  className={Styled.botton}
-                  onMouseOver={() => selectTab('palco')}
-                ></div>
-                <div
-                  className={Styled.right}
-                  onMouseOver={() => selectTab('palco')}
-                ></div>
-                <div
-                  className={Styled.left}
-                  onMouseOver={() => selectTab('palco')}
-                ></div>
+                <div className={Styled.top}></div>
+                <div className={Styled.botton}></div>
+                <div className={Styled.right}></div>
+                <div className={Styled.left}></div>
                 <span
                   className={Styled.circle}
                   ref={circlediv}
-                  onMouseOver={() => selectTab('interval')}
+                  onMouseOver={() => selectTab(2)}
                 ></span>
               </div>
             </div>
-            {tab === 'palco' && (
+            {tab === 1 && (
               <div ref={blockTable} style={{ color: '#5f249f' }}>
                 {componente?.map((data) => (
                   <section key={data.id}>
@@ -116,7 +104,7 @@ const Stages = () => {
                 ))}
               </div>
             )}
-            {tab === 'interval' && (
+            {tab === 2 && (
               <div ref={blockTable} style={{ color: '#000' }}>
                 {Interval?.map((data) => (
                   <section key={data.id}>
