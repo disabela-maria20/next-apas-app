@@ -271,12 +271,21 @@
   },
   
   {
-    "id": 33,
+    "id": 32,
     "name": "Pedro Lopes Brandão",
     "profession": "Presidente",
     "company": "Presidente",
     "lecture": "",
     "description": "<p>Empreendedor por essência, Pedro Lopes é mineiro de Turmalina, cidade do Vale do Jequitinhonha. No início da década de 70, migrou para a cidade de Guarulhos, em São Paulo, onde trabalhou como mecânico e frentista. No ano de 1974, a veia empreendedora e a paixão pelo varejo impulsionaram a criação de um pequeno comércio em sociedade com os irmãos. O crescimento resultou na fundação da rede Lopes Supermercados, que conta hoje com 30 supermercados e 3 atacarejos, presentes em 11 cidades no estado de São Paulo.</p><p>A partir de sua larga experiência e destaque no setor supermercadista, integrou o quadro executivo da APAS como 1º vice-presidente da entidade no último biênio, assumindo a presidência da Associação na gestão 2022/2024.</p>",
     "image": "./images/speaker/PedroLopes.webp"
+  }, 
+  {
+    "id": 33,
+    "name": "Vidotti",
+    "profession": "CTO",
+    "company": "Tok&Stok",
+    "lecture": "",
+    "description": "<p>Apaixonado por varejo, tecnologia e inovação!</p><p>Tecnólogo em tecnologia da Informação, Matemático & MBA em Economia, atualmente liderando a inovação e a tecnologia dentro da maior empresa de casa e decoração do Brasil</p> <p>Mais de 20 anos atuando com tecnologia e inovação no e-commerce, com sólida experiência em gigantes varejistas do Brasil, como: Extra, Pão de Açúcar, Casas Bahia, Nike, Centauro e atualmente CIO na Tok&Stok</p>",
+    "image": "./images/speaker/DanielVidotti.webp"
   }
 ]
