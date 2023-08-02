@@ -26,13 +26,24 @@ const Marks = () => {
             ))}
           </div>
         </div>
-        {/* <div className={Style.marksTitle}>
-        <h3>Big Data</h3>
-      </div>
-      <div className={Style.container}>
-        <img src="./images/div-5.png" alt="amostra" />
-      </div>
-      <div className={Style.marksTitle}>
+        <div className={Style.marksTitle}>
+          <h3>LOUNGE</h3>
+        </div>
+        <div className={Style.container}>
+          <div className={Style.logoMarks}>
+            {LOGOS.lounge.map((data) => (
+              <img
+                src={data.image}
+                alt={data.name}
+                width={120}
+                height={70}
+                key={data.id}
+                className={Style.max2x}
+              />
+            ))}
+          </div>
+        </div>
+        {/*   <div className={Style.marksTitle}>
         <h3>Giga</h3>
       </div>
       <div className={Style.container}>

@@ -26,46 +26,59 @@
       "image": "./images/marks/tera/WITZLER-ENERGIA.svg"
     }
   ],
-  "mega": [
+  "lounge": [
     {
       "id": 0,
-      "name": "Arius Sistemas",
-      "image": "./images/marks/mega/arius.svg"
-    },
-    {
-      "id": 1,
-      "name": "BSP Cloud",
-      "image": "./images/marks/mega/bsp.svg"
-    },
-    {
-      "id": 2,
-      "name": "H2J Innovative Solutions",
-      "image": "./images/marks/mega/H2J.svg"
-    },
-    {
-      "id": 3,
-      "name": "intersolid",
-      "image": "./images/marks/mega/intersolid.svg"
-    },
-    {
-      "id": 4,
-      "name": "ACATE",
-      "image": "./images/marks/mega/ACATE.webp"
+      "name": "MELITTA",
+      "image": "./images/marks/lounge/MELITTA.png"
     },
     {
       "id": 5,
       "name": "cred",
-      "image": "./images/marks/mega/cred.webp"
+      "image": "./images/marks/mega/Credsystem.png"
+    }
+  ],
+  "mega": [
+    {
+      "id": 0,
+      "name": "Arius Sistemas",
+      "image": "./images/marks/mega/arius.png"
     },
+    {
+      "id": 1,
+      "name": "BSP Cloud",
+      "image": "./images/marks/mega/BSP.png"
+    },
+    {
+      "id": 2,
+      "name": "H2J Innovative Solutions",
+      "image": "./images/marks/mega/H2j.png"
+    },
+    {
+      "id": 3,
+      "name": "intersolid",
+      "image": "./images/marks/mega/intersolid.png"
+    },
+    {
+      "id": 4,
+      "name": "ACATE",
+      "image": "./images/marks/mega/acate.png"
+    },
+    
     {
       "id": 6,
       "name": "ProfitShiel",
-      "image": "./images/marks/mega/ProfitShiel.webp"
-    }, 
+      "image": "./images/marks/mega/Profitshield.png"
+    },
     {
       "id": 7,
       "name": "ProfitShiel",
-      "image": "./images/marks/mega/INWAVE.webp"
+      "image": "./images/marks/mega/Inwave.png"
+    },
+    {
+      "id": 8,
+      "name": "ProfitShiel",
+      "image": "./images/marks/mega/gs.png"
     }
   ]
 }

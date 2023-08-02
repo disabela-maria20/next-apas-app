@@ -180,15 +180,6 @@
     "image": "./images/speaker/RodrigoMurta.webp"
   },
   {
-    "id": 22,
-    "name": "Wander Smelan",
-    "profession": "CTO",
-    "company": "Compra Agora",
-    "lecture": "",
-    "description": "<p>Atualmente CTO do Compra Agora para América Latina, Wander Smelan iniciou sua carreira em consultoria, Accenture e Fujitsu, tendo uma passagem de 14 anos no Brasil e nos EUA com clientes como Carrefour, OfficeMax e Samsung. Posteriormente atuou no Carrefour Brasil no relançamento do Ecommerce/B2C e tecnologia para sistemas comerciais. E mais recentemente atuou no Perú como líder do programa de tecnologia e transformação na Belcorp com Venda Direta para canais B2B, B2C e B2B2C em 14 países da América Latina. Wander é mestre em Tecnologia da Informação pela Universidade de Engenharia da Northwestern University de Chicago, EUA.</p>",
-    "image": "./images/speaker/WanderSmelan.webp"
-  },
-  {
     "id": 23,
     "name": "Kleber Thanasio",
     "profession": "Arquiteto de Soluções",
