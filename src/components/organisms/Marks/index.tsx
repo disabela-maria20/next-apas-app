@@ -26,12 +26,28 @@ const Marks = () => {
             ))}
           </div>
         </div>
+
         <div className={Style.marksTitle}>
-          <h3>LOUNGE</h3>
+          <h3>Giga</h3>
+        </div>
+        <div className={Style.logoMarks}>
+          {LOGOS.giga.map((data) => (
+            <img
+              src={data.image}
+              alt={data.name}
+              width={120}
+              height={70}
+              key={data.id}
+              className={Style.max3x}
+            />
+          ))}
+        </div>
+        <div className={Style.marksTitle}>
+          <h3>mega</h3>
         </div>
         <div className={Style.container}>
           <div className={Style.logoMarks}>
-            {LOGOS.lounge.map((data) => (
+            {LOGOS.mega.map((data) => (
               <img
                 src={data.image}
                 alt={data.name}
@@ -43,18 +59,12 @@ const Marks = () => {
             ))}
           </div>
         </div>
-        {/*   <div className={Style.marksTitle}>
-        <h3>Giga</h3>
-      </div>
-      <div className={Style.container}>
-        <img src="./images/div-5.png" alt="amostra" />
-      </div> */}
         <div className={Style.marksTitle}>
-          <h3>mega</h3>
+          <h3>LOUNGE</h3>
         </div>
         <div className={Style.container}>
           <div className={Style.logoMarks}>
-            {LOGOS.mega.map((data) => (
+            {LOGOS.lounge.map((data) => (
               <img
                 src={data.image}
                 alt={data.name}
