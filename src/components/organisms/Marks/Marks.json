@@ -33,9 +33,14 @@
       "image": "./images/marks/lounge/MELITTA.png"
     },
     {
-      "id": 5,
+      "id": 1,
       "name": "cred",
       "image": "./images/marks/mega/Credsystem.png"
+    }, 
+    {
+      "id": 2,
+      "name": "ds",
+      "image": "./images/marks/lounge/ds.png"
     }
   ],
   "giga": [

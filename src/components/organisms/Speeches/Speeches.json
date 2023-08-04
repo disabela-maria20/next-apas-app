@@ -278,5 +278,49 @@
     "lecture": "",
     "description": "<p>Apaixonado por varejo, tecnologia e inovação!</p><p>Tecnólogo em tecnologia da Informação, Matemático & MBA em Economia, atualmente liderando a inovação e a tecnologia dentro da maior empresa de casa e decoração do Brasil</p> <p>Mais de 20 anos atuando com tecnologia e inovação no e-commerce, com sólida experiência em gigantes varejistas do Brasil, como: Extra, Pão de Açúcar, Casas Bahia, Nike, Centauro e atualmente CIO na Tok&Stok</p>",
     "image": "./images/speaker/DanielVidotti.webp"
+  }, 
+  {
+    "id": 34,
+    "name": "Celentano",
+    "profession": "Diretor de Operações",
+    "company": "Grupo Imec",
+    "lecture": "",
+    "description": "<p>Conselheiro formado pelo IBGC, Diretor de Operações, Expansão e E-commerce.</p> <p>Atualmente trabalhando no Grupo Imec.</p><p>30 anos de experiência no varejo com foco em Pessoas, Processos e Padrão.</p>",
+    "image": "./images/speaker/Calentano.webp"
+  }, 
+  {
+    "id": 35,
+    "name": "Ivan Fernandes",
+    "profession": "CEO",
+    "company": "Grupo Imec",
+    "lecture": "",
+    "description": "<p>van Fernandes, CEO e co-founder da GIC Brasil, possui mais de 20 anos de experiência no desenvolvimento de soluções inovadoras para o varejo alimentar e para a cadeia de suprimentos. Liderou o lançamento da solução RUB, que hoje está presente no Brasil e América Latina com de 20 mil usuários ativos. Com o propósito de transformar vidas, também dedica parte do seu tempo ao esporte e ao voluntariado.</p>",
+    "image": "./images/speaker/IvanFernandes.webp"
+  },
+  {
+    "id": 36,
+    "name": "Leandro Alves",
+    "profession": "Diretor",
+    "company": "Leandro Alves Negócios Digitais",
+    "lecture": "",
+    "description": "<p>Head de Grocery na Escola Superior de Ecommerce, é consultor, professor e palestrante com mais de 20 anos de experiência em operações multicanais de varejo e atacado. Com ampla vivência em modelagem e desenvolvimento de negócios, digitalizou +100 Supermercados implantando Ecommerce e Clube de Fidelidade de forma integrada em operações omnichannel.</p>",
+    "image": "./images/speaker/LeandroAlves.webp"
+  },{
+    "id": 37,
+    "name": "Roberto Soares",
+    "profession": "Diretor  de Logística e Abastecimento",
+    "company": "Grupo Pereira",
+    "lecture": "",
+    "description": "<p>Profissional com mais de 25 anos de carreira em Gestão da logística, Negócios e Supply Chain, atuando em empresas Nacionais e Multinacionais nos segmentos de Varejo, Industrial, Combustíveis Distribuição e Refinaria de Petróleo. Participação e gestão de projetos de planejamento integrado, malha de abastecimento e inovação das operações de distribuição para indústria e varejo. Experiência na alta gestão de operações de logística, sendo responsável pelo planejamento estratégico de processos e financeiro da área.</p>",
+    "image": "./images/speaker/RobertoSoares.webp"
+  },
+  {
+    "id": 38,
+    "name": "Tony Godinho",
+    "profession": "Diretor",
+    "company": "Supermercados São Roque",
+    "lecture": "",
+    "description": "<p>Formado em Ciência da Computação, com atuação em TI no varejo, na empresa Supermercados São Roque, á vinte anos na administração, projetos executados, como, selfcheckout, etiquetas eletronicas, sistema de controle de ruptura de mercadorias, controle de inventário, sistema de frente de caixa e ERP.  </p>",
+    "image": "./images/speaker/TonyGodinho.webp"
   }
 ]
