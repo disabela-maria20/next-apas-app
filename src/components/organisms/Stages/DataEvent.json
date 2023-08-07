@@ -10,24 +10,24 @@
     },
     {
       "id": 2,
-      "name": "EM BREVE",
+      "name": "A Cultura Impulsionando a Aceleração Digital",
       "time": "11h30 à 12h30",
       "duration": "1h",
-      "description": ""
+      "description": "Neste painel, \"A Cultura Impulsionando a Aceleração Digital\", iremos explorar a vital intersecção entre a cultura organizacional e a transformação digital."
     },
     {
       "id": 3,
       "name": "A Jornada Omnichannel: 450% de crescimento em 3 anos",
       "time": "14h35 à 15h05",
       "duration": "35min",
-      "description": ""
+      "description": "Em 'A Jornada Omnichannel: 450% de Crescimento em 3 Anos', Joaquim Garcia da Drogaria Pague Menos irá desvendar a estratégia bem-sucedida que levou a um crescimento expressivo em um período tão curto."
     },
     {
       "id": 4,
-      "name": "EM BREVE",
+      "name": "Novas fronteiras para o varejo: omnicalidade e inteligência de dados",
       "time": "15h10 à 16h10",
       "duration": "1h",
-      "description": ""
+      "description": "No painel 'Novas Fronteiras para o Varejo: Omnicalidade e Inteligência de Dados', os especialistas vão explorar como a intersecção da estratégia omnicanal e a análise de dados está redefinindo as possibilidades no varejo."
     }
   ], 
   [
@@ -36,27 +36,27 @@
       "name": "Escalando com a TI: A Influência da Arquitetura Tecnológica no Crescimento do Varejo",
       "time": "11h00 à 11h25",
       "duration": "25min",
-      "description": ""
+      "description": "Explorar a evolução da TI, desde os fundamentos básicos até as inovações de ponta. Aprender como integrar e utilizar efetivamente a tecnologia emergente para transformar as operações de negócios e impulsionar a competitividade no mercado supermercadista."
     },
     {
       "id": 1,
       "name": "O papel estratégico da TI no  processo da expansão acelerada de Lojas",
-      "time": "11h30 à 12h30",
-      "duration": "1h",
+      "time": "11h30 à 12h20",
+      "duration": "50min",
       "description": "História de como a Oxxo utilizou a tecnologia da informação (TI) como a espinha dorsal de sua expansão exponencial no Brasil, reconhecendo o potencial transformador da TI, a Oxxo começou a investir significativamente em tecnologia para melhorar suas operações e, mais importante, para melhorar a experiência do cliente. "
     },
     {
       "id": 2,
-      "name": "EM BREVE",
-      "time": "14h30 à 15h05",
+      "name": "Além de ferramentas: Mudando o papel da TI para pilar estratégico do negócio de varejo",
+      "time": "14h10 à 14h40",
       "duration": "35min",
-      "description": ""
+      "description": "Em 'Além de Ferramentas: Mudando o Papel da TI para Pilar Estratégico do Negócio de Varejo', Robledo, CIO do GPA, discutirá como a TI evoluiu de um simples suporte operacional para um componente crítico na estratégia de negócios do varejo. "
     },
     {
       "id": 3,
       "name": "EM BREVE",
-      "time": "15h10 à 16h10",
-      "duration": "1h",
+      "time": "15h20 à 16h10",
+      "duration": "50min",
       "description": ""
     }
   ],
@@ -71,8 +71,8 @@
     {
       "id": 1,
       "name": "EM BREVE",
-      "time": "11h30 à 12h30",
-      "duration": "1h",
+      "time": "11h20 à 12h30",
+      "duration": "50min",
       "description": ""
     },
     {
@@ -85,22 +85,22 @@
     {
       "id": 3,
       "name": "EM BREVE",
-      "time": "15h10 à 16h10",
-      "duration": "1h",
+      "time": "15h20 à 16h10",
+      "duration": "50min",
       "description": ""
     }
   ],
   [
     {
       "id": 0,
-      "name": "EM BREVE",
+      "name": "Supermercados e Plataformas de Marketplace B2B e B2C, desafios e oportunidades num mundo omnichannel",
       "time": "11h00 à 11h25",
       "duration": "25min",
-      "description": ""
+      "description": ". Como supermercados e atacadistas podem se capacitar para aproveitar a onda crescente da multicanalidade explorando canais como B2B e marketplaces. Como estar preparado para o futuro da relação digital com as Marcas e as Indústrias."
     },
     {
       "id": 1,
-      "name": "Como a eficiência operacional contribui com a lucratividade do negócio",
+      "name": "EM BREVE",
       "time": "11h30 à 12h30",
       "duration": "1h",
       "description": ""
@@ -108,16 +108,16 @@
     {
       "id": 2,
       "name": "A Revolução da Operação na Omniera",
-      "time": "14h35 à 15h05",
-      "duration": "35min",
-      "description": ""
+      "time": "14h40 à 15h10",
+      "duration": "30min",
+      "description": "Ele explorará como adaptar e inovar processos operacionais para atender a um consumidor cada vez mais conectado, apresentando estratégias eficazes para superar desafios e aproveitar as oportunidades únicas que essa nova era de varejo apresenta."
     },
     {
       "id": 3,
-      "name": "EM BREVE",
-      "time": "15h10 à 16h10",
-      "duration": "1h",
-      "description": ""
+      "name": "Novas fronteiras para o varejo: omnicalidade e inteligência de dados",
+      "time": "15h20 à 16h10",
+      "duration": "50min",
+      "description": "No painel 'Novas Fronteiras para o Varejo: Omnicalidade e Inteligência de Dados', os especialistas vão explorar como a intersecção da estratégia omnicanal e a análise de dados está redefinindo as possibilidades no varejo. "
     }
   ]
  
