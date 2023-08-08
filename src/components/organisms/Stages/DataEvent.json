@@ -10,10 +10,10 @@
     },
     {
       "id": 2,
-      "name": "A Cultura Impulsionando a Aceleração Digital",
+      "name": "EM BREVE",
       "time": "11h30 à 12h30",
       "duration": "1h",
-      "description": "Neste painel, \"A Cultura Impulsionando a Aceleração Digital\", iremos explorar a vital intersecção entre a cultura organizacional e a transformação digital."
+      "description": ""
     },
     {
       "id": 3,
@@ -40,17 +40,17 @@
     },
     {
       "id": 1,
-      "name": "O papel estratégico da TI no  processo da expansão acelerada de Lojas",
+      "name": "em breve",
       "time": "11h30 à 12h20",
       "duration": "50min",
-      "description": "História de como a Oxxo utilizou a tecnologia da informação (TI) como a espinha dorsal de sua expansão exponencial no Brasil, reconhecendo o potencial transformador da TI, a Oxxo começou a investir significativamente em tecnologia para melhorar suas operações e, mais importante, para melhorar a experiência do cliente. "
+      "description": ""
     },
     {
       "id": 2,
-      "name": "Além de ferramentas: Mudando o papel da TI para pilar estratégico do negócio de varejo",
+      "name": "O papel estratégico da TI no  processo da expansão acelerada de Lojas",
       "time": "14h10 à 14h40",
       "duration": "35min",
-      "description": "Em 'Além de Ferramentas: Mudando o Papel da TI para Pilar Estratégico do Negócio de Varejo', Robledo, CIO do GPA, discutirá como a TI evoluiu de um simples suporte operacional para um componente crítico na estratégia de negócios do varejo. "
+      "description": "História de como a Oxxo utilizou a tecnologia da informação (TI) como a espinha dorsal de sua expansão exponencial no Brasil, reconhecendo o potencial transformador da TI, a Oxxo começou a investir significativamente em tecnologia para melhorar suas operações e, mais importante, para melhorar a experiência do cliente."
     },
     {
       "id": 3,
@@ -66,14 +66,14 @@
       "name": "Guia Rápido de Inovação para Supermercados",
       "time": "11h00 à 11h25",
       "duration": "25min",
-      "description": ""
+      "description": "Nesta apresentação, exploraremos as estratégias essenciais para transformar o varejo de supermercados, abordando desde a adoção de tecnologias à cocriação com colaboradores, fornecedores e clientes. Com foco na aplicabilidade, esta palestra fornecerá aos supermercadistas um roteiro claro de como iniciar sua própria jornada de inovação."
     },
     {
       "id": 1,
-      "name": "EM BREVE",
-      "time": "11h20 à 12h30",
-      "duration": "50min",
-      "description": ""
+      "name": "A Cultura Impulsionando a Aceleração Digital",
+      "time": "11h30 à 12h30",
+      "duration": "1h",
+      "description": "Neste painel, \" A Cultura Impulsionando a Aceleração Digital\", iremos explorar a vital intersecção entre a cultura organizacional e a transformação digital. Com a era digital em pleno vigor, é indispensável que as empresas criem e nutram uma cultura que incentive a inovação e a adaptação ágil às mudanças tecnológicas."
     },
     {
       "id": 2,
@@ -84,10 +84,10 @@
     },
     {
       "id": 3,
-      "name": "EM BREVE",
+      "name": "Fazer negócios com startups: problema ou solução?",
       "time": "15h20 à 16h10",
       "duration": "50min",
-      "description": ""
+      "description": " O diálogo abordará a forma como essas parcerias podem acelerar a inovação e a transformação digital, mas também discutirá os possíveis obstáculos e como superá-los, fornecendo um olhar equilibrado e prático sobre como aproveitar ao máximo as colaborações com startups."
     }
   ],
   [
@@ -100,10 +100,10 @@
     },
     {
       "id": 1,
-      "name": "EM BREVE",
+      "name": "Como a eficiência operacional a lucatividade do negócio",
       "time": "11h30 à 12h30",
       "duration": "1h",
-      "description": ""
+      "description": "Conheça suas histórias e cases de sucesso, destacando a sinergia entre pessoas, processos e tecnologia para aumentar a lucratividade no varejo."
     },
     {
       "id": 2,
@@ -114,10 +114,10 @@
     },
     {
       "id": 3,
-      "name": "Novas fronteiras para o varejo: omnicalidade e inteligência de dados",
+      "name": "Em breve",
       "time": "15h20 à 16h10",
       "duration": "50min",
-      "description": "No painel 'Novas Fronteiras para o Varejo: Omnicalidade e Inteligência de Dados', os especialistas vão explorar como a intersecção da estratégia omnicanal e a análise de dados está redefinindo as possibilidades no varejo. "
+      "description": ""
     }
   ]
  

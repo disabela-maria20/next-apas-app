@@ -103,7 +103,7 @@
     "name": "FILIPE PEREIRA",
     "profession": "Diretor Geral",
     "company": "Vércer",
-    "description": "<p>Economista, com mais de 15 anos de experiência em indústria e varejo e passagens por empresas como Unilever, Panco e GPA. Também liderou a área de Novos Produtos da dunnhumby Brasil.</p><p>Desafios e Riscos na sustentação do negócio</p>",
+    "description": "<p>Economista, com mais de 15 anos de experiência em indústria e varejo e passagens por empresas como Unilever, Panco e GPA. Também liderou a área de Novos Produtos da dunnhumby Brasil.</p>",
     "lecture": "",
     "image": "./images/speaker/FilipePereira.webp"
   },
@@ -294,7 +294,7 @@
     "profession": "CEO",
     "company": "GIC BRASIL",
     "lecture": "",
-    "description": "<p>van Fernandes, CEO e co-founder da GIC Brasil, possui mais de 20 anos de experiência no desenvolvimento de soluções inovadoras para o varejo alimentar e para a cadeia de suprimentos. Liderou o lançamento da solução RUB, que hoje está presente no Brasil e América Latina com de 20 mil usuários ativos. Com o propósito de transformar vidas, também dedica parte do seu tempo ao esporte e ao voluntariado.</p>",
+    "description": "<p>Ivan Fernandes, CEO e co-founder da GIC Brasil, possui mais de 20 anos de experiência no desenvolvimento de soluções inovadoras para o varejo alimentar e para a cadeia de suprimentos. Liderou o lançamento da solução RUB, que hoje está presente no Brasil e América Latina com de 20 mil usuários ativos. Com o propósito de transformar vidas, também dedica parte do seu tempo ao esporte e ao voluntariado.</p>",
     "image": "./images/speaker/IvanFernandes.webp"
   },
   {
@@ -322,5 +322,23 @@
     "lecture": "",
     "description": "<p>Formado em Ciência da Computação, com atuação em TI no varejo, na empresa Supermercados São Roque, á vinte anos na administração, projetos executados, como, selfcheckout, etiquetas eletronicas, sistema de controle de ruptura de mercadorias, controle de inventário, sistema de frente de caixa e ERP.  </p>",
     "image": "./images/speaker/TonyGodinho.webp"
+  },
+  {
+    "id": 39,
+    "name": "Rubens Scalioni",
+    "profession": "CEO",
+    "company": "It Works SA",
+    "lecture": "",
+    "description": "<p>Rubens é MBA em Administração de Empresas, Founder e CEO da It Works SA - Empresa de tecnologia e desenvolvimento de negócios com mais 35 anos de existência, que atua na Robotização e Desenvolvimento de Inteligência Artificial para a prevenção de perdas tributárias, hoje a It Works está presente em mais de 4.000 redes de varejo e indústrias em todo o Brasil.</p>",
+    "image": "./images/speaker/RubensScakioni.webp"
+  },
+  {
+    "id": 40,
+    "name": "Stefania Fernandes",
+    "profession": "Diretora de Relações Institucionais e Sustentabilidade",
+    "company": "GIC Brasil",
+    "lecture": "",
+    "description": "<p>Stefania Fernandes é jornalista, começou sua carreira como apresentadora e repórter do Telecine | Globosat, trabalhou por um tempo em Organizações Sem Fins Lucrativos, como a Rede Povos da Floresta, e atualmente é sócia e atua como Diretora de Assuntos Institucionais e Sustentabilidade da GIC Brasil</p>",
+    "image": "./images/speaker/StefaniaFernandes.webp"
   }
 ]
