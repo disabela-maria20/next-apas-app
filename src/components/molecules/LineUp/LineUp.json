@@ -31,6 +31,7 @@
     "talks": "Coffee break",
     "color": 4
   },
+  
   {
     "id": 4,
     "color": 1,
@@ -45,7 +46,7 @@
       "time": "14h40 à 15h10", 
       "stage":"O papel estratégico da TI no  processo da expansão acelerada de Lojas"
     }, {
-      "time": "15h10 à 16h10", 
+      "time": "15h20 à 16h10", 
       "stage": "em breve"
     }]
   },
@@ -110,7 +111,13 @@
     "talks":  "Work Lunch"
   },
  
- 
+  {
+    "id": 31,
+    "time": "14H10 às 14H40",
+    "talks": "Palco Central",
+    "stage": "Além de ferramentas: Mudando o papel da TI para pilar estratégico do negócio de varejo",
+    "color": 2
+  },
   {
     "id": 14,
     "color": 4,
