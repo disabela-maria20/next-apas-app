@@ -92,6 +92,11 @@
       "id": 8,
       "name": "ProfitShiel",
       "image": "./images/marks/mega/gz.jpg"
+    },
+    {
+      "id": 8,
+      "name": "NEXTOP",
+      "image": "./images/marks/mega/NEXTOP.png"
     }
   ]
 }
