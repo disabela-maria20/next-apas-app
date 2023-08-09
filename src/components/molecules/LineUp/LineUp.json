@@ -42,7 +42,7 @@
       "time": "11h30 à 12h20", 
       "stage": "em breve"
     },{
-      "time": "14h10 à 14h40", 
+      "time": "14h40 à 15h10", 
       "stage":"O papel estratégico da TI no  processo da expansão acelerada de Lojas"
     }, {
       "time": "15h10 à 16h10", 
@@ -54,16 +54,16 @@
     "color": 0, 
     "tema":  "Palco 2 - Cultura de inovação e aceleração digital",
     "talks": [{
-      "time": "11h00 à 11h25",
+      "time": "11h00 às 11h25",
       "stage": "Guia Rápido de Inovação para Supermercados"
     }, {
-      "time": "11h30 à 12h20", 
+      "time": "11h30 às 12h20", 
       "stage": "A Cultura Impulsionando a Aceleração Digital"
     }, {
-      "time": "14h35 à 15h05",
-      "stage": "A Caminhada para o Sucesso através da Inovação: Lições do Grupo Pereira "
+      "time": "14h40 à 15h10",
+      "stage": "A Caminhada para o Sucesso através da Inovação: Lições do Grupo Pereira"
     }, {
-      "time": "15h20 à 16h10", 
+      "time": "15h20 às 16h10", 
       "stage": "Fazer negócios com startups: problema ou solução?"
     }]
   },
@@ -72,16 +72,16 @@
     "color": 2, 
     "tema":  "Palco 3 - Expansão Omnichannel",
     "talks": [{
-      "time": "11h00 à 11h25", 
+      "time": "11h00 às 11h25", 
       "stage": "Home Delivery: Como Transformar o Desafio em Oportunidade no Varejo"
     }, {
-      "time": "11h30 à 12h20", 
+      "time": "11h30 às 12h20", 
       "stage": "em breve"
     },{
-      "time": "14h35 à 15h05", 
+      "time": "14h40 à 15h10", 
       "stage": "A Jornada Omnichannel: 450% de crescimento em 3 anos"
     }, {
-      "time": "15h20 à 16h10", 
+      "time": "15h20 às 16h10", 
       "stage": "Novas fronteiras para o varejo: omnicalidade e inteligência de dados"
     }]
   },
@@ -90,16 +90,16 @@
     "color": 3,  
     "tema":  "Palco 4 - Evolução do Supply Chain e operações",
     "talks": [{
-      "time": "11h00 à 11h25", 
+      "time": "11h00 às 11h25", 
       "stage": "Supermercados e Plataformas de Marketplace B2B e B2C, desafios e oportunidades num mundo omnichannel"
     }, {
-      "time": "11h30 à 12h20", 
-      "stage": "Como a eficiência operacional a lucatividade do negócio"
+      "time": "11h30 às 12h20", 
+      "stage": "Como a eficiência operacional contribui com a lucratividade do negócio"
     }, {
-      "time": "14h35 à 15h05", 
+      "time": "14h40 à 15h10", 
       "stage": "A Revolução da Operação na Omniera"
     }, {
-      "time": "15h20 à 16h10", 
+      "time": "15h20 às 16h10", 
       "stage": "Em breve"
     }]
   },
