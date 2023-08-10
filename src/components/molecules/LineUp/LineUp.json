@@ -27,7 +27,7 @@
   },
   {
     "id": 3,
-    "time": "10h15 às 11h00",
+    "time": "10h20 às 11h00",
     "talks": "Coffee break",
     "color": 4
   },
@@ -41,13 +41,13 @@
       "stage": "Escalando com a TI: A Influência da Arquitetura Tecnológica no Crescimento do Varejo"
     }, {
       "time": "11h30 à 12h20", 
-      "stage": "em breve"
+      "stage": "Gestão de TI no Novo Normal: Estruturando Times para Suportar a Transformação Digital no Varejo"
     },{
       "time": "14h40 à 15h10", 
       "stage":"O papel estratégico da TI no  processo da expansão acelerada de Lojas"
     }, {
       "time": "15h20 à 16h10", 
-      "stage": "em breve"
+      "stage": "A Tecnologia Pela Tecnologia x Gerando Valor Real: Entendendo o Impacto das APIs no Varejo"
     }]
   },
   {
@@ -77,7 +77,7 @@
       "stage": "Home Delivery: Como Transformar o Desafio em Oportunidade no Varejo"
     }, {
       "time": "11h30 às 12h20", 
-      "stage": "em breve"
+      "stage": "Retail Media na Omniera: Potenciais de Negócio e os Desafios"
     },{
       "time": "14h40 à 15h10", 
       "stage": "A Jornada Omnichannel: 450% de crescimento em 3 anos"
@@ -101,7 +101,7 @@
       "stage": "A Revolução da Operação na Omniera"
     }, {
       "time": "15h20 às 16h10", 
-      "stage": "Em breve"
+      "stage": "Maximizando o Supply Chain: Do Abastecimento das Lojas ao Consumidor Final"
     }]
   },
   {
@@ -122,7 +122,7 @@
     "id": 14,
     "color": 4,
     "talks":  "Coffee break ",
-    "time": "16h10 às 17h"
+    "time": "16h20 às 17h"
   },{
     "id": 15,
     "color": 2,
