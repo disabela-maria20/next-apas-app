@@ -340,5 +340,23 @@
     "lecture": "",
     "description": "<p>Stefania Fernandes é jornalista, começou sua carreira como apresentadora e repórter do Telecine | Globosat, trabalhou por um tempo em Organizações Sem Fins Lucrativos, como a Rede Povos da Floresta, e atualmente é sócia e atua como Diretora de Assuntos Institucionais e Sustentabilidade da GIC Brasil</p>",
     "image": "./images/speaker/StefaniaFernandes.webp"
+  },
+  {
+    "id": 41,
+    "name": "Gustavo Gaidzinski",
+    "profession": "HEAD DE TI",
+    "company": "",
+    "lecture": "",
+    "description": "<p>Responsável pelo Departamento de Tecnologia do Angeloni desde 2010 e com mais de 25 anos de experiência na Gestão de Pessoas e Projetos nos segmentos de Varejo, Financeiro e Internet. Convivência no mercado corporativo de São Paulo por 10 anos sempre trabalhando em cargo de gestão e empresas de destaque no seu segmento.</p>",
+    "image": "./images/speaker/GustavoGaidzinski.webp"
+  },
+  {
+    "id": 42,
+    "name": "Bauer",
+    "profession": "Head de TI",
+    "company": "PÃO DE AÇUCAR",
+    "lecture": "",
+    "description": "<p>Head de TI na GPA, 27 anos experiencia em tecnologia e inovação no varejo, Formado em Sistemas de informação, possui MBA em Segurança de Informação e Gestão Estratégica de TI pela FGV.</p>",
+    "image": "./images/speaker/RodrigoBauer.webp"
   }
 ]

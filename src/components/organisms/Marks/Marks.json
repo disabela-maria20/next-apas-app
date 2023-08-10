@@ -24,6 +24,11 @@
       "id": 4,
       "name": "Witzler Energia",
       "image": "./images/marks/tera/WITZLER-ENERGIA.svg"
+    },
+    {
+      "id": 5,
+      "name": "The led",
+      "image": "./images/marks/tera/the-led.png"
     }
   ],
   "lounge": [
@@ -41,6 +46,11 @@
       "id": 2,
       "name": "ds",
       "image": "./images/marks/lounge/ds.png"
+    },
+    {
+      "id": 3,
+      "name": "The led",
+      "image": "./images/marks/lounge/linktel.png"
     }
   ],
   "giga": [
