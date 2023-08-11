@@ -51,6 +51,11 @@
       "id": 3,
       "name": "The led",
       "image": "./images/marks/lounge/linktel.png"
+    },
+    {
+      "id": 3,
+      "name": "BRINKS",
+      "image": "./images/marks/lounge/BRINKS.png"
     }
   ],
   "giga": [
