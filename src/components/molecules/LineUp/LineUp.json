@@ -7,20 +7,20 @@
   },
   {
     "id": 0,
-    "time": "08h45 à 09h00",
+    "time": "08h45 às 09h00",
     "talks": "Palco Central - Abertura",
     "color": 2
   },
   {
     "id": 1,
-    "time": "9h00 à 09h40",
+    "time": "9h00 às 09h40",
     "talks": "Palco Central ",
     "stage": "Liderando o Futuro",
     "color": 2
   },
   {
     "id": 2,
-    "time": "09H40 à 10h15",
+    "time": "09H40 às 10h15",
     "talks": "Palco Central",
     "stage": "Pesquisa APAS de tecnologia, prontidão e inovação: resultados e insights",
     "color": 2
@@ -37,16 +37,16 @@
     "color": 1,
     "tema":  "Palco 1 - Da TI básica às tecnologias emergentes",
     "talks": [{
-      "time": "11h00 à 11h25", 
+      "time": "11h00 às 11h25", 
       "stage": "Escalando com a TI: A Influência da Arquitetura Tecnológica no Crescimento do Varejo"
     }, {
-      "time": "11h30 à 12h20", 
+      "time": "11h30 às 12h20", 
       "stage": "Gestão de TI no Novo Normal: Estruturando Times para Suportar a Transformação Digital no Varejo"
     },{
-      "time": "14h40 à 15h10", 
+      "time": "14h40 às 15h10", 
       "stage":"O papel estratégico da TI no  processo da expansão acelerada de Lojas"
     }, {
-      "time": "15h20 à 16h10", 
+      "time": "15h20 às 16h10", 
       "stage": "A Tecnologia Pela Tecnologia x Gerando Valor Real: Entendendo o Impacto das APIs no Varejo"
     }]
   },

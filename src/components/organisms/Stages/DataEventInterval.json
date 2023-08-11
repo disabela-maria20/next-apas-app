@@ -2,14 +2,14 @@
   {
     "id": 1,
     "name": "LIDERANDO O FUTURO",
-    "time": "9H00 À 09H40",
+    "time": "9H00 às 09H40",
     "duration": "40min",
     "description": "Com o tema “Liderando o Futuro”, a palestra irá abordar o futurismo e sua importância, trazendo técnicas simples que podem ser aplicadas por qualquer indivíduo para ampliar o seu poder de enxergar e criar futuros, que segundo Martha podem ser criados estrategicamente, por meio da visualização de cenários"
   },
   {
     "id": 2,
     "name": "PESQUISA APAS DE TECNOLOGIA, PRONTIDÃO E INOVAÇÃO: RESULTADOS E INSIGHTS",
-    "time": "09H40 À 10H15",
+    "time": "09H40 às 10H15",
     "duration": "35min",
     "description": ""
   },
@@ -23,7 +23,7 @@
   {
     "id": 3,
     "name": "SEM MEDO DE INOVAR",
-    "time": "17H ÀS 17H30",
+    "time": "17H às 17H30",
     "duration": "30min",
     "description": "A apresentação \"Sem Medo de Inovar\" de Caio Camargo busca desmistificar o conceito de inovação e incentivá-lo em um ambiente empresarial."
   }
