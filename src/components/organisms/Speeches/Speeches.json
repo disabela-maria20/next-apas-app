@@ -378,12 +378,21 @@
     "image": "./images/speaker/CarlosCorrea.webp"
   },
   {
-    "id": 44,
+    "id": 45,
     "name": "Luan Azevedo",
     "profession": "CEO",
     "company": "DS Marketing",
     "lecture": "",
     "description": "<p>Graduação em Ciência da Computação; MBA em Business Intelligence & Big Data. Ex-CTO da Assertiva, o quarto maior bureau de dados do Brasil. Meia década de expertise em personalização de marketing no varejo. Especialista em análise de dados e estratégias de marketing para o setor varejista. CEO e fundador da ds.marketing: automação de marketing para supermercados. Presença em mais de 2000 estabelecimentos clientes. Execução diária de centenas de campanhas de marketing</p> ",
     "image": "./images/speaker/LuanAzevedo.webp"
+  },
+  {
+    "id": 45,
+    "name": "Richard Albanesi",
+    "profession": "CEO",
+    "company": "THE LED",
+    "lecture": "",
+    "description": "<p>Empreendedor, visionário e publicitário, Richard Albanesi, é fundador e CEO da <strong>The LED</strong>, empresa referência no setor e vencedora do <em>Shops Awards</em> 2020 e 2022. Richard iniciou na <em>Lâmpadas FLC</em> e fundou a <strong>The LED</strong> em 2010, especializada em painéis de LED, marketing e eventos. Vice-presidente da <strong>POPAI Brasil</strong>, palestrante sobre tecnologia LED e varejo.</p>",
+    "image": "./images/speaker/RichardAlbanesi.webp"
   }
 ]
