@@ -112,6 +112,11 @@
       "id": 8,
       "name": "NEXTOP",
       "image": "./images/marks/mega/NEXTOP.png"
+    },
+    {
+      "id": 8,
+      "name": "toledo Do Brasil",
+      "image": "./images/marks/mega/toledoDoBrasil.PNG"
     }
   ]
 }

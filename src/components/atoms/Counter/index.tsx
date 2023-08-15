@@ -133,8 +133,35 @@ const Counter: React.FC = memo(() => {
       </article>
     )
   }
-
-  return null
+  // else {
+  //   return (
+  //     <article
+  //       className={`${Style.bgColor} ${isScrolling ? Style.active : ''}`}
+  //       ref={scroll}
+  //     >
+  //       <div className={Style.container}>
+  //         <div className={Style.flexCouter}>
+  //           <h2>
+  //             <strong>É HOJE</strong>
+  //           </h2>
+  //           <a
+  //             href="https://eventonsg.com.br/credenciamento/"
+  //             className={Style.link}
+  //             target="_SEJ"
+  //           >
+  //             <img
+  //               src="./images/arrow.svg"
+  //               alt="seta para esquerda"
+  //               width={36}
+  //               height={24}
+  //             />
+  //             inscreva-se
+  //           </a>
+  //         </div>
+  //       </div>
+  //     </article>
+  //   )
+  // }
 })
 
 export default Counter
