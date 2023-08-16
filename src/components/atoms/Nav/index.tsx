@@ -67,11 +67,11 @@ const Nav: React.FC<NavProps> = ({ open, setOpen }) => {
           <li>
             <AnchorLink href="#about">Sobre</AnchorLink>
           </li>
-          <li>
+          {/* <li>
             <a href="https://eventonsg.com.br/credenciamento/">
               Credenciamento
             </a>
-          </li>
+          </li> */}
           <li>
             <Link href="/2022">Rolou em 2022</Link>
           </li>
