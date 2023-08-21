@@ -88,7 +88,7 @@ const index = () => {
                 </li>
                 <li>
                   <Link href="https://eventonsg.com.br/certificado/">
-                  certificado
+                    certificado
                   </Link>
                 </li>
                 <li>
