@@ -86,11 +86,11 @@ const index = () => {
                 <li>
                   <AnchorLink href="#about">Sobre</AnchorLink>
                 </li>
-                {/* <li>
-                  <a href="https://eventonsg.com.br/credenciamento/">
-                    Credenciamento
+                <li>
+                  <a href="https://eventonsg.com.br/certificado/">
+                  certificado
                   </a>
-                </li> */}
+                </li>
                 <li>
                   <Link href="/2022">Rolou em 2022</Link>
                 </li>
