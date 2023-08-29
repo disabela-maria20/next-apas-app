@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { BsPersonCircle } from 'react-icons/bs'
 
 import Style from './Nav.module.scss'
 
@@ -83,6 +84,12 @@ const Nav: React.FC<NavProps> = ({ open, setOpen }) => {
           </li>
           <li>
             <AnchorLink href="#contact">Contato</AnchorLink>
+          </li>
+          <li>
+            <Link href="">
+              <span style={{ fontSize: 0 }}>Entrar</span>
+              <BsPersonCircle style={{ fontSize: 25 }} />
+            </Link>
           </li>
         </ul>
         <ul className={Style.redes}>
