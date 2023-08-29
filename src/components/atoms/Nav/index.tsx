@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import { BsPersonCircle } from 'react-icons/bs'
 
 import Style from './Nav.module.scss'
 
@@ -88,7 +87,22 @@ const Nav: React.FC<NavProps> = ({ open, setOpen }) => {
           <li>
             <Link href="https://painel.eventonsg.com.br/user/login">
               <span style={{ fontSize: 0 }}>Entrar</span>
-              <BsPersonCircle style={{ fontSize: 25 }} />
+              <svg
+                stroke="currentColor"
+                fill="currentColor"
+                strokeWidth="0"
+                viewBox="0 0 16 16"
+                style={{ fontSize: 25 }}
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+                <path
+                  fillRule="evenodd"
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+                ></path>
+              </svg>
             </Link>
           </li>
         </ul>
