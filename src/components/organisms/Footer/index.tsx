@@ -105,7 +105,7 @@ const index = () => {
                   <AnchorLink href="#contact">Contato</AnchorLink>
                 </li>
                 <li>
-                  <Link href="">
+                  <Link href="https://painel.eventonsg.com.br/user/login">
                     <span style={{ fontSize: 0 }}>Entrar</span>
                     <BsPersonCircle style={{ fontSize: 25 }} />
                   </Link>
