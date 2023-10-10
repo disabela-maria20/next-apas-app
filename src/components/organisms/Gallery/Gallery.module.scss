@@ -1,0 +1,43 @@
+.gallery {
+  h1 {
+    font-family: field-gothic, 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+      sans-serif;
+    font-weight: 800;
+    font-size: 5.5rem;
+    line-height: 5.4rem;
+    color: $quaternary-colos;
+    text-transform: uppercase;
+
+    @include media(md) {
+      font-size: 5.8rem;
+      line-height: 5.7rem;
+    }
+    @include media(lg) {
+      font-size: 4.2vw;
+      line-height: 3.8vw;
+    }
+    @include media(xxl) {
+      margin: 2vw 0;
+      font-size: 5.5rem;
+      line-height: 0.9;
+    }
+  }
+  padding: 4rem 0;
+  @include media(md) {
+    padding: 6rem 0;
+  }
+  .grid {
+    column-count:3;
+    column-gap: 10px;
+    break-inside: avoid;
+
+   img{
+    width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+  }
+}
+.container {
+  @include container();
+}
