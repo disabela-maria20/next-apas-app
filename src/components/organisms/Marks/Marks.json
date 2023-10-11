@@ -53,7 +53,7 @@
       "image": "./images/marks/lounge/linktel.png"
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "BRINKS",
       "image": "./images/marks/lounge/BRINKS.png"
     }
@@ -109,12 +109,12 @@
       "image": "./images/marks/mega/gz.jpg"
     },
     {
-      "id": 8,
+      "id": 9,
       "name": "NEXTOP",
       "image": "./images/marks/mega/NEXTOP.png"
     },
     {
-      "id": 8,
+      "id": 10,
       "name": "toledo Do Brasil",
       "image": "./images/marks/mega/toledoDoBrasil.PNG"
     }

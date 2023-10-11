@@ -8,3 +8,9 @@
   pointer-events: none;
   mix-blend-mode: overlay;
 }
+
+:global() {
+  html {
+    scroll-behavior: smooth;
+  }
+}
