@@ -50,3 +50,49 @@
 .container {
   @include container();
 }
+
+
+.modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  width: 100%;
+ height: 100vh;
+  background-color: #000;
+  display: none;
+  &.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 400ms ease-in-out;
+    animation: usemodal 400ms ease-in-out forwards; 
+  }
+  .close{
+    position: absolute;
+    color: #fff;
+    top: 0;
+    right: 0;
+    font-size: 3rem;
+    font-family: field-gothic, "Lucida Sans", Geneva, Verdana, sans-serif;
+    padding: 20px;
+    cursor: pointer;
+
+  }
+  img{
+    position: relative;
+    width: 80vh;
+    height: 80vh;
+    object-fit: contain;
+
+  }
+}
+
+@keyframes usemodal {
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}

@@ -331,3 +331,7 @@ template {
   background: #5f249f;
   border-radius: 10px;
 }/*# sourceMappingURL=globals.css.map */
+
+html {
+  scroll-behavior: smooth;
+}

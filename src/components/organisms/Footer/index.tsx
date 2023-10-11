@@ -84,7 +84,7 @@ const index = () => {
                   <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <AnchorLink href="#about">Sobre</AnchorLink>
+                  <Link href="/#about">Sobre</Link>
                 </li>
                 <li>
                   <Link href="https://eventonsg.com.br/certificado/">
@@ -95,13 +95,16 @@ const index = () => {
                   <Link href="/2022">Rolou em 2022</Link>
                 </li>
                 <li>
-                  <AnchorLink href="#speakers">palestrantes</AnchorLink>
+                  <Link href="/#speakers">palestrantes</Link>
                 </li>
                 <li>
-                  <AnchorLink href="#marks">patrocinadores</AnchorLink>
+                  <Link href="/#marks">patrocinadores</Link>
                 </li>
                 <li>
-                  <AnchorLink href="#contact">Contato</AnchorLink>
+                  <Link href="/galeria">galeria</Link>
+                </li>
+                <li>
+                  <Link href="/#contact">Contato</Link>
                 </li>
                 <li>
                   <Link href="https://painel.eventonsg.com.br/user/login">
