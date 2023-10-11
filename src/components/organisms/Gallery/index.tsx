@@ -6,7 +6,7 @@ import 'react-lazy-load-image-component/src/effects/blur.css'
 
 const Index: React.FC = () => {
   const [numbers, setNumbers] = useState<string[]>([])
-  const [count, setCount] = useState(8)
+  const [count, setCount] = useState(131)
 
   useEffect(() => {
     const formattedNumbers: string[] = []

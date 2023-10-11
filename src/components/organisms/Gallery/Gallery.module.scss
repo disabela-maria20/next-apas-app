@@ -27,7 +27,16 @@
     padding: 6rem 0;
   }
   .grid {
-    column-count:3;
+    column-count:2;
+    @include media(sm){
+      column-count: 3;
+    }
+    @include media(lg){
+      column-count: 4;
+    }
+    @include media(xl){
+      column-count: 5;
+    }
     column-gap: 10px;
     break-inside: avoid;
 
