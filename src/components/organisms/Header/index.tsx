@@ -36,7 +36,7 @@ const Header = () => {
                     DO SETOR <br /> SUPERMERCADISTA
                   </p>
                 </h1>
-                <span className={Style.date}>15.08.2023</span>
+                {/* <span className={Style.date}>15.08.2023</span> */}
               </div>
             </div>
           </div>

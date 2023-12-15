@@ -92,7 +92,7 @@ const FAQ = () => {
         <div className={Style.container}>
           <section className={Style.gridFac}>
             <div className={Style.block}>
-              <div
+              {/* <div
                 className={`${Style.details} ${
                   selectedItems[0] ? Style.active : ''
                 }`}
@@ -110,7 +110,7 @@ const FAQ = () => {
                     <br /> CEP: 04329-900 | São Paulo SP
                   </address>
                 </div>
-              </div>
+              </div> */}
               <div
                 className={`${Style.details} ${
                   selectedItems[1] ? '' : Style.active

@@ -29,7 +29,7 @@ const Index: React.FC = () => {
   return (
     <section className={Style.gallery}>
       <div className={Style.container}>
-        <h1>Fotos</h1>
+        <h1>Fotos 2023</h1>
         <div className={Style.grid}>
           {numbers.map((number, index) => (
             <LazyLoadImage
