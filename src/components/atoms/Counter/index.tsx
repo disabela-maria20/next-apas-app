@@ -115,7 +115,7 @@ const Counter: React.FC = memo(() => {
                 </span>
               </div>
             </h2>
-            <a
+            {/* <a
               href="https://eventonsg.com.br/credenciamento/"
               className={Style.link}
               target="_SEJ"
@@ -127,7 +127,7 @@ const Counter: React.FC = memo(() => {
                 height={24}
               />
               inscreva-se
-            </a>
+            </a> */}
           </div>
         </div>
       </article>
