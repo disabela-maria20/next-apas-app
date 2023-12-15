@@ -5,7 +5,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 import Style from './Speeches.module.scss'
 
-import URLIMAGES from './Speeches.json'
+//import URLIMAGES from './Speeches.json'
 
 import { Autoplay, Navigation } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -105,7 +105,7 @@ const Speeches = () => {
               navigation={true}
               modules={[Autoplay, Navigation]}
             >
-              {URLIMAGES.map((data) => (
+              {/* {URLIMAGES.map((data) => (
                 <SwiperSlide key={data.id}>
                   <section onClick={() => Open(true, data as never)}>
                     <LazyLoadImage
@@ -120,7 +120,7 @@ const Speeches = () => {
                     <p>{data.company}</p>
                   </section>
                 </SwiperSlide>
-              ))}
+              ))} */}
             </Swiper>
           </article>
         </div>

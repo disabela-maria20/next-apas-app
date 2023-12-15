@@ -17,11 +17,9 @@ const Home = () => {
     <>
       <Header />
       <About />
-      <Speeches />
-      <Stages />
       <FAQ />
-      <Marks />
-      <Maps />
+      <Previous />
+      {/* <Marks /> */}
       <Footer />
     </>
   )

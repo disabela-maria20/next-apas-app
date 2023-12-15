@@ -21,7 +21,7 @@ const Counter: React.FC = memo(() => {
   })
 
   const updateCountdown = useCallback(() => {
-    const finalDate: string = '2023-08-15T01:00:00'
+    const finalDate: string = '2024-07-23T01:00:00'
     const finalDateTime: number = new Date(finalDate).getTime()
 
     const currentTime: Date = new Date()
@@ -132,36 +132,35 @@ const Counter: React.FC = memo(() => {
         </div>
       </article>
     )
+  } else {
+    return (
+      <article
+        className={`${Style.bgColor} ${isScrolling ? Style.active : ''}`}
+        ref={scroll}
+      >
+        <div className={Style.container}>
+          <div className={Style.flexCouter}>
+            <h2>
+              <strong>É HOJE</strong>
+            </h2>
+            <a
+              href="https://eventonsg.com.br/credenciamento/"
+              className={Style.link}
+              target="_SEJ"
+            >
+              <img
+                src="./images/arrow.svg"
+                alt="seta para esquerda"
+                width={36}
+                height={24}
+              />
+              inscreva-se
+            </a>
+          </div>
+        </div>
+      </article>
+    )
   }
-  // else {
-  //   return (
-  //     <article
-  //       className={`${Style.bgColor} ${isScrolling ? Style.active : ''}`}
-  //       ref={scroll}
-  //     >
-  //       <div className={Style.container}>
-  //         <div className={Style.flexCouter}>
-  //           <h2>
-  //             <strong>É HOJE</strong>
-  //           </h2>
-  //           <a
-  //             href="https://eventonsg.com.br/credenciamento/"
-  //             className={Style.link}
-  //             target="_SEJ"
-  //           >
-  //             <img
-  //               src="./images/arrow.svg"
-  //               alt="seta para esquerda"
-  //               width={36}
-  //               height={24}
-  //             />
-  //             inscreva-se
-  //           </a>
-  //         </div>
-  //       </div>
-  //     </article>
-  //   )
-  // }
 })
 
 export default Counter

@@ -4,7 +4,7 @@ import { memo } from 'react'
 
 import Style from './Previous.module.scss'
 
-import PAS from './Previous.json'
+import PAS from './Speeches.json'
 
 import { Autoplay, Navigation } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -17,19 +17,18 @@ const Previous = () => {
     <article className={Style.previous}>
       <div className={Style.container}>
         <section>
-          <h2 className={Style.title}>veja o que rolou em 2022</h2>
+          <h2 className={Style.title}>veja o que rolou em 2023</h2>
           <div className={Style.dataFlex}>
             <h2 className={Style.data}>
-              34
+              49
               <span>palestrantes</span>
             </h2>
             <h2 className={Style.data}>
-              37
+              22
               <span>patrocionadores</span>
             </h2>
             <h2 className={Style.data}>
-              12
-              <span>horas de evento</span>
+              9H<span> evento</span>
             </h2>
           </div>
         </section>
@@ -72,14 +71,14 @@ const Previous = () => {
             <section className={Style.BlockImage}>
               <LazyLoadImage
                 effect="blur"
-                src={`/images/speaker2022/${data.image}`}
+                src={`${data.image}`}
                 sizes="230px 250px"
                 visibleByDefault={true}
                 threshold={100}
-                alt={data.nome}
+                alt={data.name}
                 role="presentation"
               />
-              <h3>{data.nome}</h3>
+              <h3>{data.name}</h3>
             </section>
           </SwiperSlide>
         ))}
@@ -91,25 +90,39 @@ const Previous = () => {
           <div className={Style.container}>
             <div className={Style.themeFlex}>
               <ul>
-                <li>Virtualização, Conexão e Convergência Digital. &nbsp;</li>
-                <li> Tecnologia: da retaguarda ao consumidor final. &nbsp;</li>
                 <li>
-                  Além do Físico: o varejo mais Digital e mais Humano. &nbsp;
+                  Home Delivery: Como Transformar o Desafio em Oportunidade no
+                  Varejo &nbsp;
+                </li>
+                <li>
+                  Retail Media na Omniera: Potenciais de Negócio e os Desafios
+                  &nbsp;
+                </li>
+                <li>
+                  A Jornada Omnichannel: 450% de crescimento em 3 anos &nbsp;
                 </li>
               </ul>
               <ul>
                 <li>
-                  Praticando o Impensável: as transformações do varejo. &nbsp;
+                  Escalando com a TI: A Influência da Arquitetura Tecnológica no
+                  Crescimento do Varejo &nbsp;
                 </li>
-                <li>Como construir uma jornada de compras memorável. &nbsp;</li>
-                <li> Desafios e Riscos na sustentação do negócio. &nbsp;</li>
+                <li>
+                  Gestão de TI no Novo Normal: Estruturando Times para Suportar
+                  a Transformação Digital no Varejo &nbsp;
+                </li>
+                <li>
+                  Gestão de TI no Novo Normal: Estruturando Times para Suportar
+                  a Transformação Digital no Varejo&nbsp;
+                </li>
               </ul>
 
               <ul>
-                <li> O futuro na prática de hoje.&nbsp;</li>
-                <li> A loja 4.0 conectada com o consumidor digital. &nbsp;</li>
+                <li> Guia Rápido de Inovação para Supermercados&nbsp;</li>
+                <li>A Cultura Impulsionando a Aceleração Digital &nbsp;</li>
                 <li>
-                  Experiências inovadoras no chão de loja e no mundo virtual.
+                  Supermercados e Plataformas de Marketplace B2B e B2C, desafios
+                  e oportunidades num mundo omnichannel
                 </li>
               </ul>
             </div>

@@ -87,19 +87,14 @@ const index = () => {
                   <Link href="/#about">Sobre</Link>
                 </li>
                 <li>
-                  <Link href="https://eventonsg.com.br/certificado/">
-                    certificado
-                  </Link>
+                  <Link href="/2022">Rolou em 2023</Link>
                 </li>
-                <li>
-                  <Link href="/2022">Rolou em 2022</Link>
-                </li>
-                <li>
+                {/* <li>
                   <Link href="/#speakers">palestrantes</Link>
                 </li>
                 <li>
                   <Link href="/#marks">patrocinadores</Link>
-                </li>
+                </li> */}
                 <li>
                   <Link href="/galeria">galeria</Link>
                 </li>
