@@ -1,5 +1,6 @@
 import Styled from './Home.module.scss'
 
+import { Range } from '@/components/atoms'
 import { Maps } from '@/components/molecules'
 import {
   About,
@@ -20,6 +21,7 @@ const Home = () => {
       <FAQ />
       <Previous />
       {/* <Marks /> */}
+      <Range />
       <Footer />
     </>
   )

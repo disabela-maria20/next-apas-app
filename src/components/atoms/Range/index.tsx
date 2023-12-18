@@ -4,8 +4,8 @@ const Range = () => {
   return (
     <article className={Style.range} role="marquee">
       <p>
-        evento em um novo local - São Paulo Expo (pavilhão 4) - Rodovia dos
-        Imigrantes, km 1,5 | São Paulo SP
+        São Paulo Expo (pavilhão 4) - Rodovia dos Imigrantes, km 1,5 | São Paulo
+        SP
       </p>
     </article>
   )

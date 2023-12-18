@@ -1,3 +1,4 @@
+/* eslint-disable no-irregular-whitespace */
 import Style from './About.module.scss'
 
 import { Logo, Video } from '@/components/atoms'
@@ -61,12 +62,16 @@ const About = () => {
               <Logo />
             </h2>
             <p>
-              O NSG surge em 2023 com um novo posicionamento, que, através da
-              sua nova identidade visual, chega cheio de dinamismo, jovialidade,
-              inovação, tecnologia e conexão. Com conteúdos exclusivos, o evento
-              proporciona troca de conhecimento, boas práticas, relacionamento,
-              integração e exposição de soluções direcionadas ao setor.
-              Prepare-se para a 6° edição do NSG!
+              NSG 2023 foi mais do que um evento, foi uma experiência memorável.
+              A energia contagiante, palestras inspiradoras e conexões valiosas
+              tornaram essa edição inesquecível.
+            </p>
+            <p>
+              Agora, é hora de olhar para o futuro, pois a 7ª edição do NSG está
+              no horizonte. Em 2024, prepare-se para uma jornada ainda mais
+              extraordinária, repleta de inovação, aprendizado e oportunidades
+              únicas. Faça parte do próximo capítulo deste sucesso contínuo. A
+              evolução do setor supermercadista nunca foi tão esperada!
             </p>
           </div>
         </section>
