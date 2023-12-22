@@ -102,6 +102,16 @@ const index = () => {
                   <Link href="/#contact">Contato</Link>
                 </li>
                 <li>
+                  <Link href="/pdf/Política_de_privacidade.pdf">
+                    Política de privacidade
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/pdf/AUT._IMAGEM_SOM.pdf">
+                    AUTORIZAÇÃO DE IMAGEM
+                  </Link>
+                </li>
+                <li>
                   <Link href="https://painel.eventonsg.com.br/user/login">
                     <span style={{ fontSize: 0 }}>Entrar</span>
                     <svg
